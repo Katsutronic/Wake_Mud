@@ -1,0 +1,129 @@
+{d//=|{RRecall{d|==============================================================\\
+||{xSyntax:  {Grecall                                                        {d||
+||      {x:  {G/                                                             {d||
+||                                                                       {d||
+||  {xOnly functional for levels one through ten, this skill allows a      {d||
+|| {xplayer to return to their recall point. The point is usually the spot {d||
+|| {xin their hometown where they start, not the place they are sent to    {d||
+|| {xwhen they die. This skill will consume half of the player's current   {d||
+|| {xmovement points, has a chance to fail in combat, and will deduct some {d||
+|| {xexp from the player. Note that some rooms and spells will block the   {d||
+|| {xability to recall.                                                    {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RRiding{d|==============================================================\\
+||{xSyntax:  {Gmount                                                         {d||
+||      {x:  {Gmount {R<mount>                                                 {d||
+||      {x:  {Gdismount                                                      {d||
+||                                                                       {d||
+||  {xA common ability, this skill enables someone to ride a steed. While  {d||
+|| {xmounted, the horse takes the load, and their hardier bodies allow for {d||
+|| {xlonger travel. Mounts are invaluable to travelers, but a weak horse   {d||
+|| {xcan end up being just as effective at traveling as if the rider were  {d||
+|| {xgoing on foot. It should also be noted that the horse is susceptible  {d||
+|| {xto attacks, and can be killed, so the owner should take care when     {d||
+|| {xventuring into dangerous areas.                                       {d||
+||                                                                       ||
+|| {xSee also {GHELP TETHER{x, and {GHELP UNTETHER{x.                              {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RFast Healing{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       {d||
+||  {xWhen wounded, a person can train their body to heal itself faster    {d||
+|| {xthan normal. While the improvement is not incredibly dramatic, it can {d||
+|| {xshave a respectable amount of time off of healing times. This ability {d||
+|| {xworks passively regardless of what the person is doing, sleeping,     {d||
+|| {xsitting, or even walking. It is a staple ability available to anyone  {d||
+|| {xand is strongly suggested for anyone who intends to play alone but not{d||
+|| {xbe a healing class.                                                   {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RKick{d|================================================================\\
+||{xSyntax:  {Gkick                                                          {d||
+|| {x     :  {Gkick {R<victim>                                                 {d||
+||                                                                       {d||
+||  {xA common kick, the kicker brings their foot back and uses the forward{d||
+|| {xmomentum to slam the tip of their foot into their victim. While not   {d||
+|| {xparticularly strong, kicks are greatly helpful early on. They also are{d||
+|| {xgateways to more useful skills for fighters, such as the ability to   {d||
+|| {xkick dirt, and the many different styles of kicking available to the  {d||
+|| {xduelist branch.                                                       {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RPunch{d|===============================================================\\
+||{xSyntax:  {Gpunch                                                         {d||
+|| {x     :  {Gpunch {R<victim>                                                {d||
+||                                                                       ||
+||  {xA common punch, the puncher makes a weak jab with their balled fist, {d||
+|| {xstriking their enemy with their knuckles. It is not a very powerful   {d||
+|| {xattack, but it adds extra damage which can assist younger adventurers {d||
+|| {xin their battles. This ability also can help more physical people to  {d||
+|| {xlearn to fight barehanded, and opens up many skills for duelists.     {d||
+||                                                                       ||
+\\=======================================================================//
+
+
+{d//=|{RHaggle{d|==============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xThrough careful use of words and body language, it is possible to    {d||
+|| {xcoerce another person into reducing the price of an item they are     {d||
+|| {xselling, or increase their bid on an item you are selling. This skill {d||
+|| {xis called haggling, and there is no single way to do this. Some use   {d||
+|| {xintimidation, others use charm, or lying to convince their victim that{d||
+|| {xan item is not worth its actual value. There is no reprocussion to    {d||
+|| {xfailing this ability, as the person will simply pay the original      {d||
+|| {xprice, but being a stronger haggler generally yields better results   {d||
+|| {xand ensures more money in the charlatan's pocket.                     {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RLight Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xLight armor is generally made of leathers and padded cloth, offering {d||
+|| {xexcellent movement but only minor defense against attacks. The light  {d||
+|| {xmaterials used are less of a burden on the holder in general, allowing{d||
+|| {xthem to carry more, and not be as slowed down when wearing it. Even   {d||
+|| {xthough light armors provide low protection, it is nevertheless better {d||
+|| {xthan wearing regular clothes.                                         {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RMedium Armor{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xMedium armor is typically chains, heavy leathers, and other middle   {d||
+|| {xrange types. It is a balance between defense and speed, offering      {d||
+|| {xdecent protection while only weighing the wearer down slightly. This  {d||
+|| {xalso means that it is not particularly special in either field, and if{d||
+|| {xsomeone is looking to specialize in a certain style, this might not be{d||
+|| {xideal.                                                                {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RHeavy Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xHeavy armors are generally platemails and other bulky, thick armors. {d||
+|| {xWhile these offer exceptional defense and protection against most     {d||
+|| {xattacks, they tend to weigh a lot, encumbering the holder both in how {d||
+|| {xmuch they can carry and slowing them down in general. There is no     {d||
+|| {xdisputing, however, the great defensive benefits of heavy armor.      {d||
+||                                                                       ||
+\\=======================================================================//
+

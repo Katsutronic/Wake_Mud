@@ -1,0 +1,242 @@
+
+//=|Classes|=============================================================\\
+||   Though all players start the game as a Tenderfoot, there are many   ||
+|| classes they can become. At certain levels, players have the ability  ||
+|| to change their class to one of two or three possibilities. The       ||
+|| change is a requirement, however, and players at these levels will    ||
+|| not receive experience from kills until they have changed their class.||
+|| Also, a player is unable to change classes until they have expended   ||
+|| all of their gain points. It is STRONGLY recommended that a player at ||
+|| least familiarize themself with the final class they wish to become   ||
+|| and what the prerequisites are for their skills, as it is not possible||
+|| to undo any skill gains, and some skills require a certain level in a ||
+|| skill from a previous class.                                          ||
+||                                                                       ||
+|| Read HELP TENDERFOOT and HELP CLASSTREE for more information.         ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Tenderfoot|==========================================================\\
+||   All players start as a tenderfoot, fresh out of the farm, city,     ||
+|| hatchery or wherever. Weak and limited in abilities, being a          ||
+|| tenderfoot is but a stepping stone in the long path towards greatness.||
+||                                                                       ||
+||   A tenderfoot can only use club weapons.                             ||
+||                                                                       ||
+|| The skills offered to a tenderfoot are:                               ||
+||  Recall       (No Prerequisites)                                      ||
+||  Fast Healing (No Prerequisites)                                      ||
+||  Riding       (No Prerequisites)                                      ||
+||  Create Torch (No Prerequisites)                                      ||
+||  Haggle       (No Prerequisites)                                      ||
+||  Kick         (No Prerequisites)                                      ||
+||  Punch        (No Prerequisites)                                      ||
+||                                                                       ||
+|| At level 10 a tenderfoot can change into the following:               ||
+||  Fighter, those who specialize in the use of physical abilities and   ||
+||   generally specialize in some form of armed combat.                  ||
+||  Mystic, those who specialize in the use of magics, antimagics, and   ||
+||   science for a variety of useful applications.                       ||
+||  Devout, those who specialize in the use of divine power for healing, ||
+||   hurting or controlling the world around them.                       ||
+||                                                                       ||
+|| Read HELP FIGHTER, MYSTIC and DEVOUT for more information.            ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Fighter|=============================================================\\
+||   Not necessarily strong, fighters are those who use physical skills, ||
+|| almost completely ignoring the skills of mind and faith. All fighters ||
+|| rely on some kind of weapon, be it a sword, mace, lockpick or their   ||
+|| own fists, and each uses these in their own way.                      ||
+||                                                                       ||
+||   Fighters can use longswords, daggers, dirks and gauntlets.          ||
+||                                                                       ||
+|| The skills offered to a fighter are:                                  ||
+||  Light armor use   (No Prerequisites)                                 ||
+||  Parry             (No Prerequisites)                                 ||
+||  Dodge             (No Prerequisites)                                 ||
+||  Second attack     (No Prerequisites)                                 ||
+||  Improved accuracy (No Prerequisites)                                 ||
+||  Enhanced damage   (No Prerequisites)                                 ||
+||  Unarmed combat    (Requires Punch Level 1)                           ||
+||  Dirt kicking      (Requires Kick Level 1)                            ||
+||  Grip              (No Prerequisites)                                 ||
+||                                                                       ||
+|| At level 30 a fighter can change into the following:                  ||
+||  Duelist, those who specialize in speed and reflexes, they are masters||
+||   of their weapons but limited in diversity.                          ||
+||  Warrior, those who have no specialization, they are generally the    ||
+||   toughest of all the classes but lack any truly unique qualities.    ||
+||  Rogue, those who rely on stealth and technique to subdue enemies,    ||
+||   they are exellent trappers and lead to two very different paths.    ||
+||                                                                       ||
+|| Read HELP DUELIST, WARRIOR, and ROGUE for more information.           ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Mystic|==============================================================\\
+||   Mentally endowed, mystics control a wide range of magical abilities,||
+|| some even harnessing the powers that combat magics. A wide variation  ||
+|| in spells, skills, and general capabilities seperates the three       ||
+|| branches of the mystic field. Regardless, all mystics rely on their   ||
+|| spells to fight or help.                                              ||
+||                                                                       ||
+||   Mystics can use dirks and quarterstaffs.                            ||
+||                                                                       ||
+|| The skills offered to a mystic are:                                   ||
+||  Dodge           (No Prerequisites)                                   ||
+||  Meditation      (No Prerequisites)                                   ||
+||  Scrolls         (Requires Staves level 1)                            ||
+||  Staves          (Requires Wands level 1)                             ||
+||  Wands           (No Prerequisites)                                   ||
+||                                                                       ||
+|| The spells offered to a mystic are:                                   ||
+||  Continual Light (Requires Meditation level 1)                        ||
+||  Cancellation    (Requires Meditation level 1)                        ||
+||  Identify        (Requires Meditation level 1)                        ||
+||  Ventriloquate   (No Prerequisites)                                   ||
+||  Magic Missile   (Requires Meditation level 1)                        ||
+||  Refresh         (Requires Meditation level 1)                        ||
+||  Create Water    (Requires Meditation level 1)                        ||
+||                                                                       ||
+|| At level 30 a mystic can change into the following:                   ||
+||  Mage, those who specialize in the arcane, they can either use their  ||
+||   powers to help a group or cause massive elemental destruction.      ||
+||  Scholar, those whose intellect allows them to harness the world at a ||
+||   molecular level, they can create a variety of very useful things.   ||
+||  Abjurer, those whose training leads them off the beaten path, they   ||
+||   have an unexplainable control over the body and can fight magics.   ||
+||                                                                       ||
+|| Read HELP MAGE, SCHOLAR and ABJURER for more information.             ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Devout|==============================================================\\
+||   Pure of mind and soul, devouts give their entire selves to a higher ||
+|| power for the strength to defend their faith and friends. All devouts ||
+|| utilize a mix of skills and spells to help themselves and others of   ||
+|| their faith. whether for good, evil, or balance, devouts place divine ||
+|| will before all else, and in return wield great power.                ||
+||                                                                       ||
+||   Devouts do not get new weapons.                                     ||
+||                                                                       ||
+|| The skills offered to a devout are:                                   ||
+||  Meditation  (No Prerequisites)                                       ||
+||  First Aid   (No Prerequisites)                                       ||
+||  Faith       (No Prerequisites)                                       ||
+||                                                                       ||
+|| The spells offered to a devout are:                                   ||
+||  Refresh     (No Prerequisites)                                       ||
+||  Bless       (Requires Faith level 1 and Imbue level 1)               ||
+||  Identify    (No Prerequisites)                                       ||
+||  Imbue       (Requires Shield level 1)                                ||
+||  Shield      (Requires Meditation level 2)                            ||
+||  Cause Light (No Prerequisites)                                       ||
+||                                                                       ||
+|| At level 30 a devout can change into the following:                   ||
+||  Templar, those who defend their faith with swords to accompany their ||
+||   spells, the toughest classes, their spells augment their strength.  ||
+||  Acolyte, those who devote themselves to holy spells, they can either ||
+||   cause great miracles or horrifying blights on others.               ||
+||  Naturalist, those who protect nature and the totems, they call upon  ||
+||   the world around them for holy power of an earthly nature.          ||
+||                                                                       ||
+|| Read HELP TEMPLAR, ACOLYTE, and NATURALIST for more information.      ||
+||                                                                       ||
+\\=======================================================================//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=|Warrior|=============================================================\\
+||   Strong, durable soldiers, warriors ignore stealth or dexterity,     ||
+|| instead rushing into battle head on. Able to wear thicker armor and   ||
+|| wield bigger weapons, warriors are the source of physical damage in a ||
+|| group. They can refine their training to specialize in either mounted ||
+|| combat or becoming a highly customizable mercenary.                   ||
+||                                                                       ||
+||   Warriors can use bastard swords, flails, polarms, and spears.       ||
+||                                                                       ||
+|| The skills offered to a warrior are:                                  ||
+||  Horsemanship    (Requires Riding 3)                                  ||
+||  Medium Armor    (Requires Light Armor 1)                             ||
+||  Rescue          (No Prerequisites)                                   ||
+||  Guard           (Requires Rescue 1)                                  ||
+||  Counter         (Requires Second Attack 2)                           ||
+||  Critical Strike (Requires Enhanced Damage 3)                         ||
+||  Swordsmanship   (Requires Enhanced Damage 2)                         ||
+||  Sword Mastery   (Requires Swordsmanship 2)                           ||
+||  Shield Block    (No Prerequisites)                                   ||
+||  Shield Bash     (Requires Shieldblock 2 and Bash 2)                  ||
+||  Bash            (No Prerequisites)                                   ||
+||  Heavy Hand      (Requires Bash 1 and Enhanced Damage 2)              ||
+||  Sharpen         (No Prerequisites)                                   ||
+||                                                                       ||
+|| At level 50 a warrior can change into the following:                  ||
+||  Cavalier, those who fight from horseback, specializing in mobility   ||
+||   based combat and horse customization.                               ||
+||  Mercenary, those who can be decent at many things, from berserkers   ||
+||   to heavily armored sentinels.                                       ||
+||                                                                       ||
+|| WARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    ||
+||                                                                       ||
+|| Read HELP CAVALIER, and HELP MERCENARY for more information.          ||
+||                                                                       ||
+\\=======================================================================//
+//=|Rogue|===============================================================\\
+||   Strong, durable soldiers, warriors ignore stealth or dexterity,     ||
+|| instead rushing into battle head on. Able to wear thicker armor and   ||
+|| wield bigger weapons, warriors are the source of physical damage in a ||
+|| group. They can refine their training to specialize in either mounted ||
+|| combat or becoming a highly customizable mercenary.                   ||
+||                                                                       ||
+||   Rogues can use tonfa, sickle, main gauche, and thrown knives.       ||
+||                                                                       ||
+|| The skills offered to a rogue are:                                    ||
+||  Horsemanship    (Requires Riding 3)                                  ||
+||  Rescue          (No Prerequisites)                                   ||
+||                                                                       ||
+|| At level 50 a rogue can change into the following:                    ||
+||  Cavalier, those who fight from horseback, specializing in mobility   ||
+||   based combat and horse customization.                               ||
+||  Mercenary, those who can be decent at many things, from berserkers   ||
+||   to heavily armored sentinels.                                       ||
+||                                                                       ||
+|| WARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    ||
+||                                                                       ||
+|| Read HELP CAVALIER, and HELP MERCENARY for more information.          ||
+||                                                                       ||
+\\=======================================================================//
+
+
+
+
+Rogue
+
+Mage
+
+Acolyte
+
+Duelist
+Scholar
+Abjurer
+Templar
+Naturalist

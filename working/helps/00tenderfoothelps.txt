@@ -1,0 +1,95 @@
+{d//=|{RTenderfoot{d|==========================================================\\
+||   {xAll players start as a tenderfoot, fresh out of the farm, city,     {d||
+|| {xhatchery or wherever. Weak and limited in abilities, being a          {d||
+|| {xtenderfoot is but a stepping stone in the long path towards greatness.{d||
+||   {xA tenderfoot can only use {Gclub {xtype weapons.                        {d||
+|| {xThe skills offered to a tenderfoot are:                               {d||
+||  {GRecall{x,      {GFast Healing{x,      {GHaggle{x,      {GPunch{x,     {GRiding{x.      {d||
+||                                                                       ||
+|| {xAt level {G10 {xa tenderfoot can change into the following:               {d||
+||  {GFighters{x, specialize various forms of physical combat and technique. {d||
+||  {GMystics{x, specialize in magics and sciences for utility and offense.  {d||
+||  {GDevouts{x, utilize divine power of earth, heaven, or hell.             {d||
+||                                                                       ||
+|| {xRead {GHELP FIGHTER{x, {GMYSTIC {xand {GDEVOUT {xfor more information.            {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RRecall{d|==============================================================\\
+||{xSyntax:  {Grecall                                                        {d||
+||      {x:  {G/                                                             {d||
+||                                                                       ||
+||   {xOnly functional for levels {Gone {xthrough {Gten{x, this skill allows a     {d||
+|| {xplayer to return to their recall point. The recall point is usually   {d||
+|| {xthe spot in their hometown where they started, not the place they are {d||
+|| {xnormally sent to when they die. This skill will consume half of the   {d||
+|| {xplayer's current movement points. In combat, it has a chance to fail  {d||
+|| {xand will deduct some exp from the player similar to the penalty for   {d||
+|| {xfleeing. Some rooms and spells will {Gblock {xthe ability to recall.      {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RRiding{d|==============================================================\\
+||{xSyntax:  {Gmount                                                         {d||
+||      {x:  {Gmount {R<mount>                                                 {d||
+||      {x:  {Gdismount                                                      {d||
+||                                                                       ||
+||   {xA common ability, this skill enables someone to ride a steed. While {d||
+|| {xmounted, the horse takes the load, and their hardier bodies allow for {d||
+|| {xlonger travel. Mounts are invaluable to travelers, but a weak horse   {d||
+|| {xcan end up being just as ineffective at traveling as if the rider were{d||
+|| {xgoing on foot. It should also be noted that the horse is susceptible  {d||
+|| {xto attacks, and can be killed, so the owner should take care when     {d||
+|| {xventuring into dangerous areas. Studying this skill further will help {d||
+|| {xreduce the chance of spooking the horse, and reduce the wariness each {d||
+|| {xstep brings to the rider.                                             {d||
+||                                                                       ||
+|| {xSee also {GHELP TETHER{x.                                                 {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RFast Healing{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xWhen wounded, a person can train their body to heal itself faster   {d||
+|| {xthan normal. While the improvement is not incredibly dramatic, it can {d||
+|| {xshave a respectable amount of time off of healing times. This ability {d||
+|| {xworks passively regardless of what the person is doing, sleeping,     {d||
+|| {xsitting, or even walking. It is a staple ability available to anyone  {d||
+|| {xand can be very helpful for anyone who intends to play alone but not  {d||
+|| {xbe a healing class. By studying this skill further, recovery will     {d||
+|| {ximprove, helping reduce the time spent resting wounds.                {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RPunch{d|===============================================================\\
+||{xSyntax:  {Gpunch                                                         {d||
+|| {x     :  {Gpunch {R<victim>                                                {d||
+||                                                                       ||
+||   {xA common punch, the puncher makes a weak jab with their balled fist,{d||
+|| {xstriking their enemy with their knuckles. It is not a very powerful   {d||
+|| {xattack, but it provides extra damage which can help most adventurers  {d||
+|| {xin their battles. This ability also can help more physical people to  {d||
+|| {xlearn to fight barehanded, and opens up many skills for duelists. By  {d||
+|| {xstudying this skill further, more powerful punches can be thrown.     {d||
+||                                                                       ||
+\\=======================================================================//
+
+
+{d//=|{RHaggle{d|==============================================================\\
+||{xSyntax:  {Gbuy {R<item>                                                    {d||
+||{x      :  {Gsell {R<item>                                                   {d||
+||                                                                       ||
+||   {xThrough careful use of words and body language, it is possible to   {d||
+|| {xcoerce another person into reducing the price of an item they are     {d||
+|| {xselling, or increase their bid on an item you are selling. This skill {d||
+|| {xis called haggling, and there is no single way to do this. Some use   {d||
+|| {xintimidation, others use charm, or lying to convince their victim that{d||
+|| {xan item is not worth its actual value. There is no reprocussion to    {d||
+|| {xfailing this ability, as the person will simply pay the original      {d||
+|| {xprice, but studying one's haggle skills will yields better results    {d||
+|| {xand ensure more money in the charlatan's pocket.                      {d||
+||                                                                       ||
+|| {xRead {GHELP BUY{x, and {GSELL{x for more information.                         {d||
+||                                                                       ||
+\\=======================================================================//

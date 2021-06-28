@@ -1,0 +1,29 @@
+///duelist
+
+{d//=|{RWarrior{d|=============================================================\\
+||   {xStrong, durable soldiers, warriors ignore stealth or dexterity,     {d||
+|| {xinstead rushing into battle head on. Able to wear thicker armor and   {d||
+|| {xwield bigger weapons, warriors are the source of physical damage in a {d||
+|| {xgroup. They can refine their training to specialize in either mounted {d||
+|| {xcombat or becoming a highly customizable mercenary.                   {d||
+||   {xWarriors can also use {Gbastard swords{x, {Gflails{x, {Gpolarms{x, and {Gspears{x.  {d||
+|| {xThe skills offered to a warrior are:                                  {d||
+||  {GHorsemanship{x,    {GMedium Armor{x,    {GRescue{x,          {GGuard{x,            {d||
+||  {GCounter{x,         {GCritical Strike{x, {GSwordsmanship{x,   {GSword Mastery{x,    {d||
+||  {GShield Block{x,    {GShield Bash{x,     {GBash{x,            {GHeavy Hand{x,       {d||
+||  {GSharpen{x.                                                             {d||
+||                                                                       ||
+|| {xAt level {G50 {xa warrior can change into the following:                  {d||
+||  {GCavalier{x, mounted soldiers that can customize their horses.          {d||
+||  {GMercenary{x, widely customizable soldiers with access to most weapons. {d||
+||                                                                       ||
+|| {RWARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    {d||
+|| {xRead {GHELP CAVALIER{x, and {GHELP MERCENARY {xfor more information.          {d||
+\\=======================================================================//
+
+
+///scholar
+///abjurer
+///Templar
+
+//ranger

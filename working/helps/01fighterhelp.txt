@@ -1,0 +1,129 @@
+{d//=|{RFighter{d|=============================================================\\
+||   {xNot necessarily strong, fighters are those who use physical skills, {d||
+|| {xalmost completely ignoring the skills of mind and faith. All fighters {d||
+|| {xrely on some kind of weapon, be it a sword, mace, lockpick or their   {d||
+|| {xown fists, and each uses these in their own way.                      {d||
+||   {xFighters can use {Gclubs {xand {Ggauntlets{x.                               {d||
+|| {xThe skills offered to a fighter are:                                  {d||
+||  {GCombatives{x,      {GDodge{x,          {GEnhanced Damage{x, {GGrip{x,              {d||
+||  {GKick{x,            {GLight Armor{x,    {GParry{x,           {GSecond Attack{x.     {d||
+||                                                                       ||
+|| {xAt level {G25 {xa fighter can change into the following:                  {d||
+||  {GDuelists{x, fast and agile they rely on technique over defense.        {d||
+||  {GWarriors{x, generally tough, warriors have a wide variety of skills.   {d||
+||  {GRogues{x, who rely on both stealth and hunting to subdue enemies.      {d||
+||                                                                       ||
+|| {xRead {GHELP DUELIST{x, {GWARRIOR{x, and {GROGUE {xfor more information.           {d||
+||                                                                       ||
+\\=======================================================================//
+
+
+{d//=|{RLight Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xClothing and armor come in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||   {xLight armor is generally made of leathers and padded cloth, offering{d||
+|| {xexcellent movement but only minor defense against attacks. The light  {d||
+|| {xmaterials used are less of a burden on the holder in general, allowing{d||
+|| {xthem to carry more, and not be as slowed down when wearing it. Even   {d||
+|| {xthough light armors provide low protection, it is nevertheless better {d||
+|| {xthan wearing regular clothes. Studying this skill further increases   {d||
+|| {xthe defensive bonus granted by each piece of armor.                   {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RParry{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xWith good reflexes, a good push with a weapon, and a little luck, it{d||
+|| {xis possible to deflect an enemy's attack. This type of block is fairly{d||
+|| {xeasy to perform, and leaves the original attacker open to attack by   {d||
+|| {xthe one who parried. On its own, a parry is relatively weak, with only{d||
+|| {xa low chance to block, but it can open up new skills and pair with    {d||
+|| {xother abilities to perform strong counter attacks. Studying this skill{d||
+|| {xfurther improves its chance of occuring.                              {d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RDodge{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xWith reflexes tuned to a high enough level, it is possible for a    {d||
+|| {xperson to move themself out of the way of their enemy's attack. This  {d||
+|| {xis a great technique because instead of absorbing or attempting to    {d||
+|| {xdeflect, it focuses on avoiding facing the attack at all. This ability{d||
+|| {xis very basic, and as such, is not a guaranteed avoidance tactic, but {d||
+|| {xit can still tip the balance of a battle. Studying this skill further {d||
+|| {ximproves its chance of occuring.                                      {d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RSecond Attack{d|=======================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xThrough careful training, it is possible to hone one's agility to   {d||
+|| {xthe point where two regular strikes can be performed where normally   {d||
+|| {xonly one hit would be possible. This ability is a solid addition for  {d||
+|| {xan offensive combatant, but it will occur at a lower rate than normal {d||
+|| {xattacks. This can be improved, however, by studying the skill further.{d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RCombatives{d|==========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xA person's muscles are the true force behind the weapons they wield,{d||
+|| {xand this strength can be used even without a wield. This skill makes  {d||
+|| {xit possible to fight bare handed, using fists instead of iron to fight{d||
+|| {xothers. Although the bare hand cannot deliver as damaging a blow as a {d||
+|| {xsword or hammer, there is no large metal weapons to slow the fighter  {d||
+|| {xdown. This can be helpful if someone finds themselves disarmed, still {d||
+|| {xable to deal strong attacks. Gauntlet type weapons can be used in     {d||
+|| {xconjunction with this skill, increasing the power of each punch, but  {d||
+|| {xslowing down the fighter's attacks. Studying this skill increases the {d||
+|| {xdamage dealt with each hit.                                           {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{REnhanced Damage{d|=====================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xA basic to most fighters, this skill trains basic damage dealing    {d||
+|| {xabilities. This skill mostly affects the regular hits dealt in combat,{d||
+|| {xbut it also improves the damage of a few other skills. The bonus from {d||
+|| {xthis skill is not substantial, but some fighters wish to improve their{d||
+|| {xdamage as much as possible, and it is a gateway to studying other     {d||
+|| {xskills. Studying this skill increase the damage bonus it grants.      {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RKick{d|================================================================\\
+||{xSyntax:  {Gkick                                                          {d||
+|| {x     :  {Gkick {R<victim>                                                 {d||
+||                                                                       {d||
+||   {xIn this move, the kicker brings their foot back and uses the forward{d||
+|| {xmomentum to slam the tip of their foot into their victim. While not   {d||
+|| {xparticularly strong, kicks are greatly helpful early on. They also are{d||
+|| {xgateways to more useful skills for fighters, such as the ability to   {d||
+|| {xkick dirt, and the many different styles of kicking available to the  {d||
+|| {xduelist branch. Studying this skill further will increase the damage  {d||
+|| {xdealt with each kick.                                                 {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RGrip{d|================================================================\\
+||{xSyntax:  {Ggrip                                                          {d||
+||                                                                       ||
+||   {xOne of the worst things that could happen to a weaponmaster in a    {d||
+|| {xfight is a disarming. Many have tried a variety of methods to prevent {d||
+|| {xthe removal of their weapon, from lanyards to locking mechanisms, with{d||
+|| {xmixed success. The most basic and easy to learn technique is to simply{d||
+|| {ximprove the gripping power of the wielding hand. By tightening the    {d||
+|| {xmuscles properly, it can effectively reduce the chance of disarming   {d||
+|| {xwith minimal cost or effort to the fighter, and without the risk of   {d||
+|| {xembarassing dismemberment by an overly tight lanyard. Studying this   {d||
+|| {xskill increase its duration and lowers the chance of being disarmed.  {d||
+||                                                                       ||
+\\=======================================================================//{x

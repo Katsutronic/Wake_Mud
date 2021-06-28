@@ -1,0 +1,303 @@
+redeem
+
+
+{d//=|{RPrompt{d|==============================================================\\
+||Syntax:
+||                                                                       ||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RAutos{d|===============================================================\\
+||{xSyntax: {Gauto                                                           {d||
+||                                                                       ||
+||   {xThe auto commands are a set of options that can be individually     {d||
+|| {xtoggled on or off. They are designed to automate certain tasks that   {d||
+|| {xare commonly used by players. Entering only auto will display all of  {d||
+|| {xthe available auto commands, and their current status. Entering one of{d||
+|| {xthose auto commands will toggle it.                                   {d||
+||                                                                       ||
+|| {xRead {GHELP AUTOEXIT{x, {GHELP AUTOWEATHER{x, {GHELP AUTOGOLD{x,  {GHELP AUTOLOOT{x,  {d||
+||      {GHELP AUTOSAC{x,  {GHELP AUTOMAP{x,     {GHELP AUTOSPLIT{x, {GHELP AUTOASSIST{x,{d||
+||      {GHELP AUTOLOOK{x, {GHELP COMPACT{x,     {GHELP PROMPT{x,    {GHELP COMBINE{x,   {d||
+||      {GHELP NOLOOT{x,   {GHELP NOSUMMON{x,    {GHELP NOFOLLOW{x.                  {d||
+|| {xFor more information.                                                 {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RTraining{d|============================================================\\
+||{xSyntax: train                                                          {d||
+||      {x: train <stat>                                                   {d||
+||      {x: train <hp>                                                     {d||
+||                                                                       ||
+||   {xTraining is a means of toning one's physical prowess through the use{d||
+|| {xof the knowledge and help of their class' guild master. This training {d||
+|| {xcan be used to fortify one of the person's attributes, or to increase {d||
+|| {xtheir vitality, magical capacity, or durability in travelling long    {d||
+|| {xdistances. Training draws on two seperate sources to work. When used  {d||
+|| {xto train a stat attribute, one {Cstat point {xis used to increase the stat{d||
+|| {xby one. When used to train a physical attribute, practices {Gconverted  {d||
+|| {xinto {Ctrains {xare used, each train increasing the single attribute by   {d||
+|| {xthe same amount gained when leveling. Training physical attributes can{d||
+|| {xonly be performed after changing into one's final class, while stat   {d||
+|| {xtraining can be done at any time.                                     {d||
+||                                                                       ||
+|| {xRead {GHELP CONVERT{x, {GHELP STAT{x, and {GHELP PRACTICE{x, for more information.{d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RGuilds{d|==============================================================\\
+||                                                                       ||
+||   Guilds are NOT to be confused with clans and houses. In terms of    ||
+|| Wake as a whole, the term "guild" is used as a roleplay reference for ||
+|| classes. This allows players to speak of their class without breaking ||
+|| the flow of roleplay by including out of character terms and info.    ||
+|| Guilds are not necessarily organizations, but rather professions and  ||
+|| those who teach them. Think along the lines of Masonry Guilds, or     ||
+|| Writer's Guilds, where the people are loosely brought together by a   ||
+|| common job or talent. This is also NOT to be considered a union, as   ||
+|| such a thing would be considered a clan or house.                     ||
+||                                                                       ||
+|| Read HELP HOUSE, and HELP CLASS for more information.                 ||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RGrouping{d|============================================================\\
+||{xSyntax: {Ggroup                                                          {d||
+||      {x: {Ggroup join {R<leader>                                            {d||
+||      {x: {Ggroup cancel                                                   {d||
+||      {x: {Ggroup leave                                                    {d||
+||      {x: {Ggroup add {R<joiner>                                             {d||
+||      {x: {Ggroup remove {R<member>                                          {d||
+||                                                                       {d||
+||   {xGrouping allows people within {R10 {xlevels of the leader to team up.   {d||
+|| {xExperience gained is reduced a bit by the size of the group. Group is {d||
+|| {xseperate from {Gfollow{x, as grouping doesn't decide who automatically    {d||
+|| {xfollows who, unless {Gautofollow {xis activated.                          {d||
+||  {Ggroup {xalone will list the members of the group and their information {d||
+||  {Ggroup join {xis entered by someone to request to join {R<leader>{x's group.{d||
+||  {Ggroup cancel {xwill retract one's join request.                        {d||
+||  {Ggroup leave {xwill remove one's self from a group they are in.         {d||
+||  {Ggroup add {xis used by the leader to add someone who has used join.    {d||
+||                                                                       ||
+|| {xRead {GHELP FOLLOW {xand {GHELP AUTOFOLLOW {xfor more information.            {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RBanking{d|=============================================================\\
+||Syntax: bank deposit <#> <gold/silver>                                 ||
+||      : bank withdraw <#> <gold/silver>                                ||
+||      : bank exchange <#> <gold/silver>                                ||
+||      : bank balance                                                   ||
+||                                                                       ||
+||   Greed drives all people, and with this greed came a multi-national  ||
+|| banking system. This bank system is safe and effective, spanning the  ||
+|| continent and through the use of magic and good management, is fast.  ||
+||   Deposit will deposit the specified amount of the specified currency ||
+|| into one's bank account.                                              ||
+||   Withdraw will remove the specified amount of the specified currency ||
+|| from the bank account if the funds are available.                     ||
+||   Exchange will swap the specified amount of the specified currency   ||
+|| for the opposite, at the rate of 100 silver per 1 gold.               ||
+||   Balance will display the amount of funds in one's bank account.     ||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RDeath{d|===============================================================\\
+||                                                                       ||
+||   {xDeath is something that happens to everyone, some of us more often  {d||
+|| {xthan others. It can come about from too much damage, causing the body {d||
+|| {xto give out, from necrotic draining, or just from being too old. Death{d||
+|| {xfrom old age is permanent. If you died in combat, there is a choice.  {d||
+|| {xYou can lay where you fell and wait for a priest to resuscitate you,  {d||
+|| {xor {Gdie{x. If you wait, priests with the {Glifeline {xchannel on will be     {d||
+|| {xalerted, and you will have a few minutes before your time runs out and{d||
+|| {xyou die, but if you are {Gresuscitated{x, you will be revived with no     {d||
+|| {xpenalty. If you choose to die or run out of time, your corpse falls   {d||
+|| {xwhere you were, and you will be reborn in a new body in your hometown {d||
+|| {xor house keep. You can return to where you died and retrieve your     {d||
+|| {xbelongings, and do with your old body as you please. But if you wait  {d||
+|| {xtoo long, the corpse will rot and the items will fall to the ground.  {d||
+||                                                                       ||
+|| {xRead {GHELP LIFELINE{x, {GDIE {xand {GRESUSCITATE {xfor more information.         {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RWeapons{d|=============================================================\\
+||                                                                       ||
+||   {xWeapons are implements used to augment the physical strength of the {d||
+|| {xperson wielding them. Weapons are split into weapon groups, each one  {d||
+|| {xbased on the combat style and generally the design of each weapon. If {d||
+|| {xa person learns a group, they are able to use all weapons within that {d||
+|| {xgroup. All of the weapons are also wielded with the same level of     {d||
+|| {xproficiency, so becoming better with one, will improve the wielder's  {d||
+|| {xskill with the others. Studying a weapon group will improve the damage{d||
+|| {xof all the weapons within that group.                                 {d||
+||  {xAvailable Weapon Groups:                                             {d||
+||   {GSwords{x, {GDaggers{x,      {GPolearms{x, {GBludgeons{x, {GCleavers{x,    {GLashes{x,     {d||
+||   {GBows{x,   {GMartial Arms{x, {GStaffs{x,   {GSabers{x,    {GShortswords{x, {GLances{x.     {d||
+||  {xAnd all people are proficient with {GClubs{x.                            {d||
+||                                                                       ||
+|| {xType {GHELP {R<weapon group> {xto view more info and the weapons it offers. {d||
+||                                                                       ||
+\\=======================================================================//
+
+
+{d//=|{RMedium Armor{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xClothing and armor come in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||   {xMedium armor is typically chains, heavy leathers, and other middle  {d||
+|| {xrange types. It is a balance between defense and speed, offering      {d||
+|| {xdecent protection while only weighing the wearer down slightly. This  {d||
+|| {xalso means that it is not particularly special in either field, and if{d||
+|| {xsomeone is looking to specialize in a certain style, this might not be{d||
+|| {xideal.                                                                {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RHeavy Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xClothing and armor come in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||   {xHeavy armors are generally platemails and other bulky, thick armors.{d||
+|| {xWhile these offer exceptional defense and protection against most     {d||
+|| {xattacks, they tend to weigh a lot, encumbering the holder both in how {d||
+|| {xmuch they can carry and slowing them down in general. There is no     {d||
+|| {xdisputing, however, the great defensive benefits of heavy armor.      {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RNewbies{d|=============================================================\\
+||   {xWelcome to Kingdoms of Fate, we hope your adventure is exciting and {d||
+|| {xfulfilling.  As a new member to the world, there are a few things that{d||
+|| {xmight be useful to know, as this world is not quite like ones you     {d||
+|| {xmight be familiar with.                                               {d||
+||                                                                       {d||
+||   {xFirst and most importantly, remember there is a max level for your  {d||
+|| {xclass, and by the time you are hero level, you will have been four    {d||
+|| {xclasses.  When you stop gaining experience from kills, seek out the   {d||
+|| {xguildmaster for the class you wish to become to {Gchange{x.               {d||
+|| {xThese changes will occur at levels {R10{x, {R25{x, and {R50{x.                    {d||
+||                                                                       {d||
+|| {xRead {GHELP CLASSES {xand {GHELP CLASSTREE {xfor more information.            {d||
+||                                                                       {d||
+||   {xSecondly, you will earn {Cskillpoints {xat each level, these can be used{d||
+|| {xto buy whatever skills are available.  Spend them how you see fit, but{d||
+|| {xbe sure to use them all, for you cannot {Gchange {xclasses until you've   {d||
+|| {xused all of your current {Cskillpoints{x. You will notice some skills have{d||
+|| {xpre-requisites. Try to {Gstudy {xone of these skills to view what its     {d||
+|| {xpre-requisites are. You can also view skill requirements using the    {d||
+|| {Gplan {xcommand to see what a future class' skills will require. Also be {d||
+|| {xaware that each skill has {Cfive levels{x, with each level increasing the {d||
+|| {xskill's potency.  You can either choose to {Gstudy {xmany skills and be   {d||
+|| {xaverage at each, or master just a few skills, the choice is yours, but{d||
+|| {xread up on the classes you wish to become, as some of their skills    {d||
+|| {xwill require you to {gstudy {xcertain skills as your current class.       {d||
+||                                                                       {d||
+||   {xIf you have further questions, feel free to ask using the "{Gquestion{x"{d||
+|| {xor "{Gnewbie{x" command, leaf through the {Ghelp {xfiles, or use the {Gboards{x.  {d||
+|| {xRead {GHELP CHANNELS{x, {GHELP BOARDS {xfor more information.                 {d||
+||                                                                       {d||
+|| {xLastly, you can always visit the newb school to learn more hands-on.  {d||
+|| {xGood luck, and enjoy the mud!                                         {d||
+\\=======================================================================//
+
+//=|Classes|=============================================================\\
+||   Though all players start the game as a Tenderfoot, there are many   ||
+|| classes they can become. At certain levels, players have the ability  ||
+|| to change their class to one of two or three possibilities. The       ||
+|| change is a requirement, however, and players at these levels will    ||
+|| not receive experience from kills until they have changed their class.||
+|| Also, a player is unable to change classes until they have expended   ||
+|| all of their gain points. It is STRONGLY recommended that a player at ||
+|| least familiarize themself with the final class they wish to become   ||
+|| and what the prerequisites are for their skills, as it is not possible||
+|| to undo any skill gains, and some skills require a certain level in a ||
+|| skill from a previous class.                                          ||
+||                                                                       ||
+|| Read HELP TENDERFOOT and HELP CLASSTREE for more information.         ||
+||                                                                       ||
+\\=======================================================================//
+
+
+{d//=|{RStudy{d|===============================================================\\
+||{xSyntax:  {Gstudy                                                         {d||
+||{xSyntax:  {Gstudy {R<skill>                                                 {d||
+||{xSyntax:  {Gstudy {R<skill> {C(A skill with prerequisites not met)            {d||
+||                                                                       {d||
+||   {xStudying is the very core to learning new skills, spells, and other {d||
+|| {xsuch abilities. Entering just "study" will display a window detailing {d||
+|| {xthe skills and spells available to you currently, but this will be    {d||
+|| {xadded to as you change classes. The list is broken up into four       {d||
+|| {xcategories: Mastered Skills, which have been studied to level 5;      {d||
+|| {xGained Skills, which have been studied to level one through four;     {d||
+|| {xUngained Skills, which are available but not yet studied; Skills with {d||
+|| {xtheir Prerequisites not met, which need to be studied to use; And     {d||
+|| {xLocked Skills, in which the study of another skill has disabled these {d||
+|| {xones. Entering "study <skill>" with <skill> being replaced by the full{d||
+|| {xname of a skill, will attempt to study that skill, increasing its     {d||
+|| {xlevel by one. Studying a skill listed under "Prerequisites not met"   {d||
+|| {xwill display the player with the skills needed, and at what levels    {d||
+|| {xthey must be in order to study that skill.                            {d||
+||                                                                       ||
+|| {xRead {GHELP CLASSES {xfor more information.                               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RSkillpoints{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       {d||
+||   {xSkill points are special points awarded every even numbered level,  {d||
+|| {xand bonus skill points awarded on each level that is a multiple of    {d||
+|| {xfive, meaning players get two points on levels ending in zero. These  {d||
+|| {xpoints are used to {Gstudy {xskills AND spells, which can be studied up to{d||
+|| {xlevel five at the cost of one skill point per level. Note that getting{d||
+|| {xthe skill or spell to 100% practice does {RNOT {xlevel it up, only skill  {d||
+|| {xpoints can level up skills. Levelling up the skill or spell will      {d||
+|| {xincrease its potency, such as increasing its damage, or chance to     {d||
+|| {xland, and some will gain new abilities at certain levels.             {d||
+||                                                                       ||
+|| {xRead {GHELP STUDY{x, and {GHELP CLASSES {xfor more information.               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RChange{d|==============================================================\\
+||{xSyntax:  {Gchange {C(Must be repeated to confirm)                          {d||
+||      {x:  {Gchange cancel                                                 {d||
+||                                                                       {d||
+||   {xThe change command is used to change classes, which will unlock the {d||
+|| {xskills and spells, as well as levelling attributes of the new class.  {d||
+|| {xTo use this command, the player must be in the same room as the       {d||
+|| {xtrainer for the class they wish to {Rbecome{x, with all of their skill    {d||
+|| {xpoints spent. Then the player must enter the "change" command, which  {d||
+|| {xwill prompt them to enter it again to confirm. However, if they decide{d||
+|| {xthey wish to become another class, or otherwise wait to change, they  {d||
+|| {xcan enter "change cancel" to cancel the confirmation process. It is   {d||
+|| {xvery important to note that changing classes is PERMANENT, and the    {d||
+|| {xplayer must remain this class until their next class change if one is {d||
+|| {xavailable, so they should take care before changing.                  {d||
+||                                                                       ||
+|| {xRead {GHELP STUDY{x, and {GHELP CLASSES {xfor more information.               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RPlan{d|================================================================\\
+||{xSyntax: {Gplan {R<final class> <skill name>                                {d||
+||      {x: {Gplan {R<class>                                                   {d||
+||                                                                       ||
+||   {xThe plan command is a utility to help players determine what skills {d||
+|| {xor spells they want, and how to unlock them. The first way of using it{d||
+|| {xis to enter "{Gplan {R<class>{x" which can be any class from any tier. This {d||
+|| {xwill display all of the skills available to the class, as well as some{d||
+|| {xbasic information on them. Entering "{Gplan {R<final class> <skill>{x" and  {d||
+|| {xreplacing {R<final class> {xwith the final class the player intends to be {d||
+|| {xat level 100, and replacing {R<skill> {xwith a skill or spell available to{d||
+|| {xthat class will display information on that skill or spell, and what  {d||
+|| {xit requires to be unlocked, and what other skills or spells it will   {d||
+|| {xlock or unlock when studied. Since all final classes inherit the      {d||
+|| {xskills and spells of all of their previous classes, it is possible to {d||
+|| {xplan a skill already available, so as to view what it will unlock in  {d||
+|| {xlater classes.                                                        {d||
+||                                                                       ||
+|| {xRead {GHELP STUDY{x, and {GHELP CLASSES {xfor more information.               {d||
+||                                                                       ||
+\\=======================================================================//

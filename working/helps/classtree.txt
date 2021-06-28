@@ -1,0 +1,22 @@
+{d/--|{RClasstree{d|------------------------------------\
+|                   {d+-->duelist{d\---> Monk         {d|
+|                   {d|           {d\--> Myrmidon     {d|
+|         {G+-->{yfighter{G-->{ywarrior{G\{d---{d> Cavalier     {d|
+|         {G|         {G|           {G\-->{y Mercenary    {d|
+|         {G|         {G+-->{yrogue{G--\---> {YHunter       {d|
+|         {G|                     {G\-->{y Assassin     {d|
+|         {G|         {d+-->enchanter{d\-> Sage         {d|
+|         {G|         {d|           {d\--> Minstrel     {d|
+|{xTenderfoot{G-->{rmystic{G--->{rmage{G---\--->{R Wizard       {d|
+|         {G|         {d|           {G\--> {rSorcerer     {d|
+|         {G|         {d+-->{Rabjurer{G\{d---> Chemist      {d|
+|         {G|                     {G\--> {RAntimage     {d|
+|         {G|         {d+-->templar{d\---> Paladin      {d|
+|         {G|         {d|           {B{d\--> Nightstalker {d|
+|         {G+-->{cdevout{G--->{cacolyte{G\--->{C Priest       {d|
+|                   {G|           \--> {CNecromancer  {d|
+|                   {G+-->{Cnaturalist{G-> {CDruid        {d|
+|                               {d\--> Shaman       {d|
+\-------------------------------------------------/
+{dDarkened{x classes are not currently available.
+{xBrightly {wcolored classes are still in beta testing.{x

@@ -1,0 +1,136 @@
+{d//=|{RAcolyte{d|=============================================================\\
+||   {xThere is no specific god that acolytes collectively answer to, an   {d||
+|| {xacolyte is a person who answers to a god and wields that power. The   {d||
+|| {xskills and spells offered to acolytes start out neutral, but once     {d||
+|| {xthey've changed to their final class, will reflect their alignment.   {d||
+|| {xNote that acolytes are not neutral, but their alignment won't be      {d||
+|| {xassigned until they change to their final job.                        {d||
+||   {xAcolytes can use {Gclubs{x, {Glashes {xand {Gstaffs{x.                          {d||
+|| {xThe skills and spells offered to an acolyte are:                      {d||
+||  {GDogma{x,           {GSacred Guardian{x,    {GScrolls{x.                        {d||
+||  {GCancellation{x,    {GCurse{x,              {GDemonfire{x,    {GDetect Poison{x,    {d||
+||  {GFear{x,            {GFrenzy{x,             {GHeal Minor{x,   {GIdentify{x,         {d||
+||  {GQuench{x,          {GScourge{x,            {GWeaken.                         {d||
+||                                                                       ||
+|| {xAt level {G50 {xan acolyte can change into the following:                 {d||
+||  {GPriest{x, use their holy power to aid, heal, and cure others.          {d||
+||  {GNecromancer{x, use their evil power to hurt, and poison others.        {d||
+||                                                                       {d||
+|| {xRead {GHELP PRIEST{x, and {GHELP NECROMANCER {xfor more information.          {d||
+||                                                                       {d||
+\\=======================================================================//
+
+//=|Dogma|===============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Religious belief brings certain benefits, and a zealous drive to    ||
+|| protect those beliefs. Dogma is the authority granted to someone by   ||
+|| their higher power. This power is manifested by allowing those under  ||
+|| divine power to enforce their authority against dissenters. Because   ||
+|| the power is divine in origin, it only applies to spells, allowing the||
+|| divinity of each cast to be amplified against one's religious foes.   ||
+|| If the caster follows the light, then the dark will experience a more ||
+|| fierce attack, and conversely, dark beings will deal extra damage with||
+|| spells against followers of the light. This benefit is amplified by   ||
+|| further studying the skill, and it does not weaken spells cast on any ||
+|| of similar alignment to the caster.                                   ||
+||                                                                       ||
+|| Read HELP SACRED GUARDIAN for more information.                       ||
+||                                                                       ||
+\\=======================================================================//
+//=|Sacred Guardian|=====================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Religious belief brings certain benefits, and the protective veil of||
+|| a higher power. Sacred Guardian represents the defensive powers of a  ||
+|| religious zeal. A god of light grants protection to their followers   ||
+|| against the powers of darkness, and a god of dark will conversely give||
+|| similar protection to their followers against the powers of light.    ||
+|| This skill only protects one from attack spells cast on them by a     ||
+|| caster of the opposite alignment, due to its divine nature. This power||
+|| is amplified by further studying this skill, and will not increase    ||
+|| spell damage received from those of a similar alignment.              ||
+||                                                                       ||
+|| Read HELP DOGMA for more information.                                 ||
+||                                                                       ||
+\\=======================================================================//
+//=|Curse|===============================================================\\
+||Syntax: cast curse                                                     ||
+||      : cast curse <victim>                                            ||
+||                                                                       ||
+||   One of the most basic forms of holy hexing, a curse is a simple     ||
+|| spell cast upon a victim. Curses come in a variety of flavors, but    ||
+|| this simple form is of a more general nature. This curse afflicts a   ||
+|| victim in a way that is without a particularly good or evil tilt. The ||
+|| spell weakens the victim, reducing their ability to hit, and making   ||
+|| them more susceptible to other afflictions. It also can make it harder||
+|| for the victim to travel through magical means, at times even causing ||
+|| such travel to be impossible. Further study of this spell will improve||
+|| its chance to afflict, and strengthen those afflictions.              ||
+||                                                                       ||
+\\=======================================================================//
+//=|Demonfire|===========================================================\\
+||Syntax: cast demonfire                                                 ||
+||      : cast demonfire <victim>                                        ||
+||                                                                       ||
+||   Whether of the good or evil religions, an understanding of how the  ||
+|| powers one fights is almost as important as understanding the powers  ||
+|| one worships. Demonfire is a simple demonic spell that calls up the   ||
+|| fires of evil to strike the enemy. ????
+||                                                                       ||
+\\=======================================================================//
+//=|Detect Poison|=======================================================\\
+||Syntax: cast 'detect poison'                                           ||
+||                                                                       ||
+||   Whether to cure or exacerbate a poisoning, it is necessary to see   ||
+|| if the target is poisoned first. This basic spell grants the caster   ||
+|| sight of poisons that may be present in a person's body, or in food   ||
+|| and drink. By detecting poison, not only will it help the caster know ||
+|| if they should bother using a cure or poison at all, potentially      ||
+|| saving them the time and magical exertion required to do such. This   ||
+|| spell will also grant the caster protection from poisoning. Studying  ||
+|| this spell further will increase its detection and protection powers. ||
+||                                                                       ||
+|| Read HELP 'CURE POISON' and POISON for more information.              ||
+||                                                                       ||
+\\=======================================================================//
+//=|Fear|================================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+//=|Frenzy|==============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+//=|Heal Light|==========================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+//=|Quench|==============================================================\\
+||Syntax: cast quench                                                    ||
+||                                                                       ||
+||   A simple spell, quench sates the thirst of the caster. Drawing in   ||
+|| moisture from the surrounding area, it is absorbed directly into the  ||
+|| caster's body. This means it actually fights off thirst, rather than  ||
+|| tricking the body somehow. Studying this spell further will increase  ||
+|| the degree to which the caster's thirst is quenched.                  ||
+||                                                                       ||
+\\=======================================================================//
+//=|Scourge|=============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+//=|Weaken|==============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//

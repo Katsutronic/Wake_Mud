@@ -1,0 +1,1718 @@
+#HELPS
+0 CAST~
+Syntax: cast <spell> <target>
+
+Before you can cast a spell, you have to practice it.  The more you practice,
+the higher chance you have of success when casting.  Casting spells costs mana.
+
+The <target> is optional.  Many spells which need targets will use an
+appropriate default target, especially during combat, others will default to
+the caster.
+
+If the spell name is more than one word, then you must quote the spell name.
+Example: cast 'cure critic' monkey. Quoting is optional for single-word spells.
+You can abbreviate the spell name.
+
+When you cast an offensive spell, the victim usually gets a saving throw.
+The effect of the spell is reduced or eliminated if the victim makes the
+saving throw successfully.
+
+See also the help sections for individual spells.
+~
+
+0 ORDER~
+Syntax: order <character> command
+Syntax: order all command
+
+ORDER orders one or all of your charmed followers (including pets) to
+perform any command.  The command may have arguments.  You are responsible
+for the actions of your followers, and others who attack your followers
+will incur the same penalty as if they attacked you directly.
+
+Most charmed creatures lose their aggresive nature while charmed.
+~
+
+0 PICK LOCKPICK~
+Syntax: pick <object>
+Syntax: pick <direction> <manipulators>
+
+PICK can open a lock without having the key. You are required to be holding
+a lockpick of the corresponding difficulty of the lock, and must supply the
+appropriate number of manipulators.
+
+A manipulator is simply either "up" or "down" and the number of manipulators
+can be up to three per lock.
+
+An example of an "infuriating" lock being picked is:
+pick door up up down
+or:
+pick door down up down
+
+It's up to you the lockpicker to determing how many manipulators and which
+direction each goes.
+~
+
+0 QUAFF~
+~
+
+0 RECALL /~
+{d//=|{RRecall{d|==============================================================\\
+||{xSyntax:  {Grecall                                                        {d||
+||      {x:  {G/                                                             {d||
+||                                                                       ||
+||  {xOnly functional for levels {Gone {xthrough {Gten{x, this skill allows a      {d||
+|| {xplayer to return to their recall point. The recall point is usually   {d||
+|| {xthe spot in their hometown where they started, not the place they are {d||
+|| {xnormally sent to when they die. This skill will consume half of the   {d||
+|| {xplayer's current movement points. In combat, it has a chance to fail  {d||
+|| {xand will deduct some exp from the player similar to the penalty for   {d||
+|| {xfleeing. Some rooms and spells will {Gblock {xthe ability to recall.      {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 TENDERFOOT~
+{d//=|{RTenderfoot{d|==========================================================\\
+||   {xAll players start as a tenderfoot, fresh out of the farm, city,     {d||
+|| {xhatchery or wherever. Weak and limited in abilities, being a          {d||
+|| {xtenderfoot is but a stepping stone in the long path towards greatness.{d||
+||   {xA tenderfoot can only use {Gclub {xtype weapons.                        {d||
+|| {xThe skills offered to a tenderfoot are:                               {d||
+||  {GRecall{x,      {GFast Healing{x,      {GHaggle{x,      {GPunch{x,     {GRiding{x.      {d||
+||                                                                       ||
+|| {xAt level {G10 {xa tenderfoot can change into the following:               {d||
+||  {GFighters{x, specialize various forms of physical combat and technique. {d||
+||  {GMystics{x, specialize in magics and sciences for utility and offense.  {d||
+||  {GDevouts{x, utilize divine power of earth, heaven, or hell.             {d||
+||                                                                       ||
+|| {xRead {GHELP FIGHTER{x, {GMYSTIC {xand {GDEVOUT {xfor more information.            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 FIGHTER~
+{d//=|{RFighter{d|=============================================================\\
+||   {xNot necessarily strong, fighters are those who use physical skills, {d||
+|| {xalmost completely ignoring the skills of mind and faith. All fighters {d||
+|| {xrely on some kind of weapon, be it a sword, mace, lockpick or their   {d||
+|| {xown fists, and each uses these in their own way.                      {d||
+||   {xFighters can use {Gclubs {xand {Ggauntlets{x.                               {d||
+|| {xThe skills offered to a fighter are:                                  {d||
+||  {GCombatives{x,        {GDodge{x,        {GEnhanced Damage{x,      {GGrip{x,         {d||
+||  {GKick{x,              {GLight Armor{x,  {GParry{x,                {GSecond Attack{x.{d||
+||                                                                       ||
+|| {xAt level {G25 {xa fighter can change into the following:                  {d||
+||  {GDuelists{x, fast and agile they rely on technique over defense.        {d||
+||  {GWarriors{x, generally tough, warriors have a wide variety of skills.   {d||
+||  {GRogues{x, who rely on both stealth and hunting to subdue enemies.      {d||
+||                                                                       ||
+|| {xRead {GHELP DUELIST{x, {GWARRIOR{x, and {GROGUE {xfor more information.           {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 MYSTIC~
+{d//=|{RMystic{d|==============================================================\\
+||   {xMentally endowed, mystics control a wide range of magical abilities,{d||
+|| {xsome even harnessing the powers that combat magics. A wide variation  {d||
+|| {xin spells, skills, and general capabilities seperates the three       {d||
+|| {xbranches of the mystic field. Regardless, all mystics rely on their   {d||
+|| {xspells to fight or help.                                              {d||
+||   {xMystics can use {Gclubs {xand {Gstaffs{x.                                   {d||
+|| {xThe skills and spells offered to a mystic are:                        {d||
+||  {GMeditation{x,       {GScrolls{x,          {GWands{x.                           {d||
+||  {GCancellation{x,     {GIdentify{x,         {GMagic Missile{x,   {GRefresh{x.        {d||
+||                                                                       ||
+|| {xAt level {G25 {xa mystic can change into the following:                   {d||
+||  {GMage{x, specializing in the arcane, they can either help or hurt.      {d||
+||  {GEnchanter{x, their powers imbue or enhance items and people.           {d||
+||  {GAbjurer{x, a deviation, they use unique power to disrupt others.       {d||
+||                                                                       ||
+|| {xRead {GHELP MAGE{x, {GSCHOLAR{x, and {GABJURER {xfor more information.            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 DEVOUT~
+{d//=|{RDevout{d|==============================================================\\
+||   {xPure of mind and soul, devouts give their entire selves to a higher {d||
+|| {xpower for the strength to defend their faith and friends. All devouts {d||
+|| {xutilize a mix of skills and spells to help themselves and others of   {d||
+|| {xtheir faith. whether for good, evil, or balance, devouts place divine {d||
+|| {xwill before all else, and in return wield great power.                {d||
+||   {xDevouts do not get new weapons.                                     {d||
+|| {xThe skills and spells offered to a devout are:                        {d||
+||  {GDevotion{x,        {GFaith{x,           {GFirst Aid{x,       {GMeditation{x.       {d||
+||  {GBless{x,           {GHarm{x,            {GImbue{x,           {GRefresh{x.          {d||
+||                                                                       ||
+|| {xAt level {G25 {xa devout can change into the following:                   {d||
+||  {GTemplar{x, who mix shield, and faith for their good or evil religion.  {d||
+||  {GAcolyte{x, for good or evil, they focus on religious spells.           {d||
+||  {GRanger{x, use their powers to work with nature and the spirits.        {d||
+||                                                                       ||
+|| {xRead {GHELP TEMPLAR{x, {GACOLYTE{x, and {GRANGER {xfor more information.          {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 STAVES~
+{d//=|{RStaves{d|==============================================================\\
+||{xSyntax:  {Gbrandish                                                      {d||
+||                                                                       ||
+||  {xOne of three magical item types, staves are used almost solely for   {d||
+|| {xarea affects. Regardless of the spell in a stave, when brandished, it {d||
+|| {xwill cast on everyone in the room. This can be beneficial, casting a  {d||
+|| {xsupportive spell, or detrimental in casting an offensive spell. Staves{d||
+|| {xalso have the benefit of containing their own magic, like a wand, so  {d||
+|| {xit can be recharged, and holds several charges. This allows a single  {d||
+|| {xstave to be reused several times before becoming useless.             {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 SCROLLS~
+{d//=|{RScrolls{d|=============================================================\\
+||{xSyntax:  {Grecite {R<scroll>                                               {d||
+||      {x:  {Grecite {R<scroll> <object>                                      {d||
+||      {x:  {Grecite {R<scroll> <victim>                                      {d||
+||                                                                       ||
+||  {xOne of three magical item types, scrolls are used to cast a spell    {d||
+|| {xunder a number of different circumstances, depending on the type of   {d||
+|| {xspell it is imbued with. From helping the reciter or another person,  {d||
+|| {xto dealing damage to one or many people, to imbuing objects with magic{d||
+|| {xor protection. Scrolls can also contain several spells in their text, {d||
+|| {xbut unlike wands and staves, scrolls can only be used once, with no   {d||
+|| {xchance for recharging.                                                {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 WANDS~
+{d//=|{RWands{d|===============================================================\\
+||{xSyntax:  {Gzap {R<victim>                                                  {d||
+||                                                                       ||
+||  {xOne of three magical item types, wands are used to cast a spell on   {d||
+|| {xa person, either the holder of the wand, or someone in the same room. {d||
+|| {xThe spell that the wand is imbued with varies, from healing or support{d||
+|| {xoriented, to damage dealing combat spells. The wand can only be used  {d||
+|| {xa certain number of times, and while the recharge spell can refill it,{d||
+|| {xthis only works once, and when the wand is drained of power, it must  {d||
+|| {xbe replaced.                                                          {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 MAGES 'BASICS MAGE'~
+{d//=|{RMage{d|================================================================\\
+||   {xWeak of body, mages are intelligent, their studies over the         {d||
+|| {xcenturies have enabled them to use magical powers that can be used to {d||
+|| {xdefy the natural laws: create fire from nothing, harness the minds of {d||
+|| {xlesser creatures, and even enable an ogre to fly. They continue their {d||
+|| {xtraining to specialize either as helpful wizards or harmful sorcerers.{d||
+||   {xMages can use {Gclubs {xand {Gstaffs{x.                                     {d||
+|| {xThe skills and spells offered to a mage are:                          {d||
+||  {GSpellcraft{x.                                                          {d||
+||  {GAcid Blast{x,        {GArmor{x,         {GColor Spray{x,    {GContinual Light{x,   {d||
+||  {GCreate Food{x,       {GCreate Water{x,  {GDetect Invis{x,   {GDispel Magic{x,      {d||
+||  {GFireball{x,          {GGate{x,          {GImprint{x,        {GInvisibility{x,      {d||
+||  {GMagic Armor{x,       {GPhase{x,         {GPortal{x,         {GSummon{x,            {d||
+||  {GTeleport{x,          {GVentriloquate{x.                                    {d||
+||                                                                       ||
+|| {xAt level {C50 {xa mage can change into the following:                     {d||
+||  {GWizard{x, uses helpful magic to charm enemies and aid allies.          {d||
+||  {GSorcerer{x, uses magic to harm others with powerful damage spells.     {d||
+||                                                                       ||
+|| {xRead {GHELP WIZARD{x, and {GHELP SORCERER {xfor more information.             {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 WIZARDS 'BASICS WIZARD'~
+{d//=|{RWizard{d|==============================================================\\
+||   {xThough very weak of body, wizards possess magics that let them help {d||
+|| {xothers, and harness the weaker minded creatures. Their spells consist {d||
+|| {xof spell ups, which enhance or protect, spell downs, which decrease   {d||
+|| {xthe powers of others, charm spells, which control and enhance monsters{d||
+|| {xfor the wizard to use, enchantments, which modify or create objects,  {d||
+|| {xand attack spells, which cause damage to others. Wizards are flexible,{d||
+|| {xbut they stand no chance taking damage, and work best in groups.      {d||
+||   {xWizards do not get any new weapons.                                 {d||
+|| {xThe skills offered to a wizard are:                                   {d||
+||  {GPeek{x,            {GArcane comprehension{x.                               {d||
+|| {xThe spells offered to a wizard are:                                   {d||
+||  {GAid{x,             {GAmplify damage{x,  {GBind{x,            {GBlindness{x,        {d||
+||  {GBlur{x,            {GBound recall{x,    {GBright light{x,    {GBrilliant flare{x,  {d||
+||  {GCalm{x,            {GCharm person{x,    {GCreate spring{x,   {GDefensive shield{x, {d||
+||  {GEnchant armor{x,   {GEnchant weapon{x,  {GEncumber{x,        {GFaerie fire{x,      {d||
+||  {GFear{x,            {GFireproof{x,       {GFly{x,             {GFriendly aura{x,    {d||
+||  {GGiant strength{x,  {GHaste{x,           {GHeat metal{x,      {GInfravision{x,      {d||
+||  {GLiving stasis{x,   {GMass invis{x,      {GMuddle{x,          {GNexus{x,            {d||
+||  {GPhantom sword{x,   {GPhase{x,           {GPhasic cone{x,     {GReveal{x,           {d||
+||  {GShield{x,          {GSlow{x,            {GStone skin{x,      {GWeaken{x.           {d||
+\\=======================================================================//
+~
+
+-1 PRIESTS 'BASICS PRIEST'~
+{d//=|{RPriest{d|==============================================================\\
+||   {xWith undying faith and the forces of good on their side, priests    {d||
+|| {xwield the strong powers of healing. Priests are able to cure diseases,{d||
+|| {xheal wounds, soothe the body, and bring people back from the brink of {d||
+|| {xdeath. This awesome power can also be used to defend the faith, with  {d||
+|| {xthe power to smite non believers, and destroy the undead. Priests are {d||
+|| {xweak of body, better suited to helping a group than fighting alone.   {d||
+||   {xPriests can use {Gstaff{x, {Ghammer{x, and {Gmace{x.                            {d||
+|| {xThe skills offered to a priest are:                                   {d||
+||  {GPiety{x,           {GBandage{x,         {GPoverty{x,         {GTrue belief{x,      {d||
+||  {GReverence{x,       {GHoly touch{x.                                         {d||
+|| {xThe spells offered to a priest are:                                   {d||
+||  {GBlindness{x,       {GCalm{x,            {GCause Critical{x,  {GCause Serious{x,    {d||
+||  {GCleanse{x,         {GConsecrate{x,      {GCreate Food{x,     {GCreate Water{x,     {d||
+||  {GCure Blindness{x,  {GCure Disease{x,    {GCure Poison{x,     {GDivinity{x,         {d||
+||  {GFocus{x,           {GFrenzy{x,          {GGuiding Light{x,   {GHeat Metal{x,       {d||
+||  {GHeal Minor{x,      {GHeal Light{x,      {GHeal Serious{x,    {GHeal Critical{x,    {d||
+||  {GHoly Word{x,       {GLift Curse{x,      {GPrayer{x,          {GPurify{x,           {d||
+||  {GRay of Truth{x,    {GRecovery{x,        {GRenew{x,           {GRestoration{x,      {d||
+||  {GResuscitate{x,     {GRevive{x,          {GSacrifice{x,       {GSanctuary{x,        {d||
+||  {GSoothe{x,          {GTurn Undead{x.                                        {d||
+\\=======================================================================//
+~
+
+-1 HUNTER~
+{d//=|{RHunter{d|==============================================================\\
+||   {xHunters are a fierce enemy, and bane to those who lurk in shadows.  {d||
+|| {xWith two major styles: sword based and bow based, there are also many {d||
+|| {xsecondary abilities to help them: falcons, stalking, trapping, ranger.{d||
+|| {xTheir general offensive power is relatively weak, but this is made up {d||
+|| {xby their resilience and hunting abilities.                            {d||
+||   {xHunters can use {Gthrowing axe{x, {Gbow{x, {Glongbow{x, {Gshortbow{x, {Gmachete{x, {Gwhip{x,{d||
+||                   {Grapier{x, {Gscimitar{x, {Gshamshir{x.                         {d||
+|| {xThe skills offered to a hunter are:                                   {d||
+||  {Gbandage{x,          {Grescue{x,          {Ggrasp{x,             {Gsharpen{x,       {d||
+||  {Gstrike{x,           {Gcleave{x,          {Gbash{x,              {Gdisable traps{x, {d||
+||  {Gendure{x,           {Gnet{x,             {Gfalconry{x,          {Ghawkeye{x,       {d||
+||  {Gblend{x,            {Gawareness{x,       {Gprepare{x,           {Ginverse heal{x,  {d||
+||  {Ggather{x,           {Gfiremaking{x,      {Gtraps{x,             {Gtrek{x,          {d||
+||  {Gcompress{x,         {Gmark{x,            {Ginstinct{x,          {Gstalk{x,         {d||
+||  {Gherbal lore{x,      {Gtrap enhance{x,    {Gstamina{x,           {Gigniteshot{x,    {d||
+||  {Gglacialshot{x,      {Gtoxicshot{x,       {Gstaticshot{x,        {Gbarb{x,          {d||
+||  {Gmarksmanship{x,     {Garrow shower{x,    {Gsharp shooting{x,    {Gheadshot{x,      {d||
+||  {Gdoubleshot{x,       {Garmor piercing{x,  {Gtrueshot{x,          {Gstrafe{x,        {d||
+||  {Greload{x.                                                              {d||
+\\=======================================================================//
+~
+
+-1 ROGUE~
+{d//=|{RRogue{d|===============================================================\\
+||   {xRelying on stealth and technique, rogues are trackers and           {d||
+|| {xinformation gatherers. Unable to wear heavy armors, their speed and   {d||
+|| {xdexterity helps keep them out of harms way, while a variety of skills {d||
+|| {xallow them to cautiously monitor and ambush their prey. Not all rogues{d||
+|| {xare bent on kleptomania and assassination, as some continue to become {d||
+|| {xbounty hunters, bringing even their own kind to justice.              {d||
+||   {xRogues can use {Gclubs{x, {Gthrowing knives{x, {Gdaggers{x, and {Gshort swords{x.   {d||
+|| {xThe skills offered to a rogue are:                                    {d||
+||  {GAlertness{x,        {GConceal{x,                  {GDuck{x,        {GEavesdrop{x,  {d||
+||  {GEnvenom{x,          {GHeightened Senses{x,        {GHide{x,        {GHunt{x,       {d||
+||  {GLore{x,             {GMark{x,                     {GPeek{x,        {GRebound{x,    {d||
+||  {GSnare{x,            {GStrike{x,                   {GTrip{x.                    {d||
+||                                                                       ||
+|| {xAt level {G50 {xa rogue can change into the following:                    {d||
+||  {GHunter{x, uses bows, traps, and falcons to stalk and disable prey.     {d||
+||  {GAssassin{x, uses stealth and precision to deal heavy damage.           {d||
+||                                                                       ||
+|| {xRead {GHELP HUNTER{x, and {GHELP ASSASSIN {xfor more information.             {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 MERCENARY MERCENARIES 'BASICS MERCENARY'~
+{d//=|{RMercenary{d|===========================================================\\
+||   {xWith a wide variety of skills offered, mercenaries can be played in {d||
+|| {xmany different ways. There are two main branches, defenders, who can  {d||
+|| {xuse heavy armor and become nearly untouchable, and berserkers, who    {d||
+|| {xthrow their bodies in harm's way to cause great damage. There are     {d||
+|| {xseveral secondary groups which can be used to compliment either major {d||
+|| {xgroup. Note that choosing berserker or defender will LOCK the other,  {d||
+|| {xthough no other groups are affected by this.                          {d||
+||   {xMercenaries can use {Gthrowing knife{x, {Gthrowing axe{x, {Gaxe{x, {Ghammer{x, {Gmace{x,{d||
+||                       {Gmachete{x, {Gpolearm{x, {Gsai{x, {Gshortbow{x, {Gtonfa{x.         {d||
+|| {xThe skills offered to a mercenary are:                                {d||
+||  {Gheavy armor{x,      {Gdefender{x,        {Gdefensive stance{x,  {Gbulwark{x,       {d||
+||  {Gshieldtoss{x,       {Gshieldstrike{x,    {Gbatter{x,            {Gdual wield{x,    {d||
+||  {Gwhirlwind{x,        {Gdouble blitz{x,    {Gpaired attack{x,     {Gmighty swing{x,  {d||
+||  {Ggrasp{x,            {Gcleave{x,          {Gpommel strike{x,     {Gfuror{x,         {d||
+||  {Gheavy smash{x,      {Gsmash{x,           {Gsonic impact{x,      {Gcrush{x,         {d||
+||  {Grage{x,             {Gberserk{x,         {Gface kick{x,         {Gimprovise{x,     {d||
+||  {Greckless abandon{x, {Gferal slash{x,     {Gweapons knowledge{x, {Gabsorb{x,        {d||
+||  {Gthird attack{x,     {Gspinning counter{x,{Gcombat proficiency{x,{Gparting shot{x,  {d||
+||  {Gbrawl{x,            {Gblind fighting{x,  {Gwarrior heart{x,     {Gsword mastery{x. {d||
+\\=======================================================================//
+~
+
+-1 ANTIMAGES 'BASICS ANTIMAGE'~
+The antimage class has not been implemented yet.
+~
+
+-1 EXOTIC WEAPONS WEAPON~
+Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.  The weaponsmaster group
+provides talent in all weapons (save exotics), from chair legs to halberds.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+weaponsmaster	skill group of all weapons listed below (save exotic weaponry)
+axe		the use of axes, ranging from hand to great (but not halberds)
+dagger		the use of knives and daggers, and other stabbing weapons
+flail		skill in ball-and-chain type weapons
+mace		this skill includes clubs and hammers as well as maces
+polearm		the use of pole weapons (except spears), including halberds
+spear		this skill covers both spears and staves, but not polearms
+sword		the warrior's standby, from rapier to claymore
+whip		the use of whips, chains, and bullwhips
+exotic		the use of strange magical weapons
+
+The exotic skill cannot be gained.
+~
+
+-1 'SHIELD BLOCK'~
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  All classes may learn shield block, but only warriors and
+clerics are good at it.  Beware, flails ignore shield blocking attempts, and
+whips have an easier time getting around them.  Axes may split shields in two.
+~
+
+-1 ATTACK~
+The attack spells are essentially powerful curses, fueled by divine energy
+rather than magical power (like the combat spells are). They are less powerful
+than the combat spells, but can still deal out a stinging blow.  Mages and 
+thieves cannot use this group.  The attack spell group consists of the 
+following spells:
+
+demonfire	a powerful, but very evil, spell
+dispel evil	torments evil foes
+dispel good	calls down unholy power on good creatures
+earthquake	brings the power of earth to bear against your foes
+flamestrike	sends a column of flame from the heavens
+heat metal	heats metal equipment to searing tempatures
+ray of truth	sends forth a blinding ray of holy energy
+~
+
+-1 BEGUILING~
+This insideous spell group is used to invade the minds of others.  It consists
+of various charming magics, well suited for turning your foes to your cause.
+Only mages and thieves have access to the beguiling magics, which consist of
+the following:
+
+calm            if successful, stops all fighting in the room
+charm person	turns an enemy into a trusted friend
+sleep		puts a foe into enchanted slumber
+~
+
+-1 BENEDICTIONS~
+Benedictions are priestly spells, used to bestow divine favor upon your allies.
+They are often restricted to those of like alignment.  Only clerics and 
+warriors may use these spells.  The benedictions spell group consists of the
+following:
+
+bless		bestows divine favor upon the target
+calm		if successful, stops all fighting in the room
+frenzy		puts the recipient into beserker rage
+holy word	aids your allies while calling divine wrath upon your foes
+remove curse	removes malevolent magic from players and items
+~
+
+-1 COMBAT~
+These sorcerous spells are, in the words of one famous mage, just 'more ways to
+toss energy around'.  They are the most powerful of the damaging spells, and
+considered an essential part of most wizards' collections. Clerics and thieves
+do not have access to these spells.  In order of power, the combat spell group
+contains the following magics:
+
+magic missile	send a weak energy bolt into a foe
+chill touch	weakens your enemy with a frigid grasp
+burning hands	sends a blast of fire into your foe
+shocking grasp	sends a powerful jolt into a foe
+lightning bolt	sends forth a single bolt of lightning into an enemy
+colour spray	blasts your opponent with a rainbow spray, which may blind him
+fireball	a powerful spell, great for burning your enemy to ashes
+acid blast	sends forth a stream of acid to eradicate your foes
+chain lightning	sends lightning bolts arcing through foes 
+~
+
+-1 CREATION~
+The creation spell group is used to create objects, of temporary or permanent
+duration.  Skill creators can travel without food or drink, and use their 
+powers to create nourishment as required.  All classes may become learned in
+this group, which contains these spells:
+
+continual light	creates an eternal light source
+create food	produces a nourishing mushroom
+create rose	creates a beautiful red rose
+create spring	calls forth a small but pure spring from the ground
+create water	fills any available container with water
+floating disc	creates a floating disc of force perfect for hauling treasure
+~
+
+-1 CURATIVE~
+The curative spells are used to heal various unpleasant conditions that can
+befall an adventurer.   For healing of damage, see the healing spell group.
+Curative spells cannot be used by mages or thieves.
+
+cure blindness	restored sight to the blind
+cure disease	heals the plague
+cure poison	removes the harmful effects of poison
+~
+
+0 ARMOR 'LIGHT ARMOR'~
+{d//=|{RLight Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xLight armor is generally made of leathers and padded cloth, offering {d||
+|| {xexcellent movement but only minor defense against attacks. The light  {d||
+|| {xmaterials used are less of a burden on the holder in general, allowing{d||
+|| {xthem to carry more, and not be as slowed down when wearing it. Even   {d||
+|| {xthough light armors provide low protection, it is nevertheless better {d||
+|| {xthan wearing regular clothes.                                         {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 ARMOR 'MEDIUM ARMOR'~
+{d//=|{RMedium Armor{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xMedium armor is typically chains, heavy leathers, and other middle   {d||
+|| {xrange types. It is a balance between defense and speed, offering      {d||
+|| {xdecent protection while only weighing the wearer down slightly. This  {d||
+|| {xalso means that it is not particularly special in either field, and if{d||
+|| {xsomeone is looking to specialize in a certain style, this might not be{d||
+|| {xideal.                                                                {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 ARMOR 'HEAVY ARMOR'~
+{d//=|{RHeavy Armor{d|=========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xClothing and armor comes in various materials, styles and builds, and{d||
+|| {xnot everyone is capable of properly wearing every type. These are     {d||
+|| {xbroken into four groups: clothing, light, medium, and heavy.          {d||
+||  {xHeavy armors are generally platemails and other bulky, thick armors. {d||
+|| {xWhile these offer exceptional defense and protection against most     {d||
+|| {xattacks, they tend to weigh a lot, encumbering the holder both in how {d||
+|| {xmuch they can carry and slowing them down in general. There is no     {d||
+|| {xdisputing, however, the great defensive benefits of heavy armor.      {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 GRIP~
+{d//=|{RGrip{d|================================================================\\
+||{xSyntax:  {Ggrip                                                          {d||
+||                                                                       ||
+||  {xOne of the worst things that could happen to a weaponmaster in combat{d||
+|| {xis to be disarmed. Many have tried a variety of methods to prevent    {d||
+|| {xthe removal of their weapon, from lanyards to locking mechanisms, with{d||
+|| {xmixed success. The most basic and easy to learn technique is to simply{d||
+|| {ximprove the gripping power of the wielding hand. By tightening the    {d||
+|| {xmuscles properly, it can effectively reduce the chance of disarming   {d||
+|| {xwith minimal cost or effort to the fighter, and without the risk of   {d||
+|| {xembarassing dismemberment by an overly tight lanyard.                 {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'IMPROVED ACCURACY'~
+{d//=|{RImproved Accuracy{d|===================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA very basic fighter skill, it passively increases the accuracy of   {d||
+|| {xregular hits, and that of some skills. The fighter trains their hand  {d||
+|| {xto eye coordination, giving them better control over the trajectory of{d||
+|| {xtheir attacks. While the benefits of a low level skill are not overly {d||
+|| {xgreat, they can still add an edge to a fighter's performance, in this {d||
+|| {xcase giving them a better chance to land blows on their enemy.        {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 BANDAGE~
+{d//=|{RBandage{d|=============================================================\\
+||{xSyntax:  {Gbandage                                                       {d||
+||      {x:  {Gbandage <victim>                                              {d||
+||                                                                       {d||
+||  {xBasic first aid is an important field skill that not only helps to   {d||
+|| {xrecovery from injuries, but in general soothe the body and help it to {d||
+|| {xheal. Not anyone can learn to tend to wounds, and the benefits are    {d||
+|| {xnot incredible, but bandaging can be a desirable skill when a priest  {d||
+|| {xis unavailable.                                                       {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 GRASP~
+{d//=|{RGrasp{d|===============================================================\\
+||{xSyntax:  {Ggrasp                                                         {d||
+||                                                                       {d||
+||  {xWhile it is possible to hold a weapon in one hand, there is a certain{d||
+|| {xstability and control that comes with using both hands to hold it. The{d||
+|| {xact of grasping the weapon does this, and not only is the wielder's   {d||
+|| {xaccuracy with the weapon improved, but their power, as both arms are  {d||
+|| {xworking, increasing the force of the swing. The downside is that both {d||
+|| {xhands are required to do this, and it is very hard to hold a hilt and {d||
+|| {xa ball of light in the same hand.                                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 SHARPEN~
+{d//=|{RSharpen{d|=============================================================\\
+||{xSyntax:  {Gsharpen <weapon>                                              {d||
+||     {x({RThe weapon and a honing stone must both be held simultaneously{x)  {d||
+||                                                                       {d||
+||  {xBasic maintenance of a blade includes keeping it sharp, and while it {d||
+|| {xis not required for the use of the weapon, the benefits are great. The{d||
+|| {xblade must be held in one hand, and a honing stone in the other. With {d||
+|| {xcare and precision, the holder runs the stone along the blade of the  {d||
+|| {xweapon, straightening and sharpening it to increase its cutting power.{d||
+|| {xAlthough the stone cannot break the blade, there is a chance that the {d||
+|| {xfirst attempt will not sharpen it, and the action must be repeated.   {d||
+|| {xAlso, obviously, this skill only works on bladed weapons.             {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 STRIKE~
+{d//=|{RStrike{d|==============================================================\\
+||{xSyntax:  {Gstrike                                                        {d||
+||      {x:  {Gstrike <victim>                                               {d||
+||                                                                       {d||
+||  {xUsing a piercing weapon, a strike thrusts forward in an attempt to   {d||
+|| {xhit the enemy. This skill is not particularly special in effects or   {d||
+|| {xfunction, but it makes for an excellent attack to add in with during  {d||
+|| {xcombat. The power and speed of this skill are relatively balanced and {d||
+|| {xthe striker is not hindered greatly should they fail.                 {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 'CREATE ROSE'~
+Syntax: cast 'create rose'
+
+A romantic spell that creates a fragrant red rose, with utterly no game
+use whatsoever.
+~
+
+-1 'PROTECTION GOOD' 'PROTECTION EVIL'~
+Syntax: cast 'protection evil' <target>
+	cast 'protection good' <target>
+
+The protection spells reduce damage taken from attackers of the appropriate
+ethos, and improve saving throws against all forms of magic. They may not
+be cast on others, and one person cannot carry both defenses at the same
+time.
+~
+
+0 'GIANT STRENGTH'~
+Syntax: cast 'giant strength' <character>
+ 
+This spell increases the strength of the target character.
+~
+
+-1 'CHAIN LIGHTNING'~
+Syntax : cast 'chain lightning' <target>
+
+Chain lightning is a deadly spell, producing a powerful bolt of lightning
+that arcs from target to target in the room, until its force is fully
+expended.  Allies of the caster may be hit by this spell if they are members 
+of a clan, while the caster himself will not be struck unless no other
+viable target remains.  Chain lightning is most effective when used on
+groups of creatures.
+~
+
+-1 FARSIGHT~
+Syntax: cast 'farsight'
+	cast 'farsight' <direction>
+
+The farsight spell expands the caster's consciousness, allowing him or her
+to see far away beings like they were in the same room.  It takes intense
+concentration, often leaving the caster helpless for several minutes.
+The spell may be used for a general scan that reaches a short distance in
+all directions, or with a directional component to see creatures much
+farther away.
+~
+
+-1 MASS HEALING~
+Syntax: cast 'mass healing' 
+
+The mass healing spell, as its name might suggest, performs a healing spell
+on all players in the room.  It also throws in a refresh spell for good
+measure.
+~
+
+-1 'FLOATING DISC'~
+Syntax: cast 'floating disc'
+
+This useful spell creates a floating field of force which follows the caser
+around, allowing him or her to pile treasure high with no fear of weight
+penalties.  It lasts no more than twice the casters level in hours, and
+usually less.  It can hold 10 pounds per level of the caster, with a 
+maximum of five pounds per item.  The spell requires an open float location
+on the character, and the only way to remove the disc is to die or allow it
+to run out of energy.
+~
+
+-1 FIREPROOF~
+Syntax: cast 'fireproof' <object>
+
+The fireproof spell creates a short-lived protective aura around an object,
+to protect it from the harmful effects of acid and flame.  Items protected
+by this spell are not harmed by acid, fire, or the heat metal spell.
+Although inexpensive to use, the spell's short duration makes it impractical
+for protecting large numbers of objects.
+~
+
+0 PUNCH~
+{d//=|{RPunch{d|===============================================================\\
+||{xSyntax:  {Gpunch                                                         {d||
+|| {x     :  {Gpunch {R<victim>                                                {d||
+||                                                                       ||
+||  {xA common punch, the puncher makes a weak jab with their balled fist, {d||
+|| {xstriking their enemy with their knuckles. It is not a very powerful   {d||
+|| {xattack, but it provides extra damage which can help most adventurers  {d||
+|| {xin their battles. This ability also can help more physical people to  {d||
+|| {xlearn to fight barehanded, and opens up many skills for duelists.     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 DISARM~
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled both your own and your opponent's weapon. Only talented thieves
+and warriors may learn this skill.
+~
+
+-1 DODGE~
+{d//=|{RDodge{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xWith reflexes tuned to a high enough level, it is possible for a     {d||
+|| {xperson to move themself out of the way of their enemy's attack. This  {d||
+|| {xis a great technique because instead of absorbing or attempting to    {d||
+|| {xdeflect, it focuses on avoiding facing the attack at all. This ability{d||
+|| {xis very basic, and as such, is not a guaranteed avoidance tactic, but {d||
+|| {xit can still tip the balance of a battle.                             {d||
+||                                                                       ||
+\\=======================================================================//{x
+~
+
+-1 'ENHANCED DAMAGE'~
+{d//=|{REnhanced Damage{d|=====================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA basic to most fighters, this skill hones their basic damage dealing{d||
+|| {xabilities. This skill mostly affects the regular hits dealt in combat,{d||
+|| {xbut it also improves the damage of a few other skills. The bonus from {d||
+|| {xthis skill is not substantial, but some fighters wish to improve their{d||
+|| {xdamage as much as possible, and it is a gateway to studying other     {d||
+|| {xskills.                                                               {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 ENVENOM~
+The envenom skill is a cowardly skill practiced only by thieves, designed to
+win a battle through alchemy and treachery rather than skill or strength.
+Or, put another way, it's a skill used by the smart to kill the foolish.
+Food, drink, and weapons may be envenomed, with varying effects. Poisoned
+food or drink puts a mild poison spell on the consumer, and is unlikely to
+be more than a minor inconvience (after all, the typical adventurer could
+drink sewer water with only a trace of the runs).  A poisoned weapon, on
+the other hand, can inflict serious damage on an opponent as the poison 
+burns through his bloodstream.  But be careful, blade venom evaporates 
+quickly and is rendered almost powerless by repeated blows in combat.
+~
+
+-1 'HAND TO HAND'~
+Hand to hand combat is a rare skill in the lands of Midgaard.  Learning this
+style of fighting gives the player a weapon even when disarmed -- bare hands.
+Trained hand to hand experts are far more effective than many swordsmen.
+Clerics and warriors are the best at this skill, although thieves and mages
+may also learn it.
+~
+
+-1 KICK~
+{d//=|{RKick{d|================================================================\\
+||{xSyntax:  {Gkick                                                          {d||
+|| {x     :  {Gkick {R<victim>                                                 {d||
+||                                                                       {d||
+||  {xA common kick, the kicker brings their foot back and uses the forward{d||
+|| {xmomentum to slam the tip of their foot into their victim. While not   {d||
+|| {xparticularly strong, kicks are greatly helpful early on. They also are{d||
+|| {xgateways to more useful skills for fighters, such as the ability to   {d||
+|| {xkick dirt, and the many different styles of kicking available to the  {d||
+|| {xduelist branch.                                                       {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 PARRY~
+{d//=|{RParry{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xWith good reflexes, a good push with a weapon, and a little luck, it {d||
+|| {xis possible to deflect an enemy's attack. This type of block is fairly{d||
+|| {xeasy to perform, and leaves the original attacker open to attack by   {d||
+|| {xthe one who parried. On its own, a parry is relatively weak, with only{d||
+|| {xa low chance to block, but it can open up new skills and pair with    {d||
+|| {xother abilities to perform strong counter attacks.                    {d||
+||                                                                       ||
+\\=======================================================================//{x
+~
+
+-1 RESCUE~
+{d//=|{RRescue{d|==============================================================\\
+||{xSyntax:  {Grescue <victim>                                               {d||
+||                                                                       {d||
+||  {xThere is always a place for heroics, especially when facing terrible {d||
+|| {xmonsters and opponents. When rescued, the victim is taken out of the  {d||
+|| {xfight, and will only return if they automatically assist, or manually {d||
+|| {xjump back in. By removing the victim from combat, the rescuer takes   {d||
+|| {xtheir place, and anyone who was attacking the victim will now target  {d||
+|| {xthe rescuer. While it is infinitely helpful for mages and priests to  {d||
+|| {xbe rescued from the blades of enemies, the person doing the heroics   {d||
+|| {xshould be cautious of their own well being, because a dead person can {d||
+|| {xnot help very much at all.                                            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 TRIP~
+Back by popular demand.  Trip is a somewhat dastardly attack, and involves
+using any one of a number of methods to bring your opponent down to the ground.
+Tripping large monsters is generally not a good idea, and agile ones will
+find the attack easy to avoid.  Thieves and warriors may learn trip.
+~
+
+-1 'SECOND ATTACK'~
+{d//=|{RSecond Attack{d|=======================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xThrough careful training, it is possible to hone one's agility to the{d||
+|| {xpoint where they can perform two regular strikes where normal people  {d||
+|| {xwould only hit once. This ability is a solid addition for an offensive{d||
+|| {xcombatant, but each successive strike after the first suffers from    {d||
+|| {xfurther reduced accuracy than the previous.                           {d||
+||                                                                       ||
+\\=======================================================================//{x
+~
+
+-1 'THIRD ATTACK'~
+Training in third attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a second attack as well.  Perfect
+third attack does NOT assure three attacks per round.  Only warriors and highly
+skilled thieves may learn this skill.
+~
+
+-1 HIDE SNEAK~
+Hide and sneak are similar skills, both related to remaining undetected.
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.  Only warriors and
+thieves may learn these skills.
+~
+
+-1 'FAST HEALING'~
+{d//=|{RFast Healing{d|========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xWhen wounded, a person can train their body to heal itself faster    {d||
+|| {xthan normal. While the improvement is not incredibly dramatic, it can {d||
+|| {xshave a respectable amount of time off of healing times. This ability {d||
+|| {xworks passively regardless of what the person is doing, sleeping,     {d||
+|| {xsitting, or even walking. It is a staple ability available to anyone  {d||
+|| {xand can be very helpful for anyone who intends to play alone but not  {d||
+|| {xbe a healing class.                                                   {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 LORE~
+Lore is a general skill, consisting of knowledge of myths and legends. Use
+of the lore skill gives a chance of obtaining information on an object,
+concerning its power and uses.  It also may occasionally increase the value
+of an object, because more will be known about its worth.  All classes may
+learn lore, although thieves are best at it, and warriors find it very hard
+to use.
+~
+
+-1 HAGGLE HAGGLING~
+{d//=|{RHaggle{d|==============================================================\\
+||{xSyntax:  {Gbuy {R<item>                                                    {d||
+||{xSyntax:  {Gsell {R<item>                                                   {d||
+||                                                                       ||
+||  {xThrough careful use of words and body language, it is possible to    {d||
+|| {xcoerce another person into reducing the price of an item they are     {d||
+|| {xselling, or increase their bid on an item you are selling. This skill {d||
+|| {xis called haggling, and there is no single way to do this. Some use   {d||
+|| {xintimidation, others use charm, or lying to convince their victim that{d||
+|| {xan item is not worth its actual value. There is no reprocussion to    {d||
+|| {xfailing this ability, as the person will simply pay the original      {d||
+|| {xprice, but being a stronger haggler generally yields better results   {d||
+|| {xand ensures more money in the charlatan's pocket.                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 PEEK~
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.  All characters may learn peek, but thieves are the most
+common practicioners.
+~
+
+-1 PICK 'PICK LOCK'~
+Lock picking is one of the prime skills of thieves, allowing them to gain
+access to many secured areas.  Lock picking chances are improved by  
+intelligence, and hindered by the difficulty of the lock. Other classes may
+learn to pick locks, but they will never find it easy.
+~
+
+-1 MEDITATION~
+{d//=|{RMeditation{d|==========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xThrough the careful focus of the mind, it is possible to enhance the {d||
+|| {xmagical healing process. It is not a dramatic increase, but the boost {d||
+|| {xcan help a caster to return to spell casting much faster than if they {d||
+|| {xhad not trained their minds in meditation. This ability is also key in{d||
+|| {xunlocking a caster's magical potential, especially for mystics.       {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 STEAL~
+Theft is the defining skill of the thief, and is only available to that class.
+It allows items to be stolen from the inventory of monsters and characters,
+and even from shops!  But beware, shop keepers gaurd their merchandise 
+carefully, and attempting to steal from a character earns you a THIEF flag
+if you are caught (making you free game for killing).
+~
+
+-1 'DETECT GOOD'~
+Syntax: cast 'detect good'
+ 
+This spell enables the caster to detect good characters, which will
+reveal a characteristic golden aura.
+~
+
+-1 'DISPEL GOOD'~
+Syntax: cast 'dispel good' <victim>
+ 
+Dispel good brings forth evil energies that inflict horrific torment on 
+the pure of heart.  Good-aligned characters use this dark magic at their
+peril.
+~
+
+-1 'RECHARGE'~
+Syntax: cast 'recharge' <item>
+
+The recharge spell is used to restore energy to depleted wands and staves.
+Fully exhausted items cannot be recharged, and the difficulty of the spell
+is proportional to the number of charges used.  Magic items can only be
+recharged one time successfully.
+~
+
+-1 'DEMONFIRE'~
+Syntax: cast 'demonfire' <target>
+
+Demonfire is a spell of blackest evil, and as such can only be used by those
+who follow the paths of darkness.  It conjures forth demonic spirits to 
+inflict terrible wounds on the enemies of the caster.
+~
+
+-1 'RAY OF TRUTH'~
+Syntax: cast 'ray of truth' <target>
+
+Ray of truth opens a portal to the planes of positive energy, bringing forth
+a beam of light of sufficient purity to harm or or annihilate the servants
+of evil.  It cannot harm the pure of heart, and will turn and strike 
+casters who are tainted by evil.
+~
+
+-1 'HEAT METAL'~
+Syntax: cast 'heat metal' <target>
+
+Heat metal is a powerful clerical attack spell, with effects that vary 
+according to the armor of the victim.  It heats up the metal equipment
+(assumed to be all weapons and armor at this point in time) on the target,
+causing him or her to drop them if possible, taking serious burns in the
+process (possibly fatal if the equipment is too heavy to remove easily).
+This spell does no damage to creatures who are immune to fire.
+~
+
+-1 'HOLY WORD'~
+Syntax: cast 'holy word'
+
+Holy word involves the invocation of the full power of a cleric's god, with
+disasterous effects upon the enemies of the priest coupled with powerful
+blessings on the priest's allies.  All creatures of like alignment in the
+room are blessed and filled with righteous divine wrath, while those of
+opposite morals (or both good and evil in the case of neutral priests)
+are struck down by holy (or unholy might) and cursed.  The cleric suffers
+greatly from the strain of this spell, being left unable to move and 
+drained of vitality.  Experience loss is no longer associated with the spell.
+~
+
+-1 FRENZY~
+Syntax: cast 'frenzy' <target>
+
+The frenzy spell fills the target with righteous fury, greatly increasing
+his or her attack skill and damaging capacity.  Unfortunately, this divine
+wrath is coupled with a tendency to ignore threats to personal safety, 
+making the character easier to hit.  Frenzy provides immunity to the calm
+spell (see 'help calm'), and may only be used on those of the caster's 
+alignment.
+~
+
+-1 CALM~
+Syntax: cast 'calm' 
+
+One of the most useful and often overlooked abilities of the master cleric is
+the calm spell, which can put an end to all violence in a room.  Calmed
+creatures will not attack of their own volition, and are at a disadvantage
+in combat as long as the spell soothes their minds.  The more violence 
+activity there is in a room, the harder the spell, and it is all or nothing --
+either all combat in the room is ended (with the exception of those who
+are immune to magic) or none is.
+~
+
+-1 HASTE~
+Syntax: cast 'haste' <target>
+
+The haste spell increases the speed and agility of the recipient, allowing
+an extra attack (or even a backstab) in combat, and improving evasive
+abilities in combat.  However, it produces a great strain on the system,
+such that recuperative abilities are halved.  Haste is capable of negating
+the slow spell. (see 'help slow').
+~
+
+-1 SLOW~
+Syntax: cast 'slow' <target>
+
+Despite popular mythology, slow is not the opposite of haste, but is a spell
+with it's own unique set of effects.  When cast on an unfortunate victim,
+it slows its movements, making it easier to hit and reducing its rate
+of attack.  The effect of slow also double movement costs and halve healing
+rates, due to reduced metabolism.
+~
+
+-1 PLAGUE~
+Syntax: cast 'plague' <target>
+
+The plague spell infests the target with a magical disease of great virulence,
+sapping its strength and causing horrific suffering, possibly leading to
+death.  It is a risky spell to use, as the contagion can spread like
+wildfire if the victim makes it to a populated area.
+~
+
+-1 BACKSTAB~
+Backstab is the favored attack of  thieves, murderers, and other rogues.  It 
+can be used with any weapon type, but is most effective with piercing weapons.
+The damage inflicted by a backstab is determined by the attacker's level, his
+weapon skill, his backstab skill, and the power of his opponent.
+Only thieves may learn the backstab.
+~
+
+1 COMBATIVES 'HAND TO HAND' 'UNARMED COMBAT'~
+{d//=|{RCombatives{d|==========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA person's muscles are the true force behind the weapons they wield, {d||
+|| {xand this strength can be used even without a wield. This skill makes  {d||
+|| {xit possible to fight bare handed, using fists instead of iron to fight{d||
+|| {xothers. Although the bare hand cannot deliver as damaging a blow as a {d||
+|| {xsword or hammer, there is no large metal weapons to slow the fighter  {d||
+|| {xdown. This can be helpful if someone finds themselves disarmed, still {d||
+|| {xable to deal strong attacks. Gauntlet type weapons can be used in     {d||
+|| {xconjunction with this skill, increasing the power of each punch, but  {d||
+|| {xslowing down the fighter's attacks.                                   {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 'CONTINUAL LIGHT'~
+{d//=|{RContinual Light{d|=====================================================\\
+||{xSyntax:  {Gcast 'continual light'                                        {d||
+||      {x:  {Gcast 'continual light' {R<object>                               {d||
+||                                                                       ||
+||  {xA basic but essential spell in the arsenal of any mystic, this spell {d||
+|| {xcan either create a ball of light or make an object glow. The light is{d||
+|| {xa sphere that can be held to light up a room, providing a source of   {d||
+|| {xfree lights rather than buying them constantly from a store. Balls of {d||
+|| {xlight also last a very long time, so they need to be replaced less    {d||
+|| {xoften. Making objects glow has the benefit of making it possible to   {d||
+|| {xsee them in the dark. Glowing objects can be removed, worn, dropped,  {d||
+|| {xpicked up and anything else someone would want to do with them, but it{d||
+|| {xdoes not make the object act as a source of light.                    {d||
+||                                                                       ||
+|| {xRead {GHELP EXTINGUISH {xfor more information.                            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 CANCELLATION~
+{d//=|{RCancellation{d|========================================================\\
+||{xSyntax:  {Gcast 'cancellation'                                           {d||
+||                                                                       ||
+||  {xThe cancellation spell has a number of applications, but can only be {d||
+|| {xcast on the caster. Its basic functionality is to attempt to remove   {d||
+|| {xall affects, both good and bad, that are currently affecting the      {d||
+|| {xcaster. This can be used to try and purge ailments or wipe out buffs  {d||
+|| {xthat the caster may wish to refresh or that impede healing.           {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 IDENTIFY~
+{d//=|{RIdentify{d|============================================================\\
+||{xSyntax:  {Gcast 'identify' {R<object>                                      {d||
+||                                                                       ||
+||  {xAn important spell for any curious or greedy mystic, identify tells  {d||
+|| {xthe details of an object, including those not externally obvious. Any {d||
+|| {xobject can be identified, revealing exactly how much it will benefit  {d||
+|| {xor hurt someone who wears it. Not everything the object will do can be{d||
+|| {xdiscerned by this spell, but a majority of the relevant information is{d||
+|| {xdisplayed to the caster.                                              {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 VENTRILOQUATE~
+{d//=|{RVentriloquate{d|=======================================================\\
+||{xSyntax:  {Gcast 'ventriloquate' {R<victim> <speech>                        {d||
+||                                                                       ||
+||  {xCareful use of the illusionary properties of magic can mask someone's{d||
+|| {xvoice, even so far as to project their voice so it sounds like another{d||
+|| {xis speaking. This skill takes a long time to develop and still has a  {d||
+|| {xchance to fail, usually only revealing the facade and not the actual  {d||
+|| {xsource of the spell.                                                  {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 'MAGIC MISSILE'~
+{d//=|{RMagic Missile{d|=======================================================\\
+||{xSyntax:  {Gcast 'magic missile'                                          {d||
+||{x      :  {Gcast 'magic missile' {R<victim>                                 {d||
+||                                                                       ||
+||  {xA very basic attack spell, a small missile of focused magic is fired {d||
+|| {xat a victim. Though it does not deal a substantial amount of damage,  {d||
+|| {xit provides excellent damage support for newer mystics in training. It{d||
+|| {xcan also be studied further to unlock somewhat better powers, but the {d||
+|| {xmain purpose of this spell is to introduce mystics to the offensive   {d||
+|| {xpowers that lie within magic.                                         {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 REFRESH~
+{d//=|{RRefresh{d|=============================================================\\
+||{xSyntax:  {Gcast 'refresh'                                                {d||
+||{x      :  {Gcast 'refresh' {R<victim>                                       {d||
+||                                                                       ||
+||  {xThere are certain restorative properties to magics, though limited in{d||
+|| {xapplication. One such use is to combat the fatigue of prolonged travel{d||
+|| {xthrough an infusion of magic. There are no bad side effects to this   {d||
+|| {xsimple spell, and it can effectively enable a caster to keep their    {d||
+|| {xtravelling party on the path for as long as his or her magic power can{d||
+|| {xlast.                                                                 {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 RIDING MOUNT DISMOUNT~
+{d//=|{RRiding{d|==============================================================\\
+||{xSyntax:  {Gmount                                                         {d||
+||      {x:  {Gmount {R<mount>                                                 {d||
+||      {x:  {Gdismount                                                      {d||
+||                                                                       ||
+||  {xA common ability, this skill enables someone to ride a steed. While  {d||
+|| {xmounted, the horse takes the load, and their hardier bodies allow for {d||
+|| {xlonger travel. Mounts are invaluable to travelers, but a weak horse   {d||
+|| {xcan end up being just as ineffective at traveling as if the rider were{d||
+|| {xgoing on foot. It should also be noted that the horse is susceptible  {d||
+|| {xto attacks, and can be killed, so the owner should take care when     {d||
+|| {xventuring into dangerous areas.                                       {d||
+||                                                                       ||
+|| {xSee also {GHELP TETHER{x.                                                 {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+1 BASH~
+{d//=|{RBash{d|================================================================\\
+||{xSyntax:  {Gbash                                                          {d||
+||      {x:  {Gbash <victim>                                                 {d||
+||                                                                       {d||
+||  {xBy using their strength and their body, a person can slam into their {d||
+|| {xvictim, knocking them to the ground and stunning them. Though the     {d||
+|| {xdamage dealt by this skill is not very high, the effects on the victim{d||
+|| {xare great. While on the ground, the victim's ability to attack and    {d||
+|| {xdefend are greatly hindered, rendering them vulnerable and unable to  {d||
+|| {xmove for a period of time. Despite this, however, if the basher fails,{d||
+|| {xthey instead are sent to the floor to suffer the fate that reserved   {d||
+|| {xoriginally for the victim.                                            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 BERSERK~
+Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+~
+
+-1 DIRT 'DIRT KICKING'~
+{d//=|{RDirt Kicking{d|========================================================\\
+||{xSyntax:  {Gdirt                                                          {d||
+||{x      :  {Gdirt {R<victim>                                                 {d||
+||                                                                       ||
+||  {xNo matter how honorable some fight, there will always be those who   {d||
+|| {xprefer to fight dirty. A precisely aimed kick into the ground will    {d||
+|| {xsend a spray of dirt towards a victim, targeting their face. It is the{d||
+|| {xintention of this ability to get the dirt into the eyes of the victim,{d||
+|| {xrendering them blinded for a very brief period of time. The blindness {d||
+|| {xcaused by the dirt reduces the target's fighting abilities, and even  {d||
+|| {xtheir ability to interact with items. Kicking dirt is very dependent  {d||
+|| {xon the terrain, as it's very hard to kick dirt in the ocean.          {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 CLASSES CLASS JOB~
+{d//=|{RClasses{d|=============================================================\\
+||   {xThough all players start the game as a Tenderfoot, there are many   {d||
+|| {xclasses they can become. At certain levels, players have the ability  {d||
+|| {xto use the {Gchange {xcommand to change their class to one of two or three{d||
+|| {xpossibilities. The change is a requirement, however, and players at   {d||
+|| {xthese levels will not receive experience from kills until they have   {d||
+|| {xchanged their class. Also, a player is unable to change classes until {d||
+|| {xthey have expended all of their gain points. It is STRONGLY           {d||
+|| {xrecommended that a player at least familiarize themself with the final{d||
+|| {xclass they wish to become and what the prerequisites are for their    {d||
+|| {xskills, as it is very expensive to reset skills, and some skills      {d||
+|| {xrequire a certain level in a skill from a previous class.             {d||
+||                                                                       ||
+|| {xRead {GHELP TENDERFOOT {xand {GCLASSTREE {xfor more information.              {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 CLASSTREE~
+{d/--|{RClasstree{d|------------------------------------\
+|                   {d+-->duelist{d\---> Monk         {d|
+|                   {d|           {d\--> Myrmidon     {d|
+|         {G+-->{yfighter{G-->{ywarrior{G\{d---{d> Cavalier     {d|
+|         {G|         {G|           {G\-->{y Mercenary    {d|
+|         {G|         {G+-->{yrogue{G--\---> {yHunter       {d|
+|         {G|                     {G\-->{y Assassin     {d|
+|         {G|         {d+-->enchanter{d\-> Sage         {d|
+|         {G|         {d|           {d\--> Minstrel     {d|
+|{xTenderfoot{G-->{rmystic{G--->{rmage{G---\--->{r Wizard       {d|
+|         {G|         {d|           {G\--> {rSorcerer     {d|
+|         {G|         {d+-->abjurer{d\---> Chemist      {d|
+|         {G|                     {d\--> Antimage     {d|
+|         {G|         {d+-->templar{d\---> Paladin      {d|
+|         {G|         {d|           {B{d\--> Nightstalker {d|
+|         {G+-->{cdevout{G--->{cacolyte{G\--->{c Priest       {d|
+|                   {G|           \--> {cNecromancer  {d|
+|                   {G+-->{cnaturalist{G-> {cDruid        {d|
+|                               {d\--> Shaman       {d|
+\-------------------------------------------------/
+{GGreen {xpaths indicate available job paths.
+{dDarkened{x classes are not currently available.
+~
+
+-1 DUELIST~
+This class has not been implemented yet.
+~
+
+-1 SCHOLAR~
+This class has not been implemented yet.
+~
+
+-1 ABJURER~
+This class has not been implemented yet.
+~
+
+-1 TEMPLAR~
+This class has not been implemented yet.
+~
+
+-1 ACOLYTE~
+{d//=|{RAcolyte{d|=============================================================\\
+||   {xThere is no specific god that acolytes collectively answer to, an   {d||
+|| {xacolyte is a person who answers to a god and wields that power. The   {d||
+|| {xskills and spells offered to acolytes start out neutral, but once     {d||
+|| {xthey've changed to their final class, will reflect their alignment.   {d||
+|| {xNote that acolytes are not neutral, but their alignment won't be      {d||
+|| {xassigned until they change to their final job.                        {d||
+||   {xAcolytes can use {Gclubs{x, {Glashes {xand {Gstaffs{x.                          {d||
+|| {xThe skills and spells offered to an acolyte are:                      {d||
+||  {GDogma{x,           {GSacred Guardian{x,    {GScrolls{x.                        {d||
+||  {GCancellation{x,    {GCurse{x,              {GDemonfire{x,    {GDetect Poison{x,    {d||
+||  {GFear{x,            {GFrenzy{x,             {GIdentify{x,     {GQuench{x,           {d||
+||  {GScourge{x,         {GWeaken{x.                                             {d||
+||                                                                       ||
+|| {xAt level {G50 {xan acolyte can change into the following:                 {d||
+||  {GPriest{x, use their holy power to aid, heal, and cure others.          {d||
+||  {GNecromancer{x, use their evil power to hurt, and poison others.        {d||
+||                                                                       {d||
+|| {xRead {GHELP PRIEST{x, and {GHELP NECROMANCER {xfor more information.          {d||
+||                                                                       {d||
+\\=======================================================================//
+~
+
+-1 NATURALIST~
+This class has not been implemented yet.
+~
+
+-1 MONK~
+This class has not been implemented yet.
+~
+
+-1 ASSASSIN~
+{d//=|{RAssassin{d|============================================================\\
+||   {xLight, fast killers, assassins rely on stealth and evasion, as their{d||
+|| {xphysical defense is very weak, they must make kills while avoiding    {d||
+|| {xdirect combat as much as possible. Their skills center around killing {d||
+|| {xand espionage, with enough dodging ability to evade death. Though an  {d||
+|| {xassassin can kill in very few hits, a great level of technique is     {d||
+|| {xrequired, as they cannot take much damage themselves.                 {d||
+||   {xAssassins do not get any new weapons.                               {d||
+|| {xThe skills offered to an assassin are:                                {d||
+||  {Gvanish{x,           {Gpenumbral veil{x,  {Gcaltrops{x,        {Gcutpurse{x,        {d||
+||  {Gassassinate{x,      {Gbackstab{x,        {Gblinding dust{x,   {Gsteal{x,           {d||
+||  {Gpalm{x,             {Gpoison cloud{x,    {Gparalyzing fear{x, {Grupture{x,         {d||
+||  {Gshadow strike{x,    {Gslip{x,            {Gstrangle{x,        {Gsneak{x,           {d||
+||  {Gswipe{x,            {Gelude{x,           {Gsap{x,             {Gpick lock{x,       {d||
+||  {Gevade{x,            {Gcatnap{x,          {Gcounterfeit{x,     {Gdistract{x,        {d||
+||  {Gmark{x,             {Ggouge{x,           {Gdual wield{x,      {Gdouble blitz{x,    {d||
+||  {Gneural agent{x,     {Gdual backstab{x,   {Gstealth{x,         {Gcritical strike{x, {d||
+||  {Gneedle{x,           {Gnerve{x,           {Gswap{x,            {Gculmination{x,     {d||
+||  {Gdownstrike{x.                                                          {d||
+\\=======================================================================//
+~
+
+-1 SAGE~
+This class has not been implemented yet.
+~
+
+-1 SORCERER~
+{d//=|{RSorcerer{d|============================================================\\
+||   {xUnlike their wizard counterparts, sorcerers wield the powers of the {d||
+|| {xarcane to harm others. A wide array of spells offer sorcerers many    {d||
+|| {xways to cause mayhem, with a set of spells for each major element,    {d||
+|| {xseveral for magic element attacks, and a few that serve more useful   {d||
+|| {xpurpose. More durable than wizards, they do not get defensive spells. {d||
+||   {xSorcerers do not get any new weapons.                               {d||
+|| {xThe skills offered to a sorcerer are:                                 {d||
+||  {Gmental focus{x,          {Gelemental mastery{x,     {Gmagical mastery{x,       {d||
+||  {Goverpower{x,             {Gcast efficiency{x.                              {d||
+|| {xThe spells offered to a sorcerer are:                                 {d||
+||  {Garcane burst{x,    {Galarm{x,          {Gmystic wall{x,      {Genergy shield{x,    {d||
+||  {Gimbue earth{x,     {Gfissure{x,        {Gepicenter{x,        {Gmeteor storm{x,     {d||
+||  {Gimbue fire{x,      {Gfireball{x,       {Gflammeria{x,        {Ghellfire{x,         {d||
+||  {Gimbue water{x,     {Gdrown{x,          {Gtempest{x,          {Gtidal wave{x,       {d||
+||  {Gimbue wind{x,      {Gwind burst{x,     {Gsquall{x,           {Gtornado{x,          {d||
+||  {Gimbue ice{x,       {Gicelance{x,       {Gblizzard{x,         {Gfrost field{x,      {d||
+||  {Gimbue electric{x,  {Glightning bolt{x, {Ggadzap{x,           {Gthunderstorm{x,     {d||
+||  {Gmanabreath{x,      {Gpolarity{x,       {Genergy bomb{x,      {Gmissile swarm{x,    {d||
+||  {Gomniblast{x,       {Glight strike{x,   {Gsonic boom{x,       {Gprism shot array{x, {d||
+||  {Garmageddon{x.                                                          {d||
+\\=======================================================================//
+~
+
+-1 MINSTREL~
+This class has not been implemented yet.
+~
+
+-1 ANTIMAGE~
+This class has not been implemented yet.
+~
+
+-1 PALADIN~
+This class has not been implemented yet.
+~
+
+-1 NIGHSTALKER~
+This class has not been implemented yet.
+~
+
+-1 NECROMANCER~
+{d//=|{RNecromancer{d|=========================================================\\
+||   {xWith undying faith and the forces of evil on their side, a          {d||
+|| {xnecromancer wields the strong powers of harming. Their spells are     {d||
+|| {xbroken into five groups: shadow, undead, demonic, blood, and blight.  {d||
+|| {xWhile many of their spells are deal direct damage, others cause great {d||
+|| {xailments to others, or protect the necromancer in dark energy.        {d||
+||  {xNecromancers use {Gdagger{x, {Gdirk{x, {Gmaingauche{x, {Gsai{x, {Gscythe{x, {Gsickle{x, {Gwhip{x.{d||
+|| {xThe skills offered to a necromancer are:                              {d||
+||  {GShield Block{x,    {GLight Armor{x,     {GDevour Corpses{x,  {GIntroversion{x,     {d||
+||  {GGraverob{x.                                                            {d||
+|| {xThe spells offered to a necromancer are:                              {d||
+||  {GAsphyxiation{x,     {GAwaken Blood{x,     {GBlack Hole{x,       {GBlack Stake{x,   {d||
+||  {GBlood Clot{x,       {GBonestorm{x,        {GCall Demon{x,       {GCatalepsy{x,     {d||
+||  {GCaustic Strike{x,   {GChill Touch{x,      {GClaw of Shade{x,    {GDeath Cloak{x,   {d||
+||  {GDecay{x,            {GDegeneration{x,     {GDemon Scythe{x,     {GExtinguish{x,    {d||
+||  {GExtraction{x,       {GGhoul Touch{x,      {GInsomnia{x,         {GLethargy{x,      {d||
+||  {GNarcolepsy{x,       {GNausea{x,           {GNecrosis{x,         {GNether Storm{x,  {d||
+||  {GNightmare{x,        {GNightvision{x,      {GPlague{x,           {GPoison{x,        {d||
+||  {GPutrid Explosion{x, {GRaise Undead{x,     {GRavage{x,           {GScarification{x, {d||
+||  {GShadow Fiend{x,     {GShield of Shadows{x,{GSleep{x,            {GSummon Spirit{x, {d||
+||  {GUnholy Gate{x.                                                         {d||
+\\=======================================================================//
+~
+
+-1 DRUID~
+This class has not been implemented yet.
+~
+
+-1 SHAMAN~
+This class has not been implemented yet.
+~
+
+-1 WARRIOR~
+{d//=|{RWarrior{d|=============================================================\\
+||   {xStrong, durable soldiers, warriors ignore stealth or dexterity,     {d||
+|| {xinstead rushing into battle head on. Able to wear thicker armor and   {d||
+|| {xwield bigger weapons, warriors are the source of physical damage in a {d||
+|| {xgroup. They can refine their training to specialize in either mounted {d||
+|| {xcombat or becoming a highly customizable mercenary.                   {d||
+||   {xWarriors can also use {Gbastard swords{x, {Gflails{x, {Gpolarms{x, and {Gspears{x.  {d||
+|| {xThe skills offered to a warrior are:                                  {d||
+||  {GHorsemanship{x,    {GMedium Armor{x,    {GRescue{x,          {GGuard{x,            {d||
+||  {GCounter{x,         {GCritical Strike{x, {GSwordsmanship{x,   {GSword Mastery{x,    {d||
+||  {GShield Block{x,    {GShield Bash{x,     {GBash{x,            {GHeavy Hand{x,       {d||
+||  {GSharpen{x.                                                             {d||
+||                                                                       ||
+|| {xAt level {G50 {xa warrior can change into the following:                  {d||
+||  {GCavalier{x, mounted soldiers that can customize their horses.          {d||
+||  {GMercenary{x, widely customizable soldiers with access to most weapons. {d||
+||                                                                       ||
+|| {RWARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    {d||
+|| {xRead {GHELP CAVALIER{x, and {GHELP MERCENARY {xfor more information.          {d||
+\\=======================================================================//
+~
+
+0 SPELLCRAFT~
+{d//=|{RSpellcraft{d|==========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xWeaving spells is more than simply remembering and reciting spells. {d||
+|| {xSpellcasting is an art form with ancient roots dating back to the     {d||
+|| {xearliest Quolin mystics, and this art is learned in the skill of      {d||
+|| {xspellcraft. This skill enables the learner to add a special touch to  {d||
+|| {xtheir spells, enhancing the spell's powers as well as affect duration.{d||
+|| {xFurther developement of this skill will further strengthen the power  {d||
+|| {xof spells, and further increase affect durations.                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'ACID BLAST'~
+{d//=|{RAcid Blast{d|==========================================================\\
+||{xSyntax:  {Gcast 'acid blast'                                             {d||
+||      {x:  {Gcast 'acid blast' {R<victim>                                    {d||
+||                                                                       ||
+||   {xThe arcane powers are not limited to ethereal attacks, in fact the  {d||
+|| {xvery flavor of magic is in conjuration that defies natural law. A     {d||
+|| {xprime example of this is seen in this spell. A focused blast of energy{d||
+|| {xtowards a victim, as it nears the target, it forms into corrosive acid{d||
+|| {xthat burns them. The blast of acid can stick to them, burning them and{d||
+|| {xcorroding their armor and clothing, reducing their protection. Further{d||
+|| {xstudy of this spell causes it to inflict more damage and become much  {d||
+|| {xmore corrosive.                                                       {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 ARMOR~
+{d//=|{RArmor{d|===============================================================\\
+||{xSyntax:  {Gcast 'armor'                                                  {d||
+||      {x:  {Gcast armor {R<victim>                                           {d||
+||                                                                       ||
+||   {xOne of the more friendly forms of magic are protective spells. The  {d||
+|| {xarmor spell is an example of the defensive properties of magic, for   {d||
+|| {xit surrounds the target in an invisible field that dampens an enemy's {d||
+|| {xattacks. This has the benefits of not only increasing the chance for  {d||
+|| {xopponents to miss, but also reducing the damage they deal slightly.   {d||
+|| {xStudying this spell further will increase the protection granted.     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'COLOR SPRAY'~
+{d//=|{RColor Spray{d|=========================================================\\
+||{xSyntax:  {Gcast 'color spray'                                            {d||
+||      {x:  {Gcast 'color spray' {R<victim>                                   {d||
+||                                                                       ||
+||   {xPure magic attacks are rare and beautiful sights. One of the most   {d||
+|| {xbasic of these is the spray of color. A burst of prismatic light is   {d||
+|| {xshot forth by the caster in a concentrated beam. Due to the limited   {d||
+|| {xpower and inherent nature of this spell, only one of the colors will  {d||
+|| {xactually hit the target. Each color represents a facet of the spectrum{d||
+|| {xof elemental powers mages control, and will result in a different     {d||
+|| {xtype of damage, as well as a chance for a certain ailment to strike   {d||
+|| {xtheir foe. Studying this spell further strengthens it, and increases  {d||
+|| {xthe likelihood of causing a blight on the victim.                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'CREATE FOOD'~
+{d//=|{RCreate Food{d|=========================================================\\
+||{xSyntax:  {Gcast 'create food'                                            {d||
+||                                                                       ||
+||   {xHarnessing the conjuring powers of magic, this spell creates a small{d||
+|| {xpiece of food. Although created to look like some real item of food,  {d||
+|| {xanything edible conjured by magic will taste like purple. Despite the {d||
+|| {xabnormal flavor, the food contains nutritional value that can equal   {d||
+|| {xone's daily needs. Further study of this spell will result in more    {d||
+|| {xnutritious foods that will better sate hunger without leaving one     {d||
+|| {xfull and unable to eat or drink anything else.                        {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'CREATE WATER'~
+{d//=|{RCreate Water{d|========================================================\\
+||{xSyntax:  {Gcast 'create water' {R<container>                               {d||
+||                                                                       ||
+||   {xAlong the lines of a weak, painless version of any water spell, this{d||
+|| {xspell creates water. Only a small amount is created, enough to fill a {d||
+|| {xdrink container, not quite enough to be strong enough to destroy the  {d||
+|| {xcontainer. The water created by this spell is unlike conjured items,  {d||
+|| {xand is real, drinkable water that will not crumble or disappear in a  {d||
+|| {xpuff. Further study of this spell enables it to fill larger containers{d||
+|| {xwith fewer casts.                                                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'DETECT INVIS'~
+{d//=|{RDetect Invis{d|========================================================\\
+||{xSyntax:  {Gcast 'detect invis'                                           {d||
+||                                                                       ||
+||   {xMagical concealment is a very basic spell, and as such, detecting it{d||
+|| {xis relatively easy for students of the arcane. This spell allows the  {d||
+|| {xcaster to see through the veil of magical invisibility, being able to {d||
+|| {xeven discern the identity of those hiding in the veil. This spell also{d||
+|| {xallows the caster to see invisible items. Further study of this spell {d||
+|| {xincreases the caster's ability to see invisible things, as well as the{d||
+|| {xreliability of their magical sight.                                   {d||
+||                                                                       ||
+|| {xRead {GHELP INVISIBILITY {xfor more information.                          {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'DISPEL MAGIC'~
+{d//=|{RDispel Magic{d|========================================================\\
+||{xSyntax:  {Gcast 'dispel magic'                                           {d||
+||      {x:  {Gcast 'dispel magic' {R<victim>                                  {d||
+||                                                                       ||
+||   {xWith a wave of the hand, a small, focused surge of magic floods the {d||
+|| {xtarget's body. Relatively painful, this rush of magic sweeps through  {d||
+|| {xthe system, reacting with any magical affects and purging them. It is {d||
+|| {ximpossible for this spell to be powerful enough to cause bodily harm  {d||
+|| {xto the victim, nonetheless, the pain is enough to aggravate even the  {d||
+|| {xkindest of creatures. This is not a guarantee that the victim will be {d||
+|| {xleft free of magical enhancements and detriments, and it in fact only {d||
+|| {xaffects spells that are magical in nature. This spell can also be cast{d||
+|| {xon one's self, as a dire means of purging ailments. Studying further  {d||
+|| {xwill increase the likelihood of wiping out each affect.               {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 FIREBALL~
+{d//=|{RFireball{d|============================================================\\
+||{xSyntax:  {Gcast fireball                                                 {d||
+||      {x:  {Gcast fireball {R<victim>                                        {d||
+||                                                                       ||
+||   {xConsidered by some to be the quintessential magic spell, this is a  {d||
+|| {xsolid staple of an arcane adept's powers. Utilizing magic's ability to{d||
+|| {xbend the laws of physics, a small ball of fire is formed in the hand  {d||
+|| {xof the caster. This ball is then launched towards a victim, growing   {d||
+|| {xlarger until it strikes its target, causing them bodily harm and has  {d||
+|| {xa chance to burn them. Studying this spell will increase its strength {d||
+|| {xand improve its chance to burn the victim.                            {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 GATE~
+{d//=|{RGate{d|================================================================\\
+||{xSyntax:  {Gcast gate {R<victim>                                            {d||
+||                                                                       ||
+||   {xIn a similar fashion to conjuration spells, which create objects out{d||
+|| {xof thin air, it is possible to step into thin air, emerging at some   {d||
+|| {xother location. This spell is a powerful transportation spell, able to{d||
+|| {xmove the caster nearly anywhere in the world. Because of its great    {d||
+|| {xrange and power, this spell requires a target body for the caster to  {d||
+|| {xgate to, otherwise it will send the caster to a random location. The  {d||
+|| {xtarget must be some natural or artificial life form that is visible to{d||
+|| {xthe caster, however stronger targets are more difficult to lock on to,{d||
+|| {xincreasing the chance of a failed cast. Studying this spell reduces   {d||
+|| {xthe chance of a failed casting. There is no risk of disintegration.   {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 IMPRINT~
+{d//=|{RImprint{d|=============================================================\\
+||{xSyntax:  {Gcast imprint {R<#>                                              {d||
+||      {x:  {Gcast imprint {R<magic stone>                                    {d||
+||      {x:  {Gimprint list                                                  {d||
+||      {x:  {Gimprint {R<stone>                                               {d||
+||                                                                       ||
+||   {xA complicated spell of unknown origins, it has a rather unique use  {d||
+|| {xin that it is designed to give objects memory. In its lesser forms, it{d||
+|| {xutilizes unused portions of the caster's memory. This enables them to {d||
+|| {xremember locations in such a way that they can use other spells to    {d||
+|| {xcreate portals. Studying this spell high enough enables the caster to {d||
+|| {ximprint magical stones as well, which are only limited by one imprint {d||
+|| {xper stone. These stones can be purchased in as many quantities as the {d||
+|| {xcaster desires. Further study increases the number of locations that  {d||
+|| {xcan be remembered, but at higher levels they can also imprint stones. {d||
+||   {Gimprint list {xwill display memorized locations.                      {d||
+||   {Gimprint {R<stone> {xwill display the location on a specified stone.     {d||
+||                                                                       ||
+|| {xRead {GHELP PORTAL, {xand {GHELP NEXUS {xfor more information.                {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 INVISIBILITY~
+{d//=|{RInvisibility{d|========================================================\\
+||{xSyntax:  {Gcast invisibility                                             {d||
+||      {x:  {Gcast invisibility {R<victim>                                    {d||
+||      {x:  {Gcast invisibility {R<object>                                    {d||
+||                                                                       ||
+||   {xA staple of magical power is the ability to cloak people and items  {d||
+|| {xin a veil of invisibility. This is a relatively easy to use spell, and{d||
+|| {xcan be used to bypass lesser enemies, or smuggle items. However, due  {d||
+|| {xto it's simplicity, it is also quite susceptible to detection, though {d||
+|| {xit can be strengthened to counter perception spells. Further study of {d||
+|| {xthis spell increases its chance of eluding detection by such spells.  {d||
+||                                                                       ||
+|| {xRead {GHELP DETECT INVIS {xfor more information.                          {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 'MAGIC ARMOR'~
+{d//=|{RMagic Armor{d|=========================================================\\
+||{xSyntax:  {Gcast 'magic armor'                                            {d||
+||                                                                       ||
+||   {xHarnessing the conjuring powers of magic, and the inherent          {d||
+|| {xresistance magic has to itself, is this spell. A breastplate forged of{d||
+|| {xpure magic is pulled from the ethereal plane. Only the one who cast   {d||
+|| {xthe spell can wear the armor, as it attracts to their body, clamping  {d||
+|| {xon securely. Because it is made of magic, it bears almost no weight,  {d||
+|| {xand can be worn by even the weakest of people. It also does not affect{d||
+|| {xthe wearer's agility or speed, as if they were wearing normal clothes.{d||
+|| {xWearing this armor does offer better protection to melee attacks than {d||
+|| {xthe clothing a caster would normally wear, but the true power of this {d||
+|| {xarmor is its resilience to magical attacks. Not only are magic based  {d||
+|| {xmelee attacks more often deflected, but the armor absorbs a portion of{d||
+|| {xany magical damage received. Studying this spell allows for stronger, {d||
+|| {xmore protective armor to be created.                                  {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 PHASE~
+{d//=|{RPhase{d|===============================================================\\
+||{xSyntax:  {Gcast 'phase'                                                  {d||
+||                                                                       ||
+||   {xBest described as a partial gate, this spell blends the space around{d||
+|| {xthe caster with the ethereal world. Enveloped in this phased space, it{d||
+|| {xbecomes difficult to see the caster, and there is a chance an attack  {d||
+|| {xwill hit them when their phased state is more in the ethereal, and    {d||
+|| {xthe attack will pass through their body. Being out of phase will not, {d||
+|| {xhowever, affect the caster's ability to interact with the world, only {d||
+|| {xhow the world interacts with them. Studying this spell further will   {d||
+|| {xincrease the likelihood of being out of phase when hit, and will also {d||
+|| {xgreatly enhance the attributes of being out of phase.                 {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 PORTAL~
+{d//=|{RPortal{d|==============================================================\\
+||{xSyntax:  {Gcast portal {R<#>                                               {d||
+||      {x:  {Gcast portal {R<magic stone>                                     {d||
+||                                                                       ||
+||   {xUtilizing the powers of imprinting, this spell draws on an imprint  {d||
+|| {xand opens a dimensional portal to that location. This is a one way    {d||
+|| {xgateway, through which any number of people may pass until its power  {d||
+|| {xdiminishes and it collapses. This spell requires that the caster draw {d||
+|| {xfrom either their own {Gimprint{xed memory, or from a magical stone which {d||
+|| {xhas been imprinted to determine the destination of the portal. When   {d||
+|| {xcast on a magic stone, the expenditure of power required to animate   {d||
+|| {xthe memory of an inanimate object causes it to evaporate. When cast on{d||
+|| {xone's own memory, which is living and active, there is no damage and  {d||
+|| {xthe memory will remain. Studying this spell further will increase the {d||
+|| {xduration of the portals, and greatly increase the number of people who{d||
+|| {xcan enter it before it loses power.                                   {d||
+||                                                                       ||
+|| {xRead {GHELP IMPRINT {xfor more information.                               {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 SUMMON~
+{d//=|{RSummon{d|==============================================================\\
+||{xSyntax:  {Gcast summon {R<victim>                                          {d||
+||                                                                       ||
+||   {xIn a similar way that gating transfers the caster to other people,  {d||
+|| {xsummoning allows them to transfer other people to the caster's        {d||
+|| {xlocation. In its basic form, this spell will instantly gate a victim  {d||
+|| {xto the caster, assuming there are no magical factors barring the use  {d||
+|| {xteleportation. Being summoned is something the victim must agree to,  {d||
+|| {xand will be prompted to once the spell has succeeded. Otherwise, there{d||
+|| {xis a chance of creating a short lived portal through which anyone can {d||
+|| {xenter. Total failure results in nothing happening. Studying this spell{d||
+|| {xincrease the chance of success, either in a full transport or portal. {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+0 VENTRILOQUATE~
+{d//=|{RVentriloquate{d|=======================================================\\
+||{xSyntax:  {Gcast ventriloquate {R<victim> <speech>                          {d||
+||                                                                       ||
+||   {xThis spell is borked right now.                                     {d||
+||                                                                       ||
+\\=======================================================================//
+~
+
+-1 $~
+
+#$

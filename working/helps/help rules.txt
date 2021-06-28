@@ -1,0 +1,82 @@
+{d//=|{RRules{d|===============================================================\\
+||                                                                       {d||
+|| {R1{x. Decisions handed down by the immortals shall be taken at face value{d||
+||    {xand refusal to abide by these decisions may result in a suspension {d||
+||    {xor termination of playability.  Only an administrator may overturn {d||
+||    {xthe decision made by a member of the staff (this overturn may      {d||
+||    {xeither be an acquittal or a punishment where one was not assigned).{d||
+||    {xRepeat escalation to this level will be considered a violation of  {d||
+||    {xrule 7.                                                            {d||
+||                                                                       {d||
+|| {R2{x. Purposely insulting players and/or staff in a non character        {d||
+||    {xreference will not be tolerated there is no exception, in character{d||
+||    {xinsulting will be tolerated to a degree and a warning shall be     {d||
+||    {xissued prior to an official punishment.                            {d||
+||                                                                       {d||
+|| {R3{x. Use of profanity while not explicitly forbidden is frowned upon and{d||
+||    {xrepeated use may result in the loss of channel privileges,         {d||
+||    {xplayability may be suspended if the enforcing staff deems that it  {d||
+||    {xis warranted either by historical precedent or severity of the     {d||
+||    {xcomments made.                                                     {d||
+||                                                                       {d||
+|| {R4{x. Kill stealing is prohibited, punishment shall escalate from a      {d||
+||    {xverbal warning through suspension, based on previous convictions   {d||
+||    {xand on the severity of the report.                                 {d||
+||                                                                       {d||
+|| {R5{x. Player killing is encouraged but not mandatory for further         {d||
+||    {xinformation see "help pk".                                         {d||
+||                                                                       {d||
+|| {R6{x. Exploitation of bugs will not be tolerated, conviction of such will{d||
+||    {xresult in termination of the character and depending on severity a {d||
+||    {xtermination of playability.                                        {d||
+||                                                                       {d||
+|| {R7{x. Purposeful exploitation of the staff will not be tolerated,        {d||
+||    {xconviction of such will result in termination of the character     {d||
+||    {xinvolved and depending on the severity of the offense a termination{d||
+||    {xof playability.                                                    {d||
+||                                                                       {d|| 
+\\=======================================================================//
+{d//=|{RRules Continued{d|=====================================================\\
+|| {R8{x. Multiplaying is prohibited, cross RP is prohibited, assisting an   {d||
+||    {xcharacter you control via the intervention of another character you{d||
+||    {xcontrol is prohibited.  This is determined by ISP connection       {d||
+||    {xsocket, groups of players (siblings, room mates, spouses, etc.)    {d||
+||    {xmust register with an admin if they will be utilizing multiple     {d||
+||    {xconnections from a single ISP.                                     {d||
+||                                                                       {d||
+|| {R9{x. Name must be original and suited to a role playing environment,    {d||
+||    {xNames including or implying rank are prohibited:                   {d||
+||    {x   (lordbob, dukesteve, ted_the_god),                              {d||
+||    {xNames including non alpha characters are prohibited:               {d||
+||    {x   (alpha102, fred_is_good, #$#@!!),                               {d||
+||    {xNames which are inherently profane are prohibited:                 {d||
+||    {x   (Boobies, Crapface, *******!),                                  {d||
+||    {xNames which are common words in a foreign language are prohibited: {d||
+||    {x   (Morte, Strudel, Hola),                                         {d||
+||    {xCommon English words that are not suitable as names are prohibited:{d||
+||    {x   (Toaster, Monkey, Potato, Malice, etc),                         {d||
+||    {xcommon names from literature are prohibited:                       {d||
+||    {x   (Jesus, Gandalf, Naruto, Asland, etc),                          {d||
+||    {xNames formed of two or more words are prohibited                   {d||
+{d||    {x   (MonkeyNinja, FacePalm, ColdWind),                              {d||
+||    {xMisspellings of names that apply to the above are prohibited:      {d||
+||    {x   (Gandalph, Monkieninja, Crepface).                              {d||
+||    {xDepending on the severity of the offense and previous convictions, {d||
+||    {xpunishment may range from a required rename to terminations of     {d||
+||    {xplayability.                                                       {d||
+||                                                                       {d||
+||{R10{x. While this is a game some laws pertaining to the real world do     {d||
+||    {xapply, do not harass other players/staff, do not sexually harass   {d||
+||    {xother players/staff, do not post links to illegal content, do not  {d||
+||    {xpost links to adult or questionable content, do not behave in a    {d||
+||    {xmanner that is inappropriate to minors in public areas.            {d||
+||                                                                       {d||
+||{R11{x. There are of course other stupid things that shouldn't be done that{d||
+||    {xwill be done, if you do them we will find out and we will punish as{d||
+||    {xappropriate  Don't insult our intelligence and we wont insult      {d||
+||    {xyours.                                                             {d||
+||                                                                       {d||
+||{R12{x. Rules are subject to change, changes will be posted on the         {d||
+||    {xannouncement board, ignorance of these rules and changes is not an {d||
+||    {xexcuse.                                                            {d||
+{d\\=======================================================================//

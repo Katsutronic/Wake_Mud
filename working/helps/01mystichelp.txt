@@ -1,0 +1,71 @@
+{d//=|{RMystic{d|==============================================================\\
+||   {xMentally endowed, mystics control a wide range of magical abilities,{d||
+|| {xsome even harnessing the powers that combat magics. A wide variation  {d||
+|| {xin spells, skills, and general capabilities seperates the three       {d||
+|| {xbranches of the mystic field. Regardless, all mystics rely on their   {d||
+|| {xspells to fight or help.                                              {d||
+||   {xMystics can use {Gclubs {xand {Gstaffs{x.                                   {d||
+|| {xThe skills and spells offered to a mystic are:                        {d||
+||  {GMeditation{x,       {GScrolls{x,          {GWands{x.                           {d||
+||  {GCancellation{x,     {GIdentify{x,         {GMagic Missile{x,   {GRefresh{x.        {d||
+||                                                                       ||
+|| {xAt level {G25 {xa mystic can change into the following:                   {d||
+||  {GMage{x, specializing in the arcane, they can either help or hurt.      {d||
+||  {GEnchanter{x, their powers imbue or enhance items and people.           {d||
+||  {GAbjurer{x, a deviation, they use unique power to disrupt others.       {d||
+||                                                                       ||
+|| {xRead {GHELP MAGE{x, {GSCHOLAR{x, and {GABJURER {xfor more information.            {d||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Meditation|==========================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Scrolls|=============================================================\\
+||Syntax: recite <scroll>                                                ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Wands|===============================================================\\
+||Syntax: zap <victim>                                                   ||
+||      : brandish                                                       ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Cancellation|========================================================\\
+||Syntax: cast cancellation                                              ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Identify|============================================================\\
+||Syntax: cast identify <object>                                         ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Magic Missile|=======================================================\\
+||Syntax: cast 'magic missile'                                           ||
+||      : cast 'magic missile' <victim>                                  ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+
+//=|Refresh|=============================================================\\
+||Syntax: cast refresh                                                   ||
+||      : cast refresh <victim>                                          ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//

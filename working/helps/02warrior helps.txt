@@ -1,0 +1,163 @@
+
+{d//=|{RWarrior{d|=============================================================\\
+||   {xStrong, durable soldiers, warriors ignore stealth or dexterity,     {d||
+|| {xinstead rushing into battle head on. Able to wear thicker armor and   {d||
+|| {xwield bigger weapons, warriors are the source of physical damage in a {d||
+|| {xgroup. They can refine their training to specialize in either mounted {d||
+|| {xcombat or becoming a highly customizable mercenary.                   {d||
+||   {xWarriors can also use {Gbastard swords{x, {Gflails{x, {Gpolarms{x, and {Gspears{x.  {d||
+|| {xThe skills offered to a warrior are:                                  {d||
+||  {GBash{x,          {GCounter{x,          {GCritical Strike{x,    {GDirt Kicking{x,   {d||
+||  {GGuard{x,         {GHeavy Hand{x,       {GMedium Armor{x,       {GPierce{x,         {d||
+||  {GRescue{x,        {GRiposte{x,          {GSharpen{x,            {GShield Block{x,   {d||
+||  {GShieldbash{x,    {GSmash{x,            {GSwordsmanship{x.                      {d||
+||                                                                       ||
+|| {xAt level {G50 {xa warrior can change into the following:                  {d||
+||  {GCavalier{x, mounted soldiers that can customize their horses.          {d||
+||  {GMercenary{x, widely customizable soldiers with access to most weapons. {d||
+||                                                                       ||
+|| {xRead {GHELP CAVALIER{x, and {GHELP MERCENARY {xfor more information.          {d||
+\\=======================================================================//
+
+//=|Bash|================================================================\\
+||Syntax: bash                                                           ||
+||      : bash <victim>                                                  ||
+||                                                                       ||
+||   In the dance of combat, gaining the upper ground can decide quickly ||
+|| who is the victor, and who the loser. When performing a bash, a person||
+|| hurls themself into their opponent in an attempt to knock them to the ||
+|| ground. On the floor, it is hard to defend or attack, so a successful ||
+|| bash gives someone a combat advantage in offense and defense. This is ||
+|| not to say the skill is a foolproof attack, in fact it is used at     ||
+|| great risk to the one attempting to bash. A failed bash will leave the||
+|| person on the floor instead of their opponent, forced to endure the   ||
+|| lower ground they had intended to inflict. Further study of this skill||
+|| will result in a more precise slam with a reduced chance to fall, and ||
+|| leaving an opponent on the ground for longer.                         ||
+||                                                                       ||
+\\=======================================================================//
+//=|Counter|=============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Sometimes the best defense is a swift, painful offense. With good   ||
+|| reflexes, it is possible to preemptively strike the enemy, and if the ||
+|| strike is successful, their own attack will be interrupted, and miss. ||
+|| Because of the intuitive nature of this skill, it is not one the user ||
+|| actively utilizes. Instead, one's gut instincts push them into action,||
+|| and they react automatically. Studying the skill further enhances the ||
+|| ability to perceive the battle, increasing the chance to take an      ||
+|| opportunity to attack, and increasing the damage dealt.               ||
+||                                                                       ||
+\\=======================================================================//
+//=|Critical Strike|=====================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Properly studying one's own capabilities in the field of combat can ||
+|| provide a clue as to how to land a more perfect attack. This offers a ||
+|| chance to land that perfect attack when the opportunity arises. This  ||
+|| attack will hit with perfect accuracy, being totally unblockable, it  ||
+|| can only be hampered by magical effects. Magic aside, an attack landed||
+|| like this will hit for critical damage, striking with increased damage||
+|| on the victim. Studying this skill further will improve the chance to ||
+|| land a critical strike, and increase the damage dealt.                ||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RDirt Kicking{d|========================================================\\
+||{xSyntax:  {Gdirt                                                          {d||
+||{x      :  {Gdirt {R<victim>                                                 {d||
+||                                                                       ||
+||   {xNo matter how honorably some fight, there will always be those who  {d||
+|| {xprefer to fight dirty. A precisely aimed kick into the ground will    {d||
+|| {xsend a spray of dirt towards a victim, targeting their face. It is the{d||
+|| {xintention of this ability to get the dirt into the eyes of the victim,{d||
+|| {xrendering them blinded for a very brief period of time. The blindness {d||
+|| {xcaused by the dirt reduces the target's fighting abilities, and even  {d||
+|| {xtheir ability to interact with items. Kicking dirt is very dependent  {d||
+|| {xon the terrain, as it's very hard to kick dirt in the ocean.          {d||
+||                                                                       ||
+\\=======================================================================//
+guard
+//=|Guard|===============================================================\\
+||Syntax: guard <victim>                                                 ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+heavy hand
+//=|Heavy Hand|==========================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+pierce
+//=|Pierce|==============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+rescue
+//=|Rescue|==============================================================\\
+||Syntax: rescue <victim>                                                ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+riposte
+//=|Riposte|=============================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Countering is not limited to slipping one's own attack in before the||
+|| enemy can. A riposte is another form of counter attack, in which the  ||
+|| victim takes their enemy's attack and pushes it back at the attacker. ||
+|| This can be anything from diverting a swing so it hits the original   ||
+|| attacker, to knocking a strong attack off balance, causing physical   ||
+|| strain to the attacker. The riposte occurs automatically, as an attack||
+|| of instinct, and cannot be consciously used. Because of the nature of ||
+|| the riposte, the damage is based on the original attacker's damage,   ||
+|| where a counter would be the victim's damage dealt to the attacker.   ||
+|| Studying this skill increases its chance of occuring, and enhances the||
+|| percentage of the original damage it deals.                           ||
+||                                                                       ||
+\\=======================================================================//
+sharpen
+//=|Sharpen|=============================================================\\
+||Syntax: sharpen <weapon>                                               ||
+||                                                                       ||
+||   A blade is not a blade without a sharp edge, just a cheap bludgeon. ||
+|| Sharpening a blade will temporarily hone its edge, which gives it more||
+|| cutting power. This increases the damage it is able to deal, giving a ||
+|| substantial bonus in combat. Sharpening the weapon will prevent it    ||
+|| from being envenomed or otherwise physically or magically enhanced,   ||
+|| and as such, an already enhanced blade cannot be sharpened. A honing  ||
+|| stone is also required to sharpen, which is usually available at town ||
+|| stores. Sharpening a weapon requires it be currently wielded. Studying||
+|| this skill further improves the damage bonus, as well as the duration ||
+|| of the sharpening.                                                    ||
+||                                                                       ||
+\\=======================================================================//
+sheild block
+//=|Shield Block|========================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   Just about any kind of shield can greatly protect someone from the  ||
+|| attacks of their enemy, and can turn the tide of battle.
+||                                                                       ||
+\\=======================================================================//
+shieldbash
+//=|Shieldbash|==========================================================\\
+||Syntax: shieldbash                                                     ||
+||      : shieldbash <victim>                                            ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//
+swordsmanship
+//=|Swordsmanship|=====================================================\\
+||Syntax: none                                                           ||
+||                                                                       ||
+||   
+||                                                                       ||
+\\=======================================================================//

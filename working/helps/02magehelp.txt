@@ -1,0 +1,280 @@
+{d//=|{RMage{d|================================================================\\
+||   {xWeak of body, mages are intelligent, their studies over the         {d||
+|| {xcenturies have enabled them to use magical powers that can be used to {d||
+|| {xdefy the natural laws: create fire from nothing, harness the minds of {d||
+|| {xlesser creatures, and even enable an ogre to fly. They continue their {d||
+|| {xtraining to specialize either as helpful wizards or harmful sorcerers.{d||
+||   {xMages can use {Gclubs {xand {Gstaffs{x.                                     {d||
+|| {xThe skills and spells offered to a mage are:                          {d||
+||  {GSpellcraft{x.                                                          {d||
+||  {GAcid Blast{x,        {GArmor{x,         {GColor Spray{x,    {GContinual Light{x,   {d||
+||  {GCreate Food{x,       {GCreate Water{x,  {GDetect Invis{x,   {GDispel Magic{x,      {d||
+||  {GFireball{x,          {GGate{x,          {GImprint{x,        {GInvisibility{x,      {d||
+||  {GMagic Armor{x,       {GPhase{x,         {GPortal{x,         {GSummon{x,            {d||
+||  {GVentriloquate{x.                                                       {d||
+||                                                                       ||
+|| {xAt level {C50 {xa mage can change into the following:                     {d||
+||  {GWizard{x, uses helpful magic to charm enemies and aid allies.          {d||
+||  {GSorcerer{x, uses magic to harm others with powerful damage spells.     {d||
+||                                                                       ||
+|| {xRead {GHELP WIZARD{x, and {GHELP SORCERER {xfor more information.             {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RSpellcraft{d|==========================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||   {xWeaving spells is more than simply remembering and reciting spells. {d||
+|| {xSpellcasting is an art form with ancient roots dating back to the     {d||
+|| {xearliest Quolin mystics, and this art is learned in the skill of      {d||
+|| {xspellcraft. This skill enables the learner to add a special touch to  {d||
+|| {xtheir spells, enhancing the spell's powers as well as affect duration.{d||
+|| {xFurther developement of this skill will further strengthen the power  {d||
+|| {xof spells, and further increase affect durations.                     {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RAcid Blast{d|==========================================================\\
+||{xSyntax:  cast 'acid blast'                                             {d||
+||      {x:  cast 'acid blast' <victim>                                    {d||
+||                                                                       ||
+||   {xThe arcane powers are not limited to ethereal attacks, in fact the  {d||
+|| {xvery flavor of magic is in conjuration that defies natural law. A     {d||
+|| {xprime example of this is seen in this spell. A focused blast of energy{d||
+|| {xtowards a victim, as it nears the target, it forms into corrosive acid{d||
+|| {xthat burns them. The blast of acid can stick to them, burning them and{d||
+|| {xcorroding their armor and clothing, reducing their protection. Further{d||
+|| {xstudy of this spell causes it to inflict more damage and become much  {d||
+|| {xmore corrosive.                                                       {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RArmor{d|===============================================================\\
+||{xSyntax:  {Gcast 'armor'                                                  {d||
+||      {x:  {Gcast armor {R<victim>                                           {d||
+||                                                                       ||
+||   {xOne of the more friendly forms of magic are protective spells. The  {d||
+|| {xarmor spell is an example of the defensive properties of magic, for   {d||
+|| {xit surrounds the target in an invisible field that dampens an enemy's {d||
+|| {xattacks. This has the benefits of not only increasing the chance for  {d||
+|| {xopponents to miss, but also reducing the damage they deal slightly.   {d||
+|| {xStudying this spell further will increase the protection granted.     {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RColor Spray{d|=========================================================\\
+||{xSyntax:  cast 'color spray'                                            ||
+||      {x:  cast 'color spray' <victim>                                   ||
+||                                                                       ||
+||   {xPure magic attacks are rare and beautiful sights. One of the most   {d||
+|| {xbasic of these is the spray of color. A burst of prismatic light is   {d||
+|| {xshot forth by the caster in a concentrated beam. Due to the limited   {d||
+|| {xpower and inherent nature of this spell, only one of the colors will  {d||
+|| {xactually hit the target. Each color represents a facet of the spectrum{d||
+|| {xof elemental powers mages control, and will result in a different     {d||
+|| {xtype of damage, as well as a chance for a certain ailment to strike   {d||
+|| {xtheir foe. Studying this spell further strengthens it, and increases  {d||
+|| {xthe likelihood of causing a blight on the victim.                     {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RContinual Light{d|=====================================================\\
+||{xSyntax:  {Gcast 'continual light'                                        {d||
+||                                                                       ||
+||   {xUsing magic's power to conjure short-lived items, and adding a small{d||
+|| {xamount of magical energy, this spell creates a ball of light. Cold to {d||
+|| {xthe touch, the ball is solid and just small enough to be held easily  {d||
+|| {xby even a dwarf. Within the misty sphere resides the ball's energy,   {d||
+|| {xwhich glows a soft light that can brighten even magically darkened    {d||
+|| {xrooms. Studying the spell further results in a ball that lasts longer,{d||
+|| {xand is more resistant to extinguishing or exploding.                  {d||
+||                                                                       ||
+|| {xRead {GHELP EXTINGUISH {xfor more information.                            {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RCreate Food{d|=========================================================\\
+||{xSyntax:  {Gcast 'create food'                                            {d||
+||                                                                       ||
+||   {xHarnessing the conjuring powers of magic, this spell creates a small{d||
+|| {xpiece of food. Although created to look like some real item of food,  {d||
+|| {xanything edible conjured by magic will taste like purple. Despite the {d||
+|| {xabnormal flavor, the food contains nutritional value that can equal   {d||
+|| {xone's daily needs. Further study of this spell will result in more    {d||
+|| {xnutritious foods that will better sate hunger without leaving one     {d||
+|| {xfull and unable to eat or drink anything else.                        {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RCreate Water{d|========================================================\\
+||{xSyntax:  {Gcast 'create water' {R<container>                               {d||
+||                                                                       ||
+||   {xAlong the lines of a weak, painless version of any water spell, this{d||
+|| {xspell creates water. Only a small amount is created, enough to fill a {d||
+|| {xdrink container, not quite enough to be strong enough to destroy the  {d||
+|| {xcontainer. The water created by this spell is unlike conjured items,  {d||
+|| {xand is real, drinkable water that will not crumble or disappear in a  {d||
+|| {xpuff. Further study of this spell enables it to fill larger containers{d||
+|| {xwith fewer casts.                                                     {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RDetect Invis{d|========================================================\\
+||{xSyntax:  {Gcast 'detect invis'                                           {d||
+||                                                                       ||
+||   {xMagical concealment is a very basic spell, and as such, detecting it{d||
+|| {xis relatively easy for students of the arcane. This spell allows the  {d||
+|| {xcaster to see through the veil of magical invisibility, being able to {d||
+|| {xeven discern the identity of those hiding in the veil. This spell also{d||
+|| {xallows the caster to see invisible items. Further study of this spell {d||
+|| {xincreases the caster's ability to see invisible things, as well as the{d||
+|| {xreliability of their magical sight.                                   {d||
+||                                                                       ||
+|| {xRead {GHELP INVISIBILITY {xfor more information.                          {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RDispel Magic{d|========================================================\\
+||{xSyntax:  {Gcast 'dispel magic'                                           {d||
+||      {x:  {Gcast 'dispel magic' {R<victim>                                  {d||
+||                                                                       ||
+||   {xWith a wave of the hand, a small, focused surge of magic floods the {d||
+|| {xtarget's body. Relatively painful, this rush of magic sweeps through  {d||
+|| {xthe system, reacting with any magical affects and purging them. It is {d||
+|| {ximpossible for this spell to be powerful enough to cause bodily harm  {d||
+|| {xto the victim, nonetheless, the pain is enough to aggravate even the  {d||
+|| {xkindest of creatures. This is not a guarantee that the victim will be {d||
+|| {xleft free of magical enhancements and detriments, and it in fact only {d||
+|| {xaffects spells that are magical in nature. This spell can also be cast{d||
+|| {xon one's self, as a dire means of purging ailments. Studying further  {d||
+|| {xwill increase the likelihood of wiping out each affect.               {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RFireball{d|============================================================\\
+||{xSyntax:  {Gcast fireball                                                 {d||
+||      {x:  {Gcast firebal {R<victim>                                         {d||
+||                                                                       ||
+||   {xConsidered by some to be the quintessential magic spell, this is a  {d||
+|| {xsolid staple of an arcane adept's powers. Utilizing magic's ability to{d||
+|| {xbend the laws of physics, a small ball of fire is formed in the hand  {d||
+|| {xof the caster. This ball is then launched towards a victim, growing   {d||
+|| {xlarger until it strikes its target, causing them bodily harm and has  {d||
+|| {xa chance to burn them. Studying this spell will increase its strength {d||
+|| {xand improve its chance to burn the victim.                            {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RGate{d|================================================================\\
+||{xSyntax:  {Gcast gate {R<victim>                                            {d||
+||                                                                       ||
+||   {xIn a similar fashion to conjuration spells, which create objects out{d||
+|| {xof thin air, it is possible to step into thin air, emerging at some   {d||
+|| {xother location. This spell is a powerful transportation spell, able to{d||
+|| {xmove the caster nearly anywhere in the world. Because of its great    {d||
+|| {xrange and power, this spell requires a target body for the caster to  {d||
+|| {xgate to, otherwise it will send the caster to a random location. The  {d||
+|| {xtarget must be some natural or artificial life form that is visible to{d||
+|| {xthe caster, however stronger targets are more difficult to lock on to,{d||
+|| {xincreasing the chance of a failed cast. Studying this spell reduces   {d||
+|| {xthe chance of a failed casting. There is no risk of disintegration.   {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RImprint{d|=============================================================\\
+||{xSyntax:  {Gcast imprint {R<#>                                              {d||
+||      {x:  {Gcast imprint {R<magic stone>                                    {d||
+||      {x:  {Gimprint list                                                  {d||
+||      {x:  {Gimprint {R<stone>                                               {d||
+||                                                                       ||
+||   {xA complicated spell of unknown origins, it has a rather unique use  {d||
+|| {xin that it is designed to give objects memory. In its lesser forms, it{d||
+|| {xutilizes unused portions of the caster's memory. This enables them to {d||
+|| {xremember locations in such a way that they can use other spells to    {d||
+|| {xcreate portals. Studying this spell high enough enables the caster to {d||
+|| {ximprint magical stones as well, which are only limited by one imprint {d||
+|| {xper stone. These stones can be purchased in as many quantities as the {d||
+|| {xcaster desires. Further study increases the number of locations that  {d||
+|| {xcan be remembered, but at higher levels they can also imprint stones. {d||
+||   {Gimprint list {xwill display memorized locations.                      {d||
+||   {Gimprint {R<stone> {xwill display the location on a specified stone.     {d||
+||                                                                       ||
+|| {xRead {GHELP PORTAL, {xand {GHELP NEXUS {xfor more information.                {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RInvisibility{d|========================================================\\
+||{xSyntax:  {Gcast invisibility                                             {d||
+||      {x:  {Gcast invisibility {R<victim>                                    {d||
+||      {x:  {Gcast invisibility {R<object>                                    {d||
+||                                                                       ||
+||   {xA staple of magical power is the ability to cloak people and items  {d||
+|| {xin a veil of invisibility. This is a relatively easy to use spell, and{d||
+|| {xcan be used to bypass lesser enemies, or smuggle items. However, due  {d||
+|| {xto it's simplicity, it is also quite susceptible to detection, though {d||
+|| {xit can be strengthened to counter perception spells. Further study of {d||
+|| {xthis spell increases its chance of eluding detection by such spells.  {d||
+||                                                                       ||
+|| {xRead {GHELP DETECT INVIS {xfor more information.                          {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RMagic Armor{d|=========================================================\\
+||{xSyntax:  {Gcast 'magic armor'                                            {d||
+||                                                                       ||
+||   {xHarnessing the conjuring powers of magic, and the inherent          {d||
+|| {xresistance magic has to itself, is this spell. A breastplate forged of{d||
+|| {xpure magic is pulled from the ethereal plane. Only the one who cast   {d||
+|| {xthe spell can wear the armor, as it attracts to their body, clamping  {d||
+|| {xon securely. Because it is made of magic, it bears almost no weight,  {d||
+|| {xand can be worn by even the weakest of people. It also does not affect{d||
+|| {xthe wearer's agility or speed, as if they were wearing normal clothes.{d||
+|| {xWearing this armor does offer better protection to melee attacks than {d||
+|| {xthe clothing a caster would normally wear, but the true power of this {d||
+|| {xarmor is its resilience to magical attacks. Not only are magic based  {d||
+|| {xmelee attacks more often deflected, but the armor absorbs a portion of{d||
+|| {xany magical damage received. Studying this spell allows for stronger, {d||
+|| {xmore protective armor to be created.                                  {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RPhase{d|===============================================================\\
+||{xSyntax:  {Gcast 'phase'                                                  {d||
+||                                                                       ||
+||   {xBest described as a partial gate, this spell blends the space around{d||
+|| {xthe caster with the ethereal world. Enveloped in this phased space, it{d||
+|| {xbecomes difficult to see the caster, and there is a chance an attack  {d||
+|| {xwill hit them when their phased state is more in the ethereal, and    {d||
+|| {xthe attack will pass through their body. Being out of phase will not, {d||
+|| {xhowever, affect the caster's ability to interact with the world, only {d||
+|| {xhow the world interacts with them. Studying this spell further will   {d||
+|| {xincrease the likelihood of being out of phase when hit, and will also {d||
+|| {xgreatly enhance the attributes of being out of phase.                 {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RPortal{d|==============================================================\\
+||{xSyntax:  {Gcast portal {R<#>                                               {d||
+||      {x:  {Gcast portal {R<magic stone>                                     ||
+||                                                                       ||
+||   {xUtilizing the powers of imprinting, this spell draws on an imprint  {d||
+|| {xand opens a dimensional portal to that location. This is a one way    {d||
+|| {xgateway, through which any number of people may pass until its power  {d||
+|| {xdiminishes and it collapses. This spell requires that the caster draw {d||
+|| {xfrom either their own {Gimprint{xed memory, or from a magical stone which {d||
+|| {xhas been imprinted to determine the destination of the portal. When   {d||
+|| {xcast on a magic stone, the expenditure of power required to animate   {d||
+|| {xthe memory of an inanimate object causes it to evaporate. When cast on{d||
+|| {xone's own memory, which is living and active, there is no damage and  {d||
+|| {xthe memory will remain. Studying this spell further will increase the {d||
+|| {xduration of the portals, and greatly increase the number of people who{d||
+|| {xcan enter it before it loses power.                                   ||
+||                                                                       ||
+|| {xRead {GHELP IMPRINT {xfor more information.                               {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RSummon{d|==============================================================\\
+||{xSyntax:  {Gcast summon {R<victim>                                          {d||
+||                                                                       ||
+||   {xIn a similar way that gating transfers the caster to other people,  {d||
+|| {xsummoning allows them to transfer other people to the caster's        {d||
+|| {xlocation. In its basic form, this spell will instantly gate a victim  {d||
+|| {xto the caster, assuming there are no magical factors barring the use  {d||
+|| {xteleportation. Being summoned is something the victim must agree to,  {d||
+|| {xand will be prompted to once the spell has succeeded. Otherwise, there{d||
+|| {xis a chance of creating a short lived portal through which anyone can {d||
+|| {xenter. Total failure results in nothing happening. Studying this spell{d||
+|| {xincrease the chance of success, either in a full transport or portal. {d||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RVentriloquate{d|=======================================================\\
+||{xSyntax:  {Gcast ventriloquate {R<victim> <speech>                          {d||
+||                                                                       ||
+||   {xThis spell is borked right now.                                     {d||
+||                                                                       ||
+\\=======================================================================//

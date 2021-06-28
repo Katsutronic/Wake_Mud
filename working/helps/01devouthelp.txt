@@ -1,0 +1,101 @@
+{d//=|{RDevout{d|==============================================================\\
+||   {xPure of mind and soul, devouts give their entire selves to a higher {d||
+|| {xpower for the strength to defend their faith and friends. All devouts {d||
+|| {xutilize a mix of skills and spells to help themselves and others of   {d||
+|| {xtheir faith. whether for good, evil, or balance, devouts place divine {d||
+|| {xwill before all else, and in return wield great power.                {d||
+||   {xDevouts do not get new weapons.                                     {d||
+|| {xThe skills and spells offered to a devout are:                        {d||
+||  {GDevotion{x,        {GFaith{x,           {GFirst Aid{x,       {GMeditation{x.       {d||
+||  {GBless{x,           {GHarm{x,            {GImbue{x,           {GRefresh{x.          {d||
+||                                                                       ||
+|| {xAt level {G25 {xa devout can change into the following:                   {d||
+||  {GTemplar{x, who mix shield, and faith for their good or evil religion.  {d||
+||  {GAcolyte{x, for good or evil, they focus on religious spells.           {d||
+||  {GRanger{x, use their powers to work with nature and the spirits.        {d||
+||                                                                       ||
+|| {xRead {GHELP TEMPLAR{x, {GACOLYTE{x, and {GRANGER {xfor more information.          {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RDevotion{d|============================================================\\
+||{xSyntax: none                                                           {d||
+||                                                                       ||
+||   {xDevotion to the powers that you worship, be it a god, devil, or the {d||
+|| {xspirits of the world, is a sometimes blinding dedication. When taking {d||
+|| {xthe path of the Devout, the very core of the path is devotion, and    {d||
+|| {xthis devotion is rewarded by the higher powers with protection from   {d||
+|| {xenemy attacks, as well as unlocking many other divine powers that form{d||
+|| {xthe foundation of this path. The more studied in devotion, the better {d||
+|| {xprotected they will be from the attacks of enemies, and they will also{d||
+|| {xreceive a small benefit when healing or casting damage.               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RFaith{d|===============================================================\\
+||{xSyntax: none                                                           {d||
+||                                                                       ||
+||   {xBelief in a higher power is greatly beneficial to those who have are{d||
+|| {xordained into some religious sect. Their faith is rewarded in many    {d||
+|| {xways, and this skill is an essential to serving a deity. Faith in a   {d||
+|| {xhigher cause is rewarded with basic protection against the ill will of{d||
+|| {xothers. The stronger a person's faith, the better protected they will {d||
+|| {xbe against ailments and blights. A better understanding of faith will {d||
+|| {xresult in the ability to draw upon stronger protection.               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RFirst Aid{d|===========================================================\\
+||{xSyntax: {Gfirstaid                                                       {d||
+||      {x: {Gfirstaid {R<victim>                                              {d||
+||                                                                       ||
+||   {xBasic field medicine is an essential for those who are close friends{d||
+|| {xwith bodily harm. Though not particularly effective at curing heavy   {d||
+|| {xinjuries, first aid can be used to help stave off smaller injuries.   {d||
+|| {xWith a little exertion, it is relatively easy to stop minor bleeding, {d||
+|| {xmend cuts, and tend to bruises. Better understanding of first aid will{d||
+|| {xlead to being able to heal wounds with more efficiency.               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RBless{d|===============================================================\\
+||Syntax: cast bless                                                     ||
+||      : cast bless <victim>                                            ||
+||                                                                       ||
+||   Whether good, bad, or neutral, divine power can be easily used to   ||
+|| grant a temporary empowerment. This blessing offers some protection   ||
+|| from blights, and gives a second benefit that varies slightly between ||
+|| the different religious alignments. An evil caster will grant more    ||
+|| damage, a good caster will grant more defense, and a neutral caster   ||
+|| grants more accuracy. Studying this spell further will increase the   ||
+|| power granted to the target.                                          ||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RHarm{d|================================================================\\
+||{xSyntax: {Gcast harm                                                      {d||
+||      {x: {Gcast harm {R<victim>                                             {d||
+||                                                                       ||
+||   Divine power is not only focused on protecting the many devoted that||
+|| follow a deity of some form. This power also comes in the form of an  ||
+|| attack which can be used to ward off aggressors, or smite naysayers.  ||
+|| The harming powers of this spell are basic, drawing upon inner power  ||
+|| to unleash an invisible shock of holy damage, but it is a staple of   ||
+|| any traveling student of the divine. Further studying this skill will ||
+|| make it stronger.                                                     ||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RImbue{d|===============================================================\\
+||{xSyntax: {Gcast imbue                                                   {d||
+||      : {Gcast imbue {R<victim>                                            {d||
+||                                                                       ||
+||   {xOne of the basics of being part of a religious group is the ability {d||
+|| {xto rally one's allies. By giving them that little extra boost, the    {d||
+|| {xcaster can solidify the team's conviction. Imbuing will give a holy   {d||
+|| {xblessing to the target, giving them a certain degree of defense from  {d||
+|| {xthe physical attacks of their foes. The alignment of the caster will  {d||
+|| {xalso have a strong affect on the type of protection granted. Studying {d||
+|| {xthis spell further will increase the protective benefits it gives.    {d||
+||                                                                       ||
+\\=======================================================================//

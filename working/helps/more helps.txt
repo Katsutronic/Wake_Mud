@@ -1,0 +1,105 @@
+{d//=|{RParry{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xWith good reflexes, a good push with a weapon, and a little luck, it {d||
+|| {xis possible to deflect an enemy's attack. This type of block is fairly{d||
+|| {xeasy to perform, and leaves the original attacker open to attack by   {d||
+|| {xthe one who parried. On its own, a parry is relatively weak, with only{d||
+|| {xa low chance to block, but it can open up new skills and pair with    {d||
+|| {xother abilities to perform strong counter attacks.                    {d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RDodge{d|===============================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xWith reflexes tuned to a high enough level, it is possible for a     {d||
+|| {xperson to move themself out of the way of their enemy's attack. This  {d||
+|| {xis a great technique because instead of absorbing or attempting to    {d||
+|| {xdeflect, it focuses on avoiding facing the attack at all. This ability{d||
+|| {xis very basic, and as such, is not a guaranteed avoidance tactic, but {d||
+|| {xit can still tip the balance of a battle.                             {d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RSecond Attack{d|=======================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xThrough careful training, it is possible to hone one's agility to the{d||
+|| {xpoint where they can perform two regular strikes where normal people  {d||
+|| {xwould only hit once. This ability is a solid addition for an offensive{d||
+|| {xcombatant, but each successive strike after the first suffers from    {d||
+|| {xfurther reduced accuracy than the previous.                           {d||
+||                                                                       ||
+\\=======================================================================//{x
+
+{d//=|{RUnarmed Combat{d|======================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA person's muscles are the true force behind the weapons they wield, {d||
+|| {xand this strength can be used even without a wield. This skill makes  {d||
+|| {xit possible to fight bare handed, using fists instead of iron to fight{d||
+|| {xothers. Although the bare hand cannot deliver as damaging a blow as a {d||
+|| {xsword or hammer, there is no large metal weapons to slow the fighter  {d||
+|| {xdown. This can be helpful if someone finds themselves disarmed, still {d||
+|| {xable to deal strong attacks. Gauntlet type weapons can be used in     {d||
+|| {xconjunction with this skill, increasing the power of each punch, but  {d||
+|| {xslowing down the fighter's attacks.                                   {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RDirt Kicking{d|========================================================\\
+||{xSyntax:  {Gdirt                                                          {d||
+||{x      :  {Gdirt {R<victim>                                                 {d||
+||                                                                       ||
+||  {xNo matter how honorable some fight, there will always be those who   {d||
+|| {xprefer to fight dirty. A precisely aimed kick into the ground will    {d||
+|| {xsend a spray of dirt towards a victim, targeting their face. It is the{d||
+|| {xintention of this ability to get the dirt into the eyes of the victim,{d||
+|| {xrendering them blinded for a very brief period of time. The blindness {d||
+|| {xcaused by the dirt reduces the target's fighting abilities, and even  {d||
+|| {xtheir ability to interact with items. Kicking dirt is very dependent  {d||
+|| {xon the terrain, as it's very hard to kick dirt in the ocean.          {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{REnhanced Damage{d|=====================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA basic to most fighters, this skill hones their basic damage dealing{d||
+|| {xabilities. This skill mostly affects the regular hits dealt in combat,{d||
+|| {xbut it also improves the damage of a few other skills. The bonus from {d||
+|| {xthis skill is not substantial, but some fighters wish to improve their{d||
+|| {xdamage as much as possible, and it is a gateway to studying other     {d||
+|| {xskills.                                                               {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RGrip{d|================================================================\\
+||{xSyntax:  {Ggrip                                                          {d||
+||                                                                       ||
+||  {xOne of the worst things that could happen to a weaponmaster in combat{d||
+|| {xis to be disarmed. Many have tried a variety of methods to prevent    {d||
+|| {xthe removal of their weapon, from lanyards to locking mechanisms, with{d||
+|| {xmixed success. The most basic and easy to learn technique is to simply{d||
+|| {ximprove the gripping power of the wielding hand. By tightening the    {d||
+|| {xmuscles properly, it can effectively reduce the chance of disarming   {d||
+|| {xwith minimal cost or effort to the fighter, and without the risk of   {d||
+|| {xembarassing dismemberment by an overly tight lanyard.                 {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RImproved Accuracy{d|===================================================\\
+||{xSyntax:  none                                                          {d||
+||                                                                       ||
+||  {xA very basic fighter skill, it passively increases the accuracy of   {d||
+|| {xregular hits, and that of some skills. The fighter trains their hand  {d||
+|| {xto eye coordination, giving them better control over the trajectory of{d||
+|| {xtheir attacks. While the benefits of a low level skill are not overly {d||
+|| {xgreat, they can still add an edge to a fighter's performance, in this {d||
+|| {xcase giving them a better chance to land blows on their enemy.        {d||
+||                                                                       ||
+\\=======================================================================//
+
+
+fix kick and punch and others for green victim

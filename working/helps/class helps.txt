@@ -1,0 +1,555 @@
+//=|Classes|=============================================================\\
+||   Though all players start the game as a Tenderfoot, there are many   ||
+|| classes they can become. At certain levels, players have the ability  ||
+|| to change their class to one of two or three possibilities. The       ||
+|| change is a requirement, however, and players at these levels will    ||
+|| not receive experience from kills until they have changed their class.||
+|| Also, a player is unable to change classes until they have expended   ||
+|| all of their gain points. It is STRONGLY recommended that a player at ||
+|| least familiarize themself with the final class they wish to become   ||
+|| and what the prerequisites are for their skills, as it is not possible||
+|| to undo any skill gains, and some skills require a certain level in a ||
+|| skill from a previous class.                                          ||
+||                                                                       ||
+|| Read HELP TENDERFOOT and HELP CLASSTREE for more information.         ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Tenderfoot|==========================================================\\
+||   All players start as a tenderfoot, fresh out of the farm, city,     ||
+|| hatchery or wherever. Weak and limited in abilities, being a          ||
+|| tenderfoot is but a stepping stone in the long path towards greatness.||
+||                                                                       ||
+||   A tenderfoot can only use club weapons.                             ||
+||                                                                       ||
+|| The skills offered to a tenderfoot are:                               ||
+||  Recall       (No Prerequisites)                                      ||
+||  Fast Healing (No Prerequisites)                                      ||
+||  Riding       (No Prerequisites)                                      ||
+||  Create Torch (No Prerequisites)                                      ||
+||  Haggle       (No Prerequisites)                                      ||
+||  Kick         (No Prerequisites)                                      ||
+||  Punch        (No Prerequisites)                                      ||
+||                                                                       ||
+|| At level 10 a tenderfoot can change into the following:               ||
+||  Fighter, those who specialize in the use of physical abilities and   ||
+||   generally specialize in some form of armed combat.                  ||
+||  Mystic, those who specialize in the use of magics, antimagics, and   ||
+||   science for a variety of useful applications.                       ||
+||  Devout, those who specialize in the use of divine power for healing, ||
+||   hurting or controlling the world around them.                       ||
+||                                                                       ||
+|| Read HELP FIGHTER, MYSTIC and DEVOUT for more information.            ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Fighter|=============================================================\\
+||   Not necessarily strong, fighters are those who use physical skills, ||
+|| almost completely ignoring the skills of mind and faith. All fighters ||
+|| rely on some kind of weapon, be it a sword, mace, lockpick or their   ||
+|| own fists, and each uses these in their own way.                      ||
+||                                                                       ||
+||   Fighters can use longswords, daggers, dirks and gauntlets.          ||
+||                                                                       ||
+|| The skills offered to a fighter are:                                  ||
+||  Light armor use   (No Prerequisites)                                 ||
+||  Parry             (No Prerequisites)                                 ||
+||  Dodge             (No Prerequisites)                                 ||
+||  Second attack     (No Prerequisites)                                 ||
+||  Improved accuracy (No Prerequisites)                                 ||
+||  Enhanced damage   (No Prerequisites)                                 ||
+||  Unarmed combat    (Requires Punch Level 1)                           ||
+||  Dirt kicking      (Requires Kick Level 1)                            ||
+||  Grip              (No Prerequisites)                                 ||
+||                                                                       ||
+|| At level 30 a fighter can change into the following:                  ||
+||  Duelist, those who specialize in speed and reflexes, they are masters||
+||   of their weapons but limited in diversity.                          ||
+||  Warrior, those who have no specialization, they are generally the    ||
+||   toughest of all the classes but lack any truly unique qualities.    ||
+||  Rogue, those who rely on stealth and technique to subdue enemies,    ||
+||   they are exellent trappers and lead to two very different paths.    ||
+||                                                                       ||
+|| Read HELP DUELIST, WARRIOR, and ROGUE for more information.           ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Mystic|==============================================================\\
+||   Mentally endowed, mystics control a wide range of magical abilities,||
+|| some even harnessing the powers that combat magics. A wide variation  ||
+|| in spells, skills, and general capabilities seperates the three       ||
+|| branches of the mystic field. Regardless, all mystics rely on their   ||
+|| spells to fight or help.                                              ||
+||                                                                       ||
+||   Mystics can use dirks and quarterstaffs.                            ||
+||                                                                       ||
+|| The skills offered to a mystic are:                                   ||
+||  Dodge           (No Prerequisites)                                   ||
+||  Meditation      (No Prerequisites)                                   ||
+||  Scrolls         (Requires Staves level 1)                            ||
+||  Staves          (Requires Wands level 1)                             ||
+||  Wands           (No Prerequisites)                                   ||
+||                                                                       ||
+|| The spells offered to a mystic are:                                   ||
+||  Continual Light (Requires Meditation level 1)                        ||
+||  Cancellation    (Requires Meditation level 1)                        ||
+||  Identify        (Requires Meditation level 1)                        ||
+||  Ventriloquate   (No Prerequisites)                                   ||
+||  Magic Missile   (Requires Meditation level 1)                        ||
+||  Refresh         (Requires Meditation level 1)                        ||
+||  Create Water    (Requires Meditation level 1)                        ||
+||                                                                       ||
+|| At level 30 a mystic can change into the following:                   ||
+||  Mage, those who specialize in the arcane, they can either use their  ||
+||   powers to help a group or cause massive elemental destruction.      ||
+||  Scholar, those whose intellect allows them to harness the world at a ||
+||   molecular level, they can create a variety of very useful things.   ||
+||  Abjurer, those whose training leads them off the beaten path, they   ||
+||   have an unexplainable control over the body and can fight magics.   ||
+||                                                                       ||
+|| Read HELP MAGE, SCHOLAR and ABJURER for more information.             ||
+||                                                                       ||
+\\=======================================================================//
+
+//=|Devout|==============================================================\\
+||   Pure of mind and soul, devouts give their entire selves to a higher ||
+|| power for the strength to defend their faith and friends. All devouts ||
+|| utilize a mix of skills and spells to help themselves and others of   ||
+|| their faith. whether for good, evil, or balance, devouts place divine ||
+|| will before all else, and in return wield great power.                ||
+||                                                                       ||
+||   Devouts do not get new weapons.                                     ||
+||                                                                       ||
+|| The skills offered to a devout are:                                   ||
+||  Meditation  (No Prerequisites)                                       ||
+||  First Aid   (No Prerequisites)                                       ||
+||  Faith       (No Prerequisites)                                       ||
+||                                                                       ||
+|| The spells offered to a devout are:                                   ||
+||  Refresh     (No Prerequisites)                                       ||
+||  Bless       (Requires Faith level 1 and Imbue level 1)               ||
+||  Identify    (No Prerequisites)                                       ||
+||  Imbue       (Requires Shield level 1)                                ||
+||  Shield      (Requires Meditation level 2)                            ||
+||  Cause Light (No Prerequisites)                                       ||
+||                                                                       ||
+|| At level 30 a devout can change into the following:                   ||
+||  Templar, those who defend their faith with swords to accompany their ||
+||   spells, the toughest classes, their spells augment their strength.  ||
+||  Acolyte, those who devote themselves to holy spells, they can either ||
+||   cause great miracles or horrifying blights on others.               ||
+||  Naturalist, those who protect nature and the totems, they call upon  ||
+||   the world around them for holy power of an earthly nature.          ||
+||                                                                       ||
+|| Read HELP TEMPLAR, ACOLYTE, and NATURALIST for more information.      ||
+||                                                                       ||
+\\=======================================================================//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=|Warrior|=============================================================\\
+||   Strong, durable soldiers, warriors ignore stealth or dexterity,     ||
+|| instead rushing into battle head on. Able to wear thicker armor and   ||
+|| wield bigger weapons, warriors are the source of physical damage in a ||
+|| group. They can refine their training to specialize in either mounted ||
+|| combat or becoming a highly customizable mercenary.                   ||
+||                                                                       ||
+||   Warriors can use bastard swords, flails, polarms, and spears.       ||
+||                                                                       ||
+|| The skills offered to a warrior are:                                  ||
+||  Horsemanship    (Requires Riding 3)                                  ||
+||  Medium Armor    (Requires Light Armor 1)                             ||
+||  Rescue          (No Prerequisites)                                   ||
+||  Guard           (Requires Rescue 1)                                  ||
+||  Counter         (Requires Second Attack 2)                           ||
+||  Critical Strike (Requires Enhanced Damage 3)                         ||
+||  Swordsmanship   (Requires Enhanced Damage 2)                         ||
+||  Sword Mastery   (Requires Swordsmanship 2)                           ||
+||  Shield Block    (No Prerequisites)                                   ||
+||  Shield Bash     (Requires Shieldblock 2 and Bash 2)                  ||
+||  Bash            (No Prerequisites)                                   ||
+||  Heavy Hand      (Requires Bash 1 and Enhanced Damage 2)              ||
+||  Sharpen         (No Prerequisites)                                   ||
+||                                                                       ||
+|| At level 50 a warrior can change into the following:                  ||
+||  Cavalier, those who fight from horseback, specializing in mobility   ||
+||   based combat and horse customization.                               ||
+||  Mercenary, those who can be decent at many things, from berserkers   ||
+||   to heavily armored sentinels.                                       ||
+||                                                                       ||
+|| WARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    ||
+||                                                                       ||
+|| Read HELP CAVALIER, and HELP MERCENARY for more information.          ||
+||                                                                       ||
+\\=======================================================================//
+//=|Rogue|===============================================================\\
+||   Strong, durable soldiers, warriors ignore stealth or dexterity,     ||
+|| instead rushing into battle head on. Able to wear thicker armor and   ||
+|| wield bigger weapons, warriors are the source of physical damage in a ||
+|| group. They can refine their training to specialize in either mounted ||
+|| combat or becoming a highly customizable mercenary.                   ||
+||                                                                       ||
+||   Rogues can use tonfa, sickle, main gauche, and thrown knives.       ||
+||                                                                       ||
+|| The skills offered to a rogue are:                                    ||
+||  Horsemanship    (Requires Riding 3)                                  ||
+||  Rescue          (No Prerequisites)                                   ||
+||                                                                       ||
+|| At level 50 a rogue can change into the following:                    ||
+||  Cavalier, those who fight from horseback, specializing in mobility   ||
+||   based combat and horse customization.                               ||
+||  Mercenary, those who can be decent at many things, from berserkers   ||
+||   to heavily armored sentinels.                                       ||
+||                                                                       ||
+|| WARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    ||
+||                                                                       ||
+|| Read HELP CAVALIER, and HELP MERCENARY for more information.          ||
+||                                                                       ||
+\\=======================================================================//
+{d//=|{RMage{d|================================================================\\
+||   {xWeak of body, mages are intelligent, their studies over the         {d||
+|| {xcenturies have enabled them to use magical powers that can be used to {d||
+|| {xdefy the natural laws: create fire from nothing, harness the minds of {d||
+|| {xlesser creatures, and even enable an ogre to fly. They continue their {d||
+|| {xtraining to specialize either as helpful wizards or harmful sorcerers.{d||
+||   {xMages can additionally use {Gstaffs{x.                                  {d||
+|| {xThe skills offered to a mage are:                                     {d||
+||  {GSpell Proficiency, {GSpellcraft,        {GCreate Rose,   {GCreate Food{x,    {d||
+||  {GRecharge,          {GLocate Object,     {GFloating Disc{x, {GDetect Invis{x,   {d||
+||  {GInvisibility,      {GPass Door,         {GArmor{x,         {GTeleport{x,       {d||
+||  {GGate,              {GPortal,            {GSummon{x,        {GWord of Recall{x, {d||
+||  {GDispel Magic,      {GRock Spike,        {GBurn{x,          {GGush{x,           {d||
+||  {GGust,              {GFreeze,            {GShock{x,         {GMagic Blast{x,    {d||
+||  {GSonic Boom,        {GAcid Blast,        {GColor Spray{x.                   {d||
+||                                                                       {d||
+|| {xAt level {G50 {xa mage can change into the following:                     {d||
+||  {GWizard{x, uses helpful magic to charm enemies and aid allies.          {d||
+||  {GSorcerer{x, uses magic to harm others with powerful damage spells.     {d||
+||                                                                       ||
+|| {xRead {GHELP WIZARD{x, and {GHELP SORCERER {xfor more information.             {d||
+\\=======================================================================//
+
+{d//=|{RWarrior{d|=============================================================\\
+||   {xStrong, durable soldiers, warriors ignore stealth or dexterity,     {d||
+|| {xinstead rushing into battle head on. Able to wear thicker armor and   {d||
+|| {xwield bigger weapons, warriors are the source of physical damage in a {d||
+|| {xgroup. They can refine their training to specialize in either mounted {d||
+|| {xcombat or becoming a highly customizable mercenary.                   {d||
+||   {xWarriors can also use {Gbastard swords{x, {Gflails{x, {Gpolarms{x, and {Gspears{x.  {d||
+|| {xThe skills offered to a warrior are:                                  {d||
+||  {GHorsemanship{x,    {GMedium Armor{x,    {GRescue{x,          {GGuard{x,            {d||
+||  {GCounter{x,         {GCritical Strike{x, {GSwordsmanship{x,   {GSword Mastery{x,    {d||
+||  {GShield Block{x,    {GShield Bash{x,     {GBash{x,            {GHeavy Hand{x,       {d||
+||  {GSharpen{x.                                                             {d||
+||                                                                       ||
+|| {xAt level {G50 {xa warrior can change into the following:                  {d||
+||  {GCavalier{x, mounted soldiers that can customize their horses.          {d||
+||  {GMercenary{x, widely customizable soldiers with access to most weapons. {d||
+||                                                                       ||
+|| {RWARNING IF YOU CHOOSE TO PLAY CAVALIER, YOU MUST GET HORSEMANSHIP!    {d||
+|| {xRead {GHELP CAVALIER{x, and {GHELP MERCENARY {xfor more information.          {d||
+\\=======================================================================//
+
+{d//=|{RRogue{d|===============================================================\\
+||   {xRelying on stealth and technique, rogues are trackers and           {d||
+|| {xinformation gatherers. Unable to wear heavy armors, their speed and   {d||
+|| {xdexterity helps keep them out of harms way, while a variety of skills {d||
+|| {xallow them to cautiously monitor and ambush their prey. Not all rogues{d||
+|| {xare bent on kleptomania and assassination, as some continue to become {d||
+|| {xbounty hunters, bringing even their own kind to justice.              {d||
+||   {xRogues can use {Gthrowing knives{x, {Gtonfa{x, {Gsickle{x, and {Gmain gauche{x.     {d||
+|| {xThe skills offered to a rogue are:                                    {d||
+||  {GDivert{x,               {GConceal{x,              {GTrip{x,                    {d||
+||  {GEavesdrop{x,            {GEnvenom{x,              {GHide{x,                    {d||
+||  {GHunt{x,                 {GDuck{x,                 {GLore{x,                    {d||
+||  {GPeek{x,                 {GSnare{x,                {GAlertness{x,               {d||
+||  {GEscape{x,               {GHeightened Senses{x,    {GAmbush{x,                  {d||
+||  {GCounter{x,                                                             {d||
+||                                                                       ||
+|| {xAt level {G50 {xa rogue can change into the following:                    {d||
+||  {GHunter{x, uses bows, traps, and falcons to stalk and disable prey.     {d||
+||  {GAssassin{x, uses stealth and precision to deal heavy damage.           {d||
+|| {xRead {GHELP HUNTER{x, and {GHELP ASSASSIN {xfor more information.             {d||
+\\=======================================================================//
+
+{d//=|{RFighter{d|=============================================================\\
+||   {xNot necessarily strong, fighters are those who use physical skills, {d||
+|| {xalmost completely ignoring the skills of mind and faith. All fighters {d||
+|| {xrely on some kind of weapon, be it a sword, mace, lockpick or their   {d||
+|| {xown fists, and each uses these in their own way.                      {d||
+||   {xFighters can use {Glongswords{x, {Gdaggers{x, {Gdirks{x, and {Ggauntlets{x.         {d||
+|| {xThe skills offered to a fighter are:                                  {d||
+||  {GLight armor{x,       {GParry{x,             {GDodge{x,                         {d||
+||  {GSecond attack{x,     {GImproved accuracy{x, {GEnhanced damage{x,               {d||
+||  {GUnarmed combat{x,    {GDirt kicking{x,      {GGrip{x.                          {d||
+||                                                                       ||
+|| {xAt level {G25 {xa fighter can change into the following:                  {d||
+||  {GDuelist{x, fast and agile they rely on speed and strength over defense.{d||
+||  {GWarrior{x, generally tough, warriors have a wide variety of skills.    {d||
+||  {GRogue{x, who relies on stealth and technique to subdue enemies.        {d||
+||                                                                       ||
+|| {xRead {GHELP DUELIST{x, {GWARRIOR{x, and {GROGUE {xfor more information.           {d||
+\\=======================================================================//
+
+
+{d//=|{RAcolyte{d|=============================================================\\
+||   {xThere is no specific god that acolytes collectively answer to, an   {d||
+|| {xacolyte is a person who answers to a god and wields that power. The   {d||
+|| {xskills and spells offered to acolytes start out neutral, but once     {d||
+|| {xthey've changed to their final class, will reflect their alignment.   {d||
+|| {xNote that acolytes are not neutral, but their alignment won't be      {d||
+|| {xassigned until they change to their final job.                        {d||
+||   {xAcolytes can use {Gflail {xand {Gquarterstaff{x.                            {d||
+|| {xThe skills offered to an acolyte are:                                 {d||
+||  {GDodge{x,           {GScrolls{x,         {GSacred Guardian{x.                   {d||
+|| {xThe spells offered to an acolyte are:                                 {d||
+||  {GWeaken{x,         {GCurse{x,           {GFear{x,             {GCancellation{x,     {d||
+||  {GDemonfire{x,      {GScourge{x,         {GDispel Magic{x,     {GHarm{x,             {d||
+||  {GDogma{x,          {GContinual Light{x, {GDetect Poison{x,    {GQuench{x.           {d||
+||                                                                       ||
+|| {xAt level {G50 {xan acolyte can change into the following:                 {d||
+||  {GPriest{x, use their holy power to aid, heal, and cure others.          {d||
+||  {GNecromancer{x, use their evil power to hurt, and poison others.        {d||
+||                                                                       {d||
+|| {xRead {GHELP PRIEST{x, and {GHELP NECROMANCER {xfor more information.          {d||
+\\=======================================================================//
+
+{d//=|{RDevout{d|==============================================================\\
+||   {xPure of mind and soul, devouts give their entire selves to a higher {d||
+|| {xpower for the strength to defend their faith and friends. All devouts {d||
+|| {xutilize a mix of skills and spells to help themselves and others of   {d||
+|| {xtheir faith. whether for good, evil, or balance, devouts place divine {d||
+|| {xwill before all else, and in return wield great power.                {d||
+||   {xDevouts do not get new weapons.                                     {d||
+|| {xThe skills offered to a devout are:                                   {d||
+||  {GMeditation{x,      {GFirst Aid{x,       {GFaith{x.                             {d||
+|| {xThe spells offered to a devout are:                                   {d||
+||  {GRefresh{x,         {GBless{x,           {GIdentify{x,        {GImbue{x,            {d||
+||  {GShield{x,          {GCause Minor{x.                                        {d||
+||                                                                       ||
+|| {xAt level {G25 {xa devout can change into the following:                   {d||
+||  {GTemplar{x, who mix shield, sword, and faith to further their religion. {d||
+||  {GAcolyte{x, for good or evil, they focus on religious spells.           {d||
+||  {GNaturalist{x, use their powers to work with nature and the spirits.    {d||
+||                                                                       ||
+|| {xRead {GHELP TEMPLAR{x, {GACOLYTE{x, and {GNATURALIST {xfor more information.      {d||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RMystic{d|==============================================================\\
+||   {xMentally endowed, mystics control a wide range of magical abilities,{d||
+|| {xsome even harnessing the powers that combat magics. A wide variation  {d||
+|| {xin spells, skills, and general capabilities seperates the three       {d||
+|| {xbranches of the mystic field. Regardless, all mystics rely on their   {d||
+|| {xspells to fight or help.                                              {d||
+||   {xMystics can use {Gdirks {xand {Gquarterstaffs{x.                            {d||
+|| {xThe skills offered to a mystic are:                                   {d||
+||  {GDodge{x,           {GMeditation{x,      {GScrolls{x,         {GStaves{x,           {d||
+||  {GWands{x.                                                               {d||
+|| {xThe spells offered to a mystic are:                                   {d||
+||  {GContinual Light{x, {GCancellation{x,    {GIdentify{x,        {GVentriloquate{x,    {d||
+||  {GMagic Missile{x,   {GRefresh{x,         {GCreate Water{x.                      {d||
+||                                                                       ||
+|| {xAt level {G25 {xa mystic can change into the following:                   {d||
+||  {GMage{x, specializing in the arcane, they can either help or hurt.      {d||
+||  {GScholar{x, their intellect allows them to harnass unique powers.       {d||
+||  {GAbjurer{x, a deviation, they have abnormal magic that affects the body.{d||
+||                                                                       ||
+|| {xRead {GHELP MAGE{x, {GSCHOLAR{x, and {GABJURER {xfor more information.            {d||
+\\=======================================================================//
+
+{d//=|{RAssassin{d|============================================================\\
+||   {xLight, fast killers, assassins rely on stealth and evasion, as their{d||
+|| {xphysical defense is very weak, they must make kills while avoiding    {d||
+|| {xdirect combat as much as possible. Their skills center around killing {d||
+|| {xand espionage, with enough dodging ability to evade death. Though an  {d||
+|| {xassassin can kill in very few hits, a great level of technique is     {d||
+|| {xrequired, as they cannot take much damage themselves.                 {d||
+||   {xAssassins do not get any new weapons.                               {d||
+|| {xThe skills offered to an assassin are:                                {d||
+||  {Gvanish{x,           {Gpenumbral veil{x,  {Gcaltrops{x,        {Gcutpurse{x,        {d||
+||  {Gassassinate{x,      {Gbackstab{x,        {Gblinding dust{x,   {Gsteal{x,           {d||
+||  {Gpalm{x,             {Gpoison cloud{x,    {Gparalyzing fear{x, {Grupture{x,         {d||
+||  {Gshadow strike{x,    {Gslip{x,            {Gstrangle{x,        {Gsneak{x,           {d||
+||  {Gswipe{x,            {Gelude{x,           {Gsap{x,             {Gpick lock{x,       {d||
+||  {Gevade{x,            {Gcatnap{x,          {Gcounterfeit{x,     {Gdistract{x,        {d||
+||  {Gmark{x,             {Ggouge{x,           {Gdual wield{x,      {Gdouble blitz{x,    {d||
+||  {Gneural agent{x,     {Gdual backstab{x,   {Gstealth{x,         {Gcritical strike{x, {d||
+||  {Gneedle{x,           {Gnerve{x,           {Gswap{x,            {Gculmination{x,     {d||
+||  {Gdownstrike{x.                                                          {d||
+\\=======================================================================//
+
+{d//=|{RMercenary{d|===========================================================\\
+||   {xWith a wide variety of skills offered, mercenaries can be played in {d||
+|| {xmany different ways. There are two main branches, defenders, who can  {d||
+|| {xuse heavy armor and become nearly untouchable, and berserkers, who    {d||
+|| {xthrow their bodies in harm's way to cause great damage. There are     {d||
+|| {xseveral secondary groups which can be used to compliment either major {d||
+|| {xgroup. Note that choosing berserker or defender will LOCK the other,  {d||
+|| {xthough no other groups are affected by this.                          {d||
+||   {xMercenaries can use {Gthrowing knife{x, {Gthrowing axe{x, {Gaxe{x, {Ghammer{x, {Gmace{x,{d||
+||                       {Gmachete{x, {Gpolearm{x, {Gsai{x, {Gshortbow{x, {Gtonfa{x.         {d||
+|| {xThe skills offered to a mercenary are:                                {d||
+||  {Gvanish{x,           {Gpenumbral veil{x,  {Gcaltrops{x,          {Gcutpurse{x,      {d||
+||  {Gheavy armor{x,      {Gdefender{x,        {Gdefensive stance{x,  {Gbulwark{x,       {d||
+||  {Gshieldtoss{x,       {Gshieldstrike{x,    {Gbatter{x,            {Gdual wield{x,    {d||
+||  {Gwhirlwind{x,        {Gdouble blitz{x,    {Gpaired attack{x,     {Gmighty swing{x,  {d||
+||  {Ggrasp{x,            {Gcleave{x,          {Gpommel strike{x,     {Gfuror{x,         {d||
+||  {Gheavy smash{x,      {Gsmash{x,           {Gsonic impact{x,      {Gcrush{x,         {d||
+||  {Grage{x,             {Gberserk{x,         {Gface kick{x,         {Gimprovise{x,     {d||
+||  {Greckless abandon{x, {Gferal slash{x,     {Gweapons knowledge{x, {Gabsorb{x,        {d||
+||  {Gthird attack{x,     {Gspinning counter{x,{Gcombat proficiency{x,{Gparting shot{x,  {d||
+||  {Gbrawl{x,            {Gblind fighting{x,  {Gwarrior heart{x,     {Gsword mastery{x. {d||
+\\=======================================================================//
+
+{d//=|{RWizard{d|==============================================================\\
+||   {xThough very weak of body, wizards possess magics that let them help {d||
+|| {xothers, and harness the weaker minded creatures. Their spells consist {d||
+|| {xof spell ups, which enhance or protect, spell downs, which decrease   {d||
+|| {xthe powers of others, charm spells, which control and enhance monsters{d||
+|| {xfor the wizard to use, enchantments, which modify or create objects,  {d||
+|| {xand attack spells, which cause damage to others. Wizards are flexible,{d||
+|| {xbut they stand no chance taking damage, and work best in groups.      {d||
+||   {xWizards do not get any new weapons.                                 {d||
+|| {xThe skills offered to a wizard are:                                   {d||
+||  {GPeek{x,            {GArcane comprehension{x.                               {d||
+|| {xThe spells offered to a wizard are:                                   {d||
+||  {GAid{x,             {GAmplify damage{x,  {GBind{x,            {GBlindness{x,        {d||
+||  {GBlur{x,            {GBound recall{x,    {GBright light{x,    {GBrilliant flare{x,  {d||
+||  {GCalm{x,            {GCharm person{x,    {GCreate spring{x,   {GDefensive shield{x, {d||
+||  {GEnchant armor{x,   {GEnchant weapon{x,  {GEncumber{x,        {GFaerie fire{x,      {d||
+||  {GFear{x,            {GFireproof{x,       {GFly{x,             {GFriendly aura{x,    {d||
+||  {GGiant strength{x,  {GHaste{x,           {GHeat metal{x,      {GInfravision{x,      {d||
+||  {GLiving stasis{x,   {GMass invis{x,      {GMuddle{x,          {GNexus{x,            {d||
+||  {GPhantom sword{x,   {GPhase{x,           {GPhasic cone{x,     {GReveal{x,           {d||
+||  {GShield{x,          {GSlow{x,            {GStone skin{x,      {GWeaken{x.           {d||
+\\=======================================================================//
+
+{d//=|{RPriest{d|==============================================================\\
+||   {xWith undying faith and the forces of good on their side, priests    {d||
+|| {xwield the strong powers of healing. Priests are able to cure diseases,{d||
+|| {xheal wounds, soothe the body, and bring people back from the brink of {d||
+|| {xdeath. This awesome power can also be used to defend the faith, with  {d||
+|| {xthe power to smite non believers, and destroy the undead. Priests are {d||
+|| {xweak of body, better suited to helping a group than fighting alone.   {d||
+||   {xPriests can use {Gstaff{x, {Ghammer{x, and {Gmace{x.                            {d||
+|| {xThe skills offered to a priest are:                                   {d||
+||  {GPiety{x,           {GBandage{x,         {GPoverty{x,         {GTrue belief{x,      {d||
+||  {GReverence{x,       {GHoly touch{x.                                         {d||
+|| {xThe spells offered to a priest are:                                   {d||
+||  {GBlindness{x,       {GCalm{x,            {GCause Critical{x,  {GCause Serious{x,    {d||
+||  {GCleanse{x,         {GConsecrate{x,      {GCreate Food{x,     {GCreate Water{x,     {d||
+||  {GCure Blindness{x,  {GCure Disease{x,    {GCure Poison{x,     {GDivinity{x,         {d||
+||  {GFocus{x,           {GFrenzy{x,          {GGuiding Light{x,   {GHeat Metal{x,       {d||
+||  {GHeal Minor{x,      {GHeal Light{x,      {GHeal Serious{x,    {GHeal Critical{x,    {d||
+||  {GHoly Word{x,       {GLift Curse{x,      {GPrayer{x,          {GPurify{x,           {d||
+||  {GRay of Truth{x,    {GRecovery{x,        {GRenew{x,           {GRestoration{x,      {d||
+||  {GResuscitate{x,     {GRevive{x,          {GSacrifice{x,       {GSanctuary{x,        {d||
+||  {GSoothe{x,          {GTurn Undead{x.                                        {d||
+\\=======================================================================//
+
+{d//=|{RNecromancer{d|=========================================================\\
+||   {xWith undying faith and the forces of evil on their side, a          {d||
+|| {xnecromancer wields the strong powers of harming. Their spells are     {d||
+|| {xbroken into five groups: shadow, undead, demonic, blood, and blight.  {d||
+|| {xWhile many of their spells are deal direct damage, others cause great {d||
+|| {xailments to others, or protect the necromancer in dark energy.        {d||
+||  {xNecromancers use {Gdagger{x, {Gdirk{x, {Gmaingauche{x, {Gsai{x, {Gscythe{x, {Gsickle{x, {Gwhip{x.{d||
+|| {xThe skills offered to a necromancer are:                              {d||
+||  {GShield Block{x,    {GLight Armor{x,     {GDevour Corpses{x,  {GIntroversion{x,     {d||
+||  {GGraverob{x.                                                            {d||
+|| {xThe spells offered to a necromancer are:                              {d||
+||  {GAsphyxiation{x,     {GAwaken Blood{x,     {GBlack Hole{x,       {GBlack Stake{x,   {d||
+||  {GBlood Clot{x,       {GBonestorm{x,        {GCall Demon{x,       {GCatalepsy{x,     {d||
+||  {GCaustic Strike{x,   {GChill Touch{x,      {GClaw of Shade{x,    {GDeath Cloak{x,   {d||
+||  {GDecay{x,            {GDegeneration{x,     {GDemon Scythe{x,     {GExtinguish{x,    {d||
+||  {GExtraction{x,       {GGhoul Touch{x,      {GInsomnia{x,         {GLethargy{x,      {d||
+||  {GNarcolepsy{x,       {GNausea{x,           {GNecrosis{x,         {GNether Storm{x,  {d||
+||  {GNightmare{x,        {GNightvision{x,      {GPlague{x,           {GPoison{x,        {d||
+||  {GPutrid Explosion{x, {GRaise Undead{x,     {GRavage{x,           {GScarification{x, {d||
+||  {GShadow Fiend{x,     {GShield of Shadows{x,{GSleep{x,            {GSummon Spirit{x, {d||
+||  {GUnholy Gate{x.                                                         {d||
+\\=======================================================================//
+//=|Tenderfoot|==========================================================\\
+||   All players start as a tenderfoot, fresh out of the farm, city,     ||
+|| hatchery or wherever. Weak and limited in abilities, being a          ||
+|| tenderfoot is but a stepping stone in the long path towards greatness.||
+||   A tenderfoot can only use club weapons.                             ||
+|| The skills offered to a tenderfoot are:                               ||
+||  {GRecall{x,           {GFast Healing{x,     {GRiding{x,           {GCreate Torch{x,  {d||
+||  {GHaggle{x,           {GKick{x,             {GPunch{x.                           {d||
+|| {xAt level {G10 {xa tenderfoot can change into the following:               {d||
+||  Fighter, those who specialize in the use of physical abilities and   ||
+||   generally specialize in some form of armed combat.                  ||
+||  Mystic, those who specialize in the use of magics, antimagics, and   ||
+||   science for a variety of useful applications.                       ||
+||  Devout, those who specialize in the use of divine power for healing, ||
+||   hurting or controlling the world around them.                       ||
+||                                                                       ||
+|| Read HELP FIGHTER, MYSTIC and DEVOUT for more information.            ||
+||                                                                       ||
+\\=======================================================================//
+
+{d//=|{RHunter{d|==============================================================\\
+||   {xHunters are a fierce enemy, and bane to those who lurk in shadows.  {d||
+|| {xWith two major styles: sword based and bow based, there are also many {d||
+|| {xsecondary abilities to help them: falcons, stalking, trapping, ranger.{d||
+|| {xTheir general offensive power is relatively weak, but this is made up {d||
+|| {xby their resilience and hunting abilities.                            {d||
+||   {xHunters can use {Gthrowing axe{x, {Gbow{x, {Glongbow{x, {Gshortbow{x, {Gmachete{x, {Gwhip{x,{d||
+||                   {Grapier{x, {Gscimitar{x, {Gshamshir{x.                         {d||
+|| {xThe skills offered to a hunter are:                                   {d||
+||  {Gbandage{x,          {Grescue{x,          {Ggrasp{x,             {Gsharpen{x,       {d||
+||  {Gstrike{x,           {Gcleave{x,          {Gbash{x,              {Gdisable traps{x, {d||
+||  {Gendure{x,           {Gnet{x,             {Gfalconry{x,          {Ghawkeye{x,       {d||
+||  {Gblend{x,            {Gawareness{x,       {Gprepare{x,           {Ginverse heal{x,  {d||
+||  {Ggather{x,           {Gfiremaking{x,      {Gtraps{x,             {Gtrek{x,          {d||
+||  {Gcompress{x,         {Gmark{x,            {Ginstinct{x,          {Gstalk{x,         {d||
+||  {Gherbal lore{x,      {Gtrap enhance{x,    {Gstamina{x,           {Gigniteshot{x,    {d||
+||  {Gglacialshot{x,      {Gtoxicshot{x,       {Gstaticshot{x,        {Gbarb{x,          {d||
+||  {Gmarksmanship{x,     {Garrow shower{x,    {Gsharp shooting{x,    {Gheadshot{x,      {d||
+||  {Gdoubleshot{x,       {Garmor piercing{x,  {Gtrueshot{x,          {Gstrafe{x,        {d||
+||  {Greload{x.                                                              {d||
+\\=======================================================================//
+
+
+{d//=|{RSorcerer{d|============================================================\\
+||   {xUnlike their wizard counterparts, sorcerers wield the powers of the {d||
+|| {xarcane to harm others. A wide array of spells offer sorcerers many    {d||
+|| {xways to cause mayhem, with a set of spells for each major element,    {d||
+|| {xseveral for magic element attacks, and a few that serve more useful   {d||
+|| {xpurpose. More durable than wizards, they do not get defensive spells. {d||
+||   {xSorcerers do not get any new weapons.                               {d||
+|| {xThe skills offered to a sorcerer are:                                 {d||
+||  {Gmental focus{x,          {Gelemental mastery{x,     {Gmagical mastery{x,       {d||
+||  {Goverpower{x,             {Gcast efficiency{x.                              {d||
+|| {xThe spells offered to a sorcerer are:                                 {d||
+||  {Garcane burst{x,    {Galarm{x,          {Gmystic wall{x,      {Genergy shield{x,    {d||
+||  {Gimbue earth{x,     {Gfissure{x,        {Gepicenter{x,        {Gmeteor storm{x,     {d||
+||  {Gimbue fire{x,      {Gfireball{x,       {Gflammeria{x,        {Ghellfire{x,         {d||
+||  {Gimbue water{x,     {Gdrown{x,          {Gtempest{x,          {Gtidal wave{x,       {d||
+||  {Gimbue wind{x,      {Gwind burst{x,     {Gsquall{x,           {Gtornado{x,          {d||
+||  {Gimbue ice{x,       {Gicelance{x,       {Gblizzard{x,         {Gfrost field{x,      {d||
+||  {Gimbue electric{x,  {Glightning bolt{x, {Ggadzap{x,           {Gthunderstorm{x,     {d||
+||  {Gmanabreath{x,      {Gpolarity{x,       {Genergy bomb{x,      {Gmissile swarm{x,    {d||
+||  {Gomniblast{x,       {Glight strike{x,   {Gsonic boom{x,       {Gprism shot array{x, {d||
+||  {Garmageddon{x.                                                          {d||
+\\=======================================================================//

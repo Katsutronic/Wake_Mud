@@ -1,0 +1,74 @@
+//=|Rules|===============================================================\\
+||                                                                       ||
+||    Decisions handed down by the immortals, and the following rules are||
+||    absolute. Repeat offenses are not tolerated. Punishments can range ||
+||    from warnings to denial of play. See HELP PUNISHMENTS for info.    ||
+||                                                                       ||
+|| 1.  Purposely insulting players and/or staff in a non character       ||
+||    reference is strictly prohibited. In character insulting will be   ||
+||    tolerated to a degree and a warning issued prior to punishment.    ||
+|| 2.  Use of profanity is to be used with intelligence and restraint in ||
+||    local channels, and is strictly prohibited globally. This includes ||
+||    slurs, expletives, and sexual references.                          ||
+|| 3.  Kill stealing is prohibited, and defined as killing or looting a  ||
+||    mob that your group did not do the most damage to. Exceptions are  ||
+||    only with the tanking group's permission, or if the mob is at full ||
+||    health.(Healing it is considered a double infraction of this rule) ||
+||    Breaking this rule with a boss mob is a double infraction.         ||
+|| 4.  Exploitation of bugs or loopholes is strictly prohibited, but     ||
+||    reporting them is rewarded and encouraged.                         ||
+|| 5.  Purposeful exploitation of the staff will not be tolerated. This  ||
+||    includes cheating with staff help, hacking staff accounts.         ||
+||                                                                       ||
+\\=======================================================================//
+{d//=|Rules Continued{d|=====================================================\\
+|| 6. Multiplay, cross RP, or otherwise assisting one character through  ||
+||    another is prohibited. This is determined by ISP socket, players on||
+||    a LAN must register every character with an admin.                 ||
+|| 7.  Name must be appropriate for the game, and first offenses will be ||
+||    allowed to rename. See HELP NAMES for more info.                   ||
+|| 8.  While this is a game, some laws pertaining to the real world do   ||
+||    apply, especially in regards to sex and OOC communication.         ||
+|| 9.  Global channels are to be kept free of useless chatter. This is   ||
+||    incuding but not limited to: non game-related linking, conversation||
+||    for the sake of irritating (memes, racism, general stupidity), and ||
+||    especially channel spamming.                                       ||
+||10.  There is no definite set of rules, in the end, what is or is not  ||
+||    illegal is the jurisdiction of the staff. Their decisions are not  ||
+||    to be taken lightly, but if a judgement is too harsh or unjust, you||
+||    may report it to an admin for review. All rules listed above apply ||
+||    to all channels including the Who list, and immortals, and         ||
+||    attempts at circumvention are not tolerated.                       ||
+||12.  Rules are subject to change, changes will be posted on the        ||
+||    announcement board, ignorance of these rules and changes is not an ||
+||    excuse.                                                            ||
+{d\\=======================================================================//
+//=|Punishments|=========================================================\\
+||
+\\=======================================================================//
+
+//=|Player Killing Rules|================================================\\
+||
+\\=======================================================================//
+
+//=|Names Rules|=========================================================\\
+||    Names including or implying rank are prohibited:                   
+||       (lordbob, dukesteve, ted_the_god),                              
+||    Names including non alpha characters are prohibited:               
+||       (alpha102, fred_is_good, #$#@!!),                               
+||    Names which are inherently profane are prohibited:                 
+||       (Boobies, Crapface, *******!),                                  
+||    Names which are common words in a foreign language are prohibited: 
+||       (Morte, Strudel, Hola),                                         
+||    Common English words that are not suitable as names are prohibited:
+||       (Toaster, Monkey, Potato, Malice, etc),                         
+||    common names from literature are prohibited:                       
+||       (Jesus, Gandalf, Naruto, Asland, etc),                          
+||    Names formed of two or more words are prohibited                   
+||       (MonkeyNinja, FacePalm, ColdWind),                              
+||    Misspellings of names that apply to the above are prohibited:      
+||       (Gandalph, Monkieninja, Crepface).                              
+||    Depending on the severity of the offense and previous convictions, 
+||    punishment may range from a required rename to terminations of     
+||    playability.                                                       
+\\=======================================================================//

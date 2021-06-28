@@ -1,0 +1,113 @@
+Priest Skills:
+Level   1:  recall              Already Present!   
+	    club                Increase your skill with club type weapons.
+Level   2:  fast healing        Already Present!   
+	    haggle              Already Present!
+            kick                Already Present!   
+	    punch               Punching allows the adventurer to receive an extra attack in combat, a powerful punch.  Mercenaries and monks are the most skilled at punching, although many other proffessions may also learn it.
+
+            riding              Riding is a skill that allows the adventurers to make use of various mounts available for sale in the cities. (I'm assuming something along the lines of riding a mount will increase the distance you can travel as well as reduce the amount of time to get to the destination which will minimize the adventurers fatigue upon arrival.)
+Level  10:  faith               Don't know what it does!   
+	    first aid           First Aid is the skill which gives the adventurer the ability to heal minor wounds at the expense of the adventurer's own fatigue. This skill is not meant to heal serious wounds and wears the adventurer slowly as they heal wounds reducing the healers ability to travel long distances or make use of other tiring skills. Priests are the most accomplished, but anyone may attempt this skill with very little success.
+            meditation          Already Prestent!
+Level  25:  flail               Increases your skill with flail type weapons.   
+	    quarterstaff        Increases your skill with quarterstaff type weapons.
+            bandage             This skill is similar to First Aid but more potent. You will be able to heal slightly heavier wounds with more fatigue to the healer. Again, this skill is not meant to heal more than light wounds as it will fatigue the healer over long periods of use and should be used to heal only minor to light wounds.
+	    sacred guardian     Sacred Guardian calls upon the holy powers of the priest to increase his resistances to opponents of the opposite alignment. This skill is invisible to the adventurer but will increase his armor against opponents of an opposite alignment at the same time decreasing the effectiveness of his opponents spells.
+            dodge               Already Present!   
+	    dogma               Similar to Sacred Guardian, Dogma uses the priests holy power to increase the power of his spells against opponents of an opposing alignment. This skill is invisible to the adventurer and should be noted it will only increase the effectivness of spells that do damage aligned with the casters alignment. Dogma will not increase the effectiveness of spells that deal evil damgae if the casters alignment is good.
+Level  50:  hammer              Increase your skill with hammer type weapons.   
+	    mace                Increase your skill with mace type weapons.
+            staff               Increase your skill with staff type weapons.   
+	    holy touch          Holy Touch is a skill to call upon holy powers to help heal wounds. This skill does not use mana but heals wounds significantly better than the First Aid skill. Similarly, it causes the healer to fatigue.
+            piety               Piety gives the adventurer Faith based bonuses to spell cost, armor and damage for the servitude to their Gods. The skill reduces spell cost and damage taken while increasing armor and the damage of your spells.   
+	    poverty             Bonus for having little money and possessions.
+            reverence           A divine right bestowed upon the adventurer giving them the chance that healing spells cast by them can affect others in the room in need of healing. This would give the caster a slight chance to heal multiple targets when they only specified one target.
+	    true belief         Believing wholly in their faith, this skill gives the adventurer a boost to the potency of their healing magics.
+
+
+Priest Spells:
+spells
+
+Level  10:  bless               This spell blessess the target and increases their armor value and increases the difficulty of other spells to be cast upon you. This spell can be cast on others.(I don't entirely know what savingspell does. But this gives -X savingspell) 
+	    cause minor         Minor damage spell. Causes little damage that is unaligned.
+            identify            This spell lists specifics of objects such as bonus affects, level requirements, value, weight. This spell is cast on objects.
+	    imbue               This spells strengthens the body of the target and increases the damage capabilities and ability to hit a target with physical blows slightly.
+            refresh             A simple spell that makes the target less fatigued. Use this when you are tired from walking long distances or using tiring skills such as First Aid. This spell can be cast on others.
+	    shield              Spell that creates a shield of spiritual force about you to greatly increase your armor. This spell can be cast on others.
+Level  25:  cancellation        This is a simple spell that removes a random spell from the target, making that spell no longer affect the target. Use this to remove helpful spells from enemy mobs. This spell is used as a combat or self spell.   
+	    cause light         Light damage spell. Causes slightly more damage than Cause Minor, damage is unaligned.
+            continual light     Create an orb of light to help guide your travels.   
+	    curse               Cast a curse upon your foes to make them more susceptible to your attacks. This is a combat spell only. (I do not fully know the effects of thsi spell.)
+            demonfire           Damage spell that calls upon the demons from hell to torment and damage your opponent. This spell does significant damage and will be a staple spell for the Priest, but be warned...this spell causes evil damage which will not affect opponents aligned with evil intentions.   
+	    detect poison       This spell will check food and water for dangerous poisons that may have been slipped into the food or water by malicious persons. This spell is cast on items.
+            dispel magic        This spell has similar effects to Cancellation but with larger effects and can only be used upon those with ill intent. This is a combat spell only. (I don't fully know the effects of this spell.)  
+	    fear                Strike fear into the hearts of your opponents to gain an advantage in the battle making them flee the room. This is a combat spell only. (I don't fully know the effects of this spell.)
+            quench              A handy spell for any adventurer to be sure. Quench your thirst while avoiding the hassels of carrying other equipment or clumsy items such as cups, who has time for cups. This spell is self cast only.  
+	    scourge             Advance the knowledge of destructive forces with this damage spell. An incredibly powerful spell will damage all opponents in the room of the caster. Beware, they will not like being disturbed and all will be looking to kill you! This is a combat only spell and causes unaligned damage.
+            weaken              Soften your target before looking to strike with this spell. This spell will weaken your opponents to make them susceptable to your advances. This is a combat spell only.
+Level  50:  blindness           Blinds your opponent and causes them to miss their attacks more often.   
+	    calm                Already Present!
+            cause critical      Damage spell that causes critical damage. Damage is unaligned.   
+	    cause serious       Damage spell that causes serious damage. Damage is unaligned
+            cleanse             Spell that cleanses the body of faerie fire, deaf, and charm. This spell can be cast on others.    
+	    consecrate          Damage spell that causes serious damage. Causes holy damage.
+            create food         Create food from thin air to cure hunger.   
+	    create water        Create water from thin air to cure thirst.
+            cure blindness      Removes blindness from target. Can be cast on others.   
+	    cure disease        Removes disease from target. Can be cast on others.
+            cure poison         Remove poison from target person. Can only be used once person is poisoned.   
+	    divinity            Cast a protective spell on group members to increase armor.
+            frenzy              Already Present!   
+	    guiding light       Damage spell that hits all opponents in casters room with holy damage. Causes holy damage.
+            heal minor          Spell heals minor wounds filling the target with a small amount of health.   
+	    heal light          Spell heals light wounds filling the target with a small amount of health.
+            heal serious        Spell heals serious wounds filling the target with a great amount of health.   
+	    heal critical       Spell heals critical wounds filling the target with a huge amount of health.
+            heat metal          Already Present!   
+	    holy word           Fills the target with divine power increaseing defenses and physical power. Can be cast on others.
+            lift curse          Removes curse from target. Can be cast on others.   
+	    prayer              Fills casters room with healing light that greatly increases recuperative abilities of those in the room.
+            purify              Removes poison from objects such as food or water before they are ingested into the body.  
+	    purity              Gain the pure light of the Gods to greatly increase armor of the target. Can be cast on others.
+            ray of truth        Already Present!   
+	    recovery            Spell which increases targets endurance for a short time to increase the recuperative abilities of that person. Can be cast on others.
+            renew               Cast a renewing glow about the target using your own mana to heal and regenerate the targets mana as well as restore some fatigue. Can be cast on others.   
+	    restoration         Massive healing spell which heals all in the room a great deal with a refresh to combat weariness.
+            resuscitate         N/A   
+	    revive              Bring back another adventurer from the grips of death after they have been mortally wounded.
+            sacrifice           Sacrifice your own being to greatly heal another, using your own sacrificed life force.   
+	    sanctuary           (I DON"T FULLY KNOW WHAT THIS DOES)
+            soothe              Cure critical wounds such as rupture and weaken which will continually damage the body greatly. Can be cast on others.  
+	    turn undead         Damage spell that only harms undead beings. Greatly damages undead beings with a slight chance to instantly kill them. Combat spell only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gain refresh
+You have gained the skill 'refresh'!
+You have unlocked the skill 'first aid'!
+gain bless
+You have not met the prerequisites for that skill:
+ -faith level 1
+ -imbue level 1
+
+[110/449hp 140/633mp 115mv 1053tnl][E(W)]
+gain cause minor
+You have not met the prerequisites for that skill:
+ -meditation level 1
+
+[110/449hp 140/633mp 115mv 1053tnl][E(W)]
+gain shield
+You have not met the prerequisites for that skill:
+ -meditation level 2

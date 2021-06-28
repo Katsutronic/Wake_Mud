@@ -1,0 +1,41 @@
+ -bless
+ -faith - +saves
+ -imbue - slight align based buff
+ -shield
+ -cause minor
+ -devotion
+//=|First Aid|===========================================================\\
+||Syntax:  aid                                                           ||
+||      :  aid <victim>                                                  ||
+||                                                                       ||
+||  Adventures beyond the city walls, and even sometimes within the city,||
+|| can be dangerous. Without the presence of a well trained priest, some ||
+|| basic first aid can be provided, helping bring limited care and just  ||
+|| enough healing to possibly prevent death. This skill is not enough to ||
+|| help critical situations, but it provides decent aid during the early ||
+|| stages of training, and studying it opens doors to other curative     ||
+|| abilities. Also, giving first aid can be tiring, and should be used   ||
+|| with care, lest the aid-giver be left too tired to continue.          ||
+||                                                                       ||
+\\=======================================================================//
+//=|Bless|===============================================================\\
+||Syntax:  cast bless                                                    ||
+||      :  cast bless <victim>                                           ||
+||                                                                       ||
+||  
+||                                                                       ||
+\\=======================================================================//
+
+
+
+
+//=|Meditation|==========================================================\\
+||Syntax:  none                                                          ||
+||                                                                       ||
+||  Through the careful focus of the mind, it is possible to enhance the ||
+|| magical healing process. It is not a dramatic increase, but the boost ||
+|| can help a caster to return to spell casting much faster than if they ||
+|| had not trained their minds in meditation. This ability is also key in||
+|| unlocking a caster's magical potential, especially for mystics.       ||
+||                                                                       ||
+\\=======================================================================//
